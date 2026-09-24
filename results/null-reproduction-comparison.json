@@ -1,0 +1,5 @@
+{
+  "matched_jobs": 29,
+  "identical_certificates": 23,
+  "comparison": "exact statuses, optima, limits, cap reasons, state/transition counts and certificate bytes; timing/RSS excluded"
+}

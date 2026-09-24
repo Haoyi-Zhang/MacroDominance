@@ -1,0 +1,422 @@
+{
+  "scope": "Actual clean extraction of the standalone repository ZIP; both fresh output directories absent initially. Only exact final comparison reads distributed measurements. All commands run serially; campaign jobs use their own fixed limits.",
+  "expected_commands": 21,
+  "commands": [
+    {
+      "index": 0,
+      "command": [
+        "python",
+        "tests/pilot_algebra.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.5670368710007097,
+      "child_cpu_seconds": 0.5659449999999999,
+      "process_tree_peak_rss_kib": 93232,
+      "stdout": "{\n  \"identity_checks\": 22275,\n  \"response_profiles\": 2025,\n  \"naive_merge\": {\n    \"exact\": 10,\n    \"incorrect\": 30\n  },\n  \"correlation\": {\n    \"exact\": 2,\n    \"marginal\": 0\n  },\n  \"cpu_seconds\": 0.011458664000000007,\n  \"wall_seconds\": 0.011459024999567191,\n  \"peak_rss_kib\": 92584,\n  \"status\": \"passed_finite_checks_not_a_general_proof\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 1,
+      "command": [
+        "python",
+        "tests/test_suite.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.5151781049999045,
+      "child_cpu_seconds": 3.5136809999999996,
+      "process_tree_peak_rss_kib": 97956,
+      "stdout": "{\n  \"algebra_identities\": 24696,\n  \"algebra_profiles\": 4116,\n  \"instances\": 80,\n  \"oracle_assignments\": 31907,\n  \"solver_checker_comparisons\": 240,\n  \"partial_assignments_checked\": 107097,\n  \"per_node_table_comparisons\": 1578,\n  \"constant_baseline_comparisons\": 80,\n  \"constant_baseline_mutants_rejected\": 3,\n  \"certificate_mutants_rejected\": [\n    \"root optimum\",\n    \"root witness\",\n    \"missing node\",\n    \"duplicate node\",\n    \"missing state\",\n    \"duplicate state\",\n    \"cost\",\n    \"fake coordinates\",\n    \"unknown net\",\n    \"invalid choice\",\n    \"missing region witness\",\n    \"float cost\",\n    \"boolean cost\",\n    \"foreign field\",\n    \"method substitution\"\n  ],\n  \"invalid_inputs_rejected_by_both\": [\n    \"overlapping owners\",\n    \"out of owner\",\n    \"invalid rotation\",\n    \"missing tree leaf\",\n    \"negative net weight\",\n    \"pin outside rectangle\",\n    \"duplicate region id\",\n    \"empty portfolio\"\n  ],\n  \"cpu_seconds\": 2.919808206,\n  \"wall_seconds\": 2.920634923999387,\n  \"peak_rss_kib\": 97956,\n  \"scope\": \"finite exact tests, not machine-checked proofs or independent external review\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 2,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "0",
+        "--stop",
+        "10"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 7.207827333999376,
+      "child_cpu_seconds": 7.200919999999999,
+      "process_tree_peak_rss_kib": 97956,
+      "stdout": "0 {\"case\": \"masked_2_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.10377876099999994}\n1 {\"case\": \"masked_2_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.10453607699999995}\n2 {\"case\": \"masked_2_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.09950340499999993}\n3 {\"case\": \"exposed_2_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.111884971}\n4 {\"case\": \"exposed_2_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.09651561400000003}\n5 {\"case\": \"exposed_2_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.11007604199999999}\n6 {\"case\": \"masked_2_4\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.108097251}\n7 {\"case\": \"masked_2_4\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.09739706400000003}\n8 {\"case\": \"masked_2_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.10914041200000002}\n9 {\"case\": \"exposed_2_4\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.10761937999999999}\n{\"complete\": 10}\n",
+      "stderr": ""
+    },
+    {
+      "index": 3,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "10",
+        "--stop",
+        "20"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 8.459026499000174,
+      "child_cpu_seconds": 8.450405000000002,
+      "process_tree_peak_rss_kib": 97956,
+      "stdout": "10 {\"case\": \"exposed_2_4\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.13562770600000001}\n11 {\"case\": \"exposed_2_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.13307773500000003}\n12 {\"case\": \"masked_4_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.14041368499999995}\n13 {\"case\": \"masked_4_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.12865486000000004}\n14 {\"case\": \"masked_4_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.11783251299999997}\n15 {\"case\": \"exposed_4_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.12172212500000001}\n16 {\"case\": \"exposed_4_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.16832916800000003}\n17 {\"case\": \"exposed_4_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.12978065400000005}\n18 {\"case\": \"masked_4_4\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.15342252799999995}\n19 {\"case\": \"masked_4_4\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.15734521899999998}\n{\"complete\": 20}\n",
+      "stderr": ""
+    },
+    {
+      "index": 4,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "20",
+        "--stop",
+        "30"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 9.032186171999456,
+      "child_cpu_seconds": 9.023724,
+      "process_tree_peak_rss_kib": 97956,
+      "stdout": "20 {\"case\": \"masked_4_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.11322583500000005}\n21 {\"case\": \"exposed_4_4\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.304194348}\n22 {\"case\": \"exposed_4_4\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.29770236699999997}\n23 {\"case\": \"exposed_4_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.28667929000000003}\n24 {\"case\": \"masked_6_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.12200953200000003}\n25 {\"case\": \"masked_6_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.19518850500000007}\n26 {\"case\": \"masked_6_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.14213252499999995}\n27 {\"case\": \"exposed_6_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.359699177}\n28 {\"case\": \"exposed_6_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.343772496}\n29 {\"case\": \"exposed_6_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.34027665399999996}\n{\"complete\": 30}\n",
+      "stderr": ""
+    },
+    {
+      "index": 5,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "30",
+        "--stop",
+        "40"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 13.711190885000178,
+      "child_cpu_seconds": 13.699407,
+      "process_tree_peak_rss_kib": 114408,
+      "stdout": "30 {\"case\": \"masked_6_4\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.7927348409999999}\n31 {\"case\": \"masked_6_4\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.874503399}\n32 {\"case\": \"masked_6_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.13054839499999993}\n33 {\"case\": \"exposed_6_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.06364034400000002}\n34 {\"case\": \"exposed_6_4\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.095775253}\n35 {\"case\": \"exposed_6_4\", \"method\": \"support\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.10802645500000002}\n36 {\"case\": \"masked_8_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.182532201}\n37 {\"case\": \"masked_8_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.17392867700000003}\n38 {\"case\": \"masked_8_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.11556354000000002}\n39 {\"case\": \"exposed_8_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 4.50042375}\n{\"complete\": 37, \"producer_capped\": 3}\n",
+      "stderr": ""
+    },
+    {
+      "index": 6,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "40",
+        "--stop",
+        "50"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 17.649045707999903,
+      "child_cpu_seconds": 17.644323,
+      "process_tree_peak_rss_kib": 120248,
+      "stdout": "40 {\"case\": \"exposed_8_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 4.475612939}\n41 {\"case\": \"exposed_8_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 4.635397913}\n42 {\"case\": \"masked_8_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.12691741699999998}\n43 {\"case\": \"masked_8_4\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.2340002}\n44 {\"case\": \"masked_8_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.14940669899999998}\n45 {\"case\": \"exposed_8_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.12739898400000005}\n46 {\"case\": \"exposed_8_4\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.242174742}\n47 {\"case\": \"exposed_8_4\", \"method\": \"support\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.23856373400000003}\n48 {\"case\": \"masked_10_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.40150569799999997}\n49 {\"case\": \"masked_10_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.406105682}\n{\"complete\": 42, \"producer_capped\": 8}\n",
+      "stderr": ""
+    },
+    {
+      "index": 7,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "50",
+        "--stop",
+        "60"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 6.813441004000197,
+      "child_cpu_seconds": 6.808063,
+      "process_tree_peak_rss_kib": 102328,
+      "stdout": "50 {\"case\": \"masked_10_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.09443954799999993}\n51 {\"case\": \"exposed_10_2\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.056268945999999986}\n52 {\"case\": \"exposed_10_2\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.07308853900000001}\n53 {\"case\": \"exposed_10_2\", \"method\": \"support\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.07550480099999995}\n54 {\"case\": \"masked_10_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.044918453000000025}\n55 {\"case\": \"masked_10_4\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.057297665}\n56 {\"case\": \"masked_10_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.09796347600000005}\n57 {\"case\": \"exposed_10_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.049244043000000015}\n58 {\"case\": \"exposed_10_4\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.05820915999999998}\n59 {\"case\": \"exposed_10_4\", \"method\": \"support\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.06858598600000004}\n{\"complete\": 44, \"producer_capped\": 16}\n",
+      "stderr": ""
+    },
+    {
+      "index": 8,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "60",
+        "--stop",
+        "70"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 11.37994743299987,
+      "child_cpu_seconds": 11.374471000000002,
+      "process_tree_peak_rss_kib": 132792,
+      "stdout": "60 {\"case\": \"masked_12_2\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 1.521753199}\n61 {\"case\": \"masked_12_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 1.725678818}\n62 {\"case\": \"masked_12_2\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.116996339}\n63 {\"case\": \"exposed_12_2\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.21697963899999995}\n64 {\"case\": \"exposed_12_2\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.304918312}\n65 {\"case\": \"exposed_12_2\", \"method\": \"support\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.341205996}\n66 {\"case\": \"masked_12_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.09782480999999993}\n67 {\"case\": \"masked_12_4\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.14681490600000002}\n68 {\"case\": \"masked_12_4\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.11916367100000003}\n69 {\"case\": \"exposed_12_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.10293624899999998}\n{\"complete\": 48, \"producer_capped\": 22}\n",
+      "stderr": ""
+    },
+    {
+      "index": 9,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "70",
+        "--stop",
+        "80"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 8.83211188200039,
+      "child_cpu_seconds": 8.827786999999997,
+      "process_tree_peak_rss_kib": 132792,
+      "stdout": "70 {\"case\": \"exposed_12_4\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.13339690999999998}\n71 {\"case\": \"exposed_12_4\", \"method\": \"support\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.14678967799999992}\n72 {\"case\": \"exposed_12_2_paired\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.153823435}\n73 {\"case\": \"exposed_12_2_paired\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.16261566500000002}\n74 {\"case\": \"exposed_12_2_paired\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.15510498500000003}\n75 {\"case\": \"exposed_12_4_paired\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.14188258399999998}\n76 {\"case\": \"exposed_12_4_paired\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.16419688499999996}\n77 {\"case\": \"exposed_12_4_paired\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.142985313}\n78 {\"case\": \"openroad_macro_only_balanced\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.19213077}\n79 {\"case\": \"openroad_macro_only_balanced\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.18040633099999998}\n{\"complete\": 56, \"producer_capped\": 24}\n",
+      "stderr": ""
+    },
+    {
+      "index": 10,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/reproduction",
+        "--start",
+        "80",
+        "--stop",
+        "87"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 6.331283253000038,
+      "child_cpu_seconds": 6.3280610000000035,
+      "process_tree_peak_rss_kib": 132792,
+      "stdout": "80 {\"case\": \"openroad_macro_only_balanced\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.182407276}\n81 {\"case\": \"openroad_macro_only_columns\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.18719711099999997}\n82 {\"case\": \"openroad_macro_only_columns\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.18340333599999997}\n83 {\"case\": \"openroad_macro_only_columns\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.183149369}\n84 {\"case\": \"openroad_macro_only_chain\", \"method\": \"raw\", \"status\": \"complete\", \"cpu_seconds\": 0.174893005}\n85 {\"case\": \"openroad_macro_only_chain\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.138042846}\n86 {\"case\": \"openroad_macro_only_chain\", \"method\": \"support\", \"status\": \"complete\", \"cpu_seconds\": 0.15220881400000003}\n{\"complete\": 63, \"producer_capped\": 24}\n",
+      "stderr": ""
+    },
+    {
+      "index": 11,
+      "command": [
+        "python",
+        "validate_results.py",
+        "results/reproduction",
+        "--report",
+        "results/reproduction-validation.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 9.298696898999879,
+      "child_cpu_seconds": 9.297239,
+      "process_tree_peak_rss_kib": 138668,
+      "stdout": "{\n  \"expected_jobs\": 87,\n  \"methods\": [\n    \"raw\",\n    \"envelope\",\n    \"support\"\n  ],\n  \"rechecked_certificates\": 63,\n  \"reproduced_structural_caps\": 24,\n  \"cpu_seconds\": 8.547069258,\n  \"wall_seconds\": 8.547731358999954,\n  \"peak_rss_kib\": 138668,\n  \"scope\": \"Replays and deterministic cap checks; not a general proof or a speed replication.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 12,
+      "command": [
+        "python",
+        "compare_results.py",
+        "results/campaign",
+        "results/reproduction",
+        "--report",
+        "results/reproduction-comparison.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.7268036200002825,
+      "child_cpu_seconds": 0.7260269999999999,
+      "process_tree_peak_rss_kib": 138668,
+      "stdout": "{\n  \"matched_jobs\": 87,\n  \"identical_certificates\": 63,\n  \"comparison\": \"exact statuses, optima, limits, cap reasons, state/transition counts and certificate bytes; timing/RSS excluded\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 13,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/null-reproduction",
+        "--methods",
+        "constant_raw",
+        "--start",
+        "0",
+        "--stop",
+        "10"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 9.475900567999815,
+      "child_cpu_seconds": 9.470332,
+      "process_tree_peak_rss_kib": 95024,
+      "stdout": "0 {\"case\": \"masked_2_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.153485863}\n1 {\"case\": \"exposed_2_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.163902182}\n2 {\"case\": \"masked_2_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.12931224699999994}\n3 {\"case\": \"exposed_2_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.16260169399999996}\n4 {\"case\": \"masked_4_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.14732811900000004}\n5 {\"case\": \"exposed_4_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.20357891699999997}\n6 {\"case\": \"masked_4_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.11456648700000005}\n7 {\"case\": \"exposed_4_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.318101941}\n8 {\"case\": \"masked_6_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.16871693399999999}\n9 {\"case\": \"exposed_6_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.48372772900000005}\n{\"complete\": 10}\n",
+      "stderr": ""
+    },
+    {
+      "index": 14,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/null-reproduction",
+        "--methods",
+        "constant_raw",
+        "--start",
+        "10",
+        "--stop",
+        "20"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 12.404781487000037,
+      "child_cpu_seconds": 12.397465,
+      "process_tree_peak_rss_kib": 120372,
+      "stdout": "10 {\"case\": \"masked_6_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.17999988599999994}\n11 {\"case\": \"exposed_6_4\", \"method\": \"constant_raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.07585802600000002}\n12 {\"case\": \"masked_8_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.12262749100000003}\n13 {\"case\": \"exposed_8_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 4.368300336}\n14 {\"case\": \"masked_8_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.12633279900000005}\n15 {\"case\": \"exposed_8_4\", \"method\": \"constant_raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.14384164500000007}\n16 {\"case\": \"masked_10_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.128949388}\n17 {\"case\": \"exposed_10_2\", \"method\": \"constant_raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.069716516}\n18 {\"case\": \"masked_10_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.141751909}\n19 {\"case\": \"exposed_10_4\", \"method\": \"constant_raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.05358094000000002}\n{\"complete\": 16, \"producer_capped\": 4}\n",
+      "stderr": ""
+    },
+    {
+      "index": 15,
+      "command": [
+        "python",
+        "run_experiments.py",
+        "--out",
+        "results/null-reproduction",
+        "--methods",
+        "constant_raw",
+        "--start",
+        "20",
+        "--stop",
+        "29"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 6.9719258579998495,
+      "child_cpu_seconds": 6.967862000000001,
+      "process_tree_peak_rss_kib": 132792,
+      "stdout": "20 {\"case\": \"masked_12_2\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.12616046199999997}\n21 {\"case\": \"exposed_12_2\", \"method\": \"constant_raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.20256272800000003}\n22 {\"case\": \"masked_12_4\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.13878340700000003}\n23 {\"case\": \"exposed_12_4\", \"method\": \"constant_raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.09528101800000005}\n24 {\"case\": \"exposed_12_2_paired\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.11383412799999992}\n25 {\"case\": \"exposed_12_4_paired\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.14385588799999993}\n26 {\"case\": \"openroad_macro_only_balanced\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.16273900800000002}\n27 {\"case\": \"openroad_macro_only_columns\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.16418169299999996}\n28 {\"case\": \"openroad_macro_only_chain\", \"method\": \"constant_raw\", \"status\": \"complete\", \"cpu_seconds\": 0.132802095}\n{\"complete\": 23, \"producer_capped\": 6}\n",
+      "stderr": ""
+    },
+    {
+      "index": 16,
+      "command": [
+        "python",
+        "validate_results.py",
+        "results/null-reproduction",
+        "--methods",
+        "constant_raw",
+        "--report",
+        "results/null-reproduction-validation.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.413488898999276,
+      "child_cpu_seconds": 2.411509,
+      "process_tree_peak_rss_kib": 134504,
+      "stdout": "{\n  \"expected_jobs\": 29,\n  \"methods\": [\n    \"constant_raw\"\n  ],\n  \"rechecked_certificates\": 23,\n  \"reproduced_structural_caps\": 6,\n  \"cpu_seconds\": 1.820650585,\n  \"wall_seconds\": 1.8208559770000647,\n  \"peak_rss_kib\": 134504,\n  \"scope\": \"Replays and deterministic cap checks; not a general proof or a speed replication.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 17,
+      "command": [
+        "python",
+        "compare_results.py",
+        "results/null-baseline",
+        "results/null-reproduction",
+        "--expected-jobs",
+        "29",
+        "--report",
+        "results/null-reproduction-comparison.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.5802251799996156,
+      "child_cpu_seconds": 0.5795559999999997,
+      "process_tree_peak_rss_kib": 134504,
+      "stdout": "{\n  \"matched_jobs\": 29,\n  \"identical_certificates\": 23,\n  \"comparison\": \"exact statuses, optima, limits, cap reasons, state/transition counts and certificate bytes; timing/RSS excluded\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 18,
+      "command": [
+        "python",
+        "summarize_results.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.5846190259999275,
+      "child_cpu_seconds": 0.5838109999999997,
+      "process_tree_peak_rss_kib": 134504,
+      "stdout": "{\n  \"mode_counts\": {\n    \"raw\": {\n      \"producer_capped\": 9,\n      \"complete\": 20\n    },\n    \"envelope\": {\n      \"producer_capped\": 9,\n      \"complete\": 20\n    },\n    \"support\": {\n      \"producer_capped\": 6,\n      \"complete\": 23\n    },\n    \"constant_raw\": {\n      \"producer_capped\": 6,\n      \"complete\": 23\n    }\n  },\n  \"recorded_jobs\": 116,\n  \"reported_child_cpu_seconds\": 38.876138361,\n  \"maximum_child_peak_rss_kib\": 132792,\n  \"distinct_public_topologies\": 1,\n  \"complete_triplets_checked_for_monotonicity\": 20,\n  \"public_hierarchies\": 3,\n  \"timing_scope\": \"Three within-process repetitions per successful job; no general speedup inference\",\n  \"null_baseline_scope\": \"Exploratory adversarial addition after the three-mode campaign\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 19,
+      "command": [
+        "python",
+        "src/producer.py",
+        "data/cases/openroad_macro_only_balanced.json",
+        "/tmp/floorplan-certificate.json",
+        "--method",
+        "support"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.5720544890000383,
+      "child_cpu_seconds": 0.5713620000000004,
+      "process_tree_peak_rss_kib": 134504,
+      "stdout": "{\"cpu_seconds\": 0.0020365869999999786, \"method\": \"support\", \"peak_states\": 16, \"per_node\": [{\"node\": \"000\", \"states\": 1, \"transitions\": 2, \"width\": 4}, {\"node\": \"001\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"00\", \"states\": 2, \"transitions\": 2, \"width\": 4}, {\"node\": \"010\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"0110\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"0111\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"011\", \"states\": 4, \"transitions\": 4, \"width\": 4}, {\"node\": \"01\", \"states\": 8, \"transitions\": 8, \"width\": 6}, {\"node\": \"0\", \"states\": 16, \"transitions\": 16, \"width\": 4}, {\"node\": \"100\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"101\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"10\", \"states\": 4, \"transitions\": 4, \"width\": 4}, {\"node\": \"110\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"1110\", \"states\": 2, \"transitions\": 2, \"width\": 2}, {\"node\": \"1111\", \"states\": 1, \"transitions\": 2, \"width\": 4}, {\"node\": \"111\", \"states\": 2, \"transitions\": 2, \"width\": 4}, {\"node\": \"11\", \"states\": 4, \"transitions\": 4, \"width\": 4}, {\"node\": \"1\", \"states\": 16, \"transitions\": 16, \"width\": 4}, {\"node\": \"\", \"states\": 1, \"transitions\": 256, \"width\": 0}], \"table_states\": 75, \"transitions\": 332, \"wall_seconds\": 0.002040121000391082, \"width\": 6}\n",
+      "stderr": ""
+    },
+    {
+      "index": 20,
+      "command": [
+        "python",
+        "src/checker.py",
+        "data/cases/openroad_macro_only_balanced.json",
+        "/tmp/floorplan-certificate.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.5687625820000903,
+      "child_cpu_seconds": 0.5681040000000002,
+      "process_tree_peak_rss_kib": 134504,
+      "stdout": "{\"accepted\": true, \"cpu_seconds\": 0.007828537000000024, \"optimum\": 1998880, \"replayed_transitions\": 332, \"wall_seconds\": 0.007832031000361894}\n",
+      "stderr": ""
+    }
+  ],
+  "status": "all_executed_commands_succeeded; exact finite outputs matched",
+  "comparison_scope": "87 primary jobs and 29 exploratory null-baseline jobs; statuses, optima, limits, structural-cap reasons, table/transition counts and 86 certificate byte streams matched. Timing and RSS are measurements, not exact-output requirements.",
+  "measurement_totals": {
+    "command_wall_seconds_sum": 137.095533753999,
+    "command_child_cpu_seconds_sum": 137.010054,
+    "maximum_observed_process_tree_peak_rss_kib": 138668,
+    "scope": "These 21 serial clean-extraction commands, including their validation and interpreter overhead; not all research, literature, development, or document work."
+  },
+  "primary_comparison": {
+    "matched_jobs": 87,
+    "identical_certificates": 63,
+    "comparison": "exact statuses, optima, limits, cap reasons, state/transition counts and certificate bytes; timing/RSS excluded"
+  },
+  "null_comparison": {
+    "matched_jobs": 29,
+    "identical_certificates": 23,
+    "comparison": "exact statuses, optima, limits, cap reasons, state/transition counts and certificate bytes; timing/RSS excluded"
+  },
+  "primary_fresh_campaign_totals": {
+    "expected_jobs": 87,
+    "recorded_jobs": 87,
+    "statuses": {
+      "complete": 63,
+      "producer_capped": 24
+    },
+    "reported_child_cpu_seconds": 31.158823631,
+    "maximum_child_peak_rss_kib": 132792
+  },
+  "null_fresh_campaign_totals": {
+    "expected_jobs": 29,
+    "recorded_jobs": 29,
+    "statuses": {
+      "complete": 23,
+      "producer_capped": 6
+    },
+    "reported_child_cpu_seconds": 8.736481476,
+    "maximum_child_peak_rss_kib": 132792
+  },
+  "archive_finalization": "The tested repository ZIP was actually extracted into a new directory before execution. The delivery is refreshed only with these receipts and documentation; scientific source, exact inputs and original claim-linked campaign data are byte-compared with the tested extraction. No self-referential checksum manifest is generated.",
+  "review_boundary": "Separately implemented producer/replay/oracle, developed in the same assistant session; neither independent blind review nor a mechanized general correctness proof.",
+  "unchanged_scientific_payload_files_checked": 256
+}

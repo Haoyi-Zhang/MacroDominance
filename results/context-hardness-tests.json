@@ -1,0 +1,10145 @@
+{
+  "formulas": 335,
+  "assignments": 3320,
+  "satisfiable": 299,
+  "unsatisfiable": 36,
+  "cpu_seconds": 0.9752758109999999,
+  "peak_rss_kib": 99884,
+  "records": [
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 3,
+      "clauses": [
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1,
+          3,
+          4
+        ],
+        [
+          4
+        ],
+        [
+          3,
+          -2,
+          1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          3,
+          -1,
+          2
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          -2,
+          -4,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          3,
+          1,
+          -2
+        ],
+        [
+          1
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1,
+          2,
+          4
+        ],
+        [
+          -2,
+          -3,
+          -1
+        ],
+        [
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          -1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -3,
+          2,
+          1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          -3,
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          -3,
+          4,
+          1
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -2,
+          3,
+          4
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          2,
+          -4,
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          4
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -4,
+          1,
+          -2
+        ],
+        [
+          1
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          3
+        ],
+        [
+          -2,
+          4
+        ],
+        [
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          -2,
+          3
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2,
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          -1,
+          -4,
+          3
+        ],
+        [
+          -1,
+          2,
+          4
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          -4
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          4,
+          -1,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          -3,
+          -1,
+          -4
+        ],
+        [
+          -3
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          4,
+          -3,
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          -3,
+          -2,
+          -1
+        ],
+        [
+          -3,
+          -1,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3,
+          -4,
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -3,
+          -4,
+          2
+        ],
+        [
+          1,
+          -4,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          -3
+        ],
+        [
+          4
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -2,
+          3,
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          -2,
+          3,
+          4
+        ],
+        [
+          2,
+          -3,
+          -1
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          3,
+          1,
+          -2
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          3,
+          1,
+          -2
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          -1,
+          -3,
+          -4
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          4,
+          -2,
+          -1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          2,
+          -4
+        ],
+        [
+          -1,
+          -2,
+          -4
+        ],
+        [
+          2,
+          -4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1,
+          4
+        ],
+        [
+          -3
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          1,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          2,
+          -4
+        ],
+        [
+          4
+        ],
+        [
+          2,
+          -3,
+          -1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -4
+        ],
+        [
+          -4,
+          -3,
+          1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          -4
+        ],
+        [
+          4,
+          1,
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          -2,
+          -3,
+          -1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          -4,
+          -2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          -2
+        ],
+        [
+          4,
+          -2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          -2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          -3,
+          2
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          3,
+          1
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          -4,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          1
+        ],
+        [
+          -3,
+          -1,
+          2
+        ],
+        [
+          -3,
+          1,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          -4
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          3,
+          4,
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          -4
+        ],
+        [
+          1,
+          -4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          -3
+        ],
+        [
+          4,
+          -1,
+          -2
+        ],
+        [
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          -4
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2,
+          -4,
+          3
+        ],
+        [
+          3,
+          -4,
+          1
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3,
+          -4,
+          -1
+        ],
+        [
+          3,
+          4,
+          -1
+        ],
+        [
+          -4
+        ],
+        [
+          2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          4,
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -2,
+          4
+        ],
+        [
+          1,
+          -2,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          -4
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          3,
+          -2,
+          4
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          3,
+          -4,
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          4
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          4
+        ],
+        [
+          -1,
+          3,
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          -2
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          -2,
+          -4,
+          -3
+        ],
+        [
+          -2,
+          -1,
+          4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          1
+        ],
+        [
+          1,
+          4,
+          -2
+        ],
+        [
+          -4,
+          3,
+          2
+        ],
+        [
+          -2,
+          -3,
+          1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1,
+          2,
+          -4
+        ],
+        [
+          1
+        ],
+        [
+          -2,
+          -3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          -4,
+          3,
+          2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          -1,
+          -3
+        ],
+        [
+          -3
+        ],
+        [
+          -3,
+          4,
+          -2
+        ],
+        [
+          -1,
+          3,
+          -4
+        ],
+        [
+          -2,
+          3,
+          4
+        ],
+        [
+          -2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          -1,
+          2
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          -4,
+          -3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          -4,
+          -2
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          -1,
+          2,
+          -4
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          2
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          -2,
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -3,
+          4
+        ],
+        [
+          -3,
+          4,
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          -4
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2,
+          -3,
+          -1
+        ],
+        [
+          1,
+          2,
+          -4
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          2,
+          3
+        ],
+        [
+          -2
+        ],
+        [
+          2
+        ],
+        [
+          -4
+        ],
+        [
+          2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          2,
+          -4,
+          -1
+        ],
+        [
+          2,
+          -4
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          -3
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -2
+        ],
+        [
+          4,
+          1,
+          -3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1,
+          -3,
+          4
+        ],
+        [
+          3
+        ],
+        [
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          4,
+          2,
+          -3
+        ],
+        [
+          1,
+          -3,
+          4
+        ],
+        [
+          -4,
+          -1,
+          -3
+        ],
+        [
+          -2,
+          4
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -4,
+          -1,
+          -3
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          -3
+        ],
+        [
+          4
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -1,
+          -3
+        ],
+        [
+          1,
+          3,
+          -2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          -1,
+          -4,
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          -4
+        ],
+        [
+          2,
+          -4,
+          -3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          -4
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -4,
+          3
+        ],
+        [
+          -4,
+          3,
+          2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -3
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          4,
+          3,
+          -2
+        ],
+        [
+          -3,
+          1,
+          4
+        ],
+        [
+          3
+        ],
+        [
+          -3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          1,
+          -3
+        ],
+        [
+          1
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          -4,
+          3
+        ],
+        [
+          -3
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          -4,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          2,
+          -4,
+          3
+        ],
+        [
+          3
+        ],
+        [
+          -3
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          2,
+          3,
+          -1
+        ],
+        [
+          -4
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4
+        ],
+        [
+          -2,
+          -3,
+          -4
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          4,
+          -2,
+          3
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          -4,
+          -1
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3
+        ],
+        [
+          -2
+        ],
+        [
+          -2,
+          4
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -4,
+          3,
+          1
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          -3,
+          -4
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          -4
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          2,
+          4,
+          3
+        ],
+        [
+          2,
+          4,
+          -3
+        ],
+        [
+          4
+        ],
+        [
+          3,
+          1,
+          -2
+        ],
+        [
+          3
+        ],
+        [
+          3,
+          -1,
+          -2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          4,
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2,
+          -4
+        ],
+        [
+          -3,
+          -2,
+          1
+        ],
+        [
+          2,
+          -3,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          4
+        ],
+        [
+          -4,
+          3,
+          2
+        ],
+        [
+          -4,
+          -3,
+          2
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -1,
+          2,
+          -4
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          4,
+          -1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -4,
+          -3,
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "max_response_difference": -2,
+      "minimum_unsatisfied": 3
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2,
+          -3,
+          1
+        ],
+        [
+          3,
+          -4,
+          -2
+        ],
+        [
+          -1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          2,
+          1,
+          -4
+        ],
+        [
+          2,
+          1,
+          -3
+        ],
+        [
+          1
+        ],
+        [
+          -4,
+          3,
+          -2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          4,
+          -1,
+          -2
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          4,
+          2,
+          -1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1,
+          -4
+        ],
+        [
+          2,
+          -4,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          4,
+          -3,
+          2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          3,
+          2,
+          -4
+        ],
+        [
+          1,
+          4,
+          -2
+        ],
+        [
+          1,
+          -3,
+          -2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          -3,
+          4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          -3
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          1
+        ],
+        [
+          4,
+          1,
+          2
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -4,
+          1,
+          -2
+        ],
+        [
+          -3,
+          -4,
+          2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3,
+          -2
+        ],
+        [
+          3,
+          -4,
+          -1
+        ],
+        [
+          1,
+          -2,
+          -4
+        ],
+        [
+          -3
+        ],
+        [
+          -3,
+          -2,
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          3,
+          -1,
+          2
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          -2,
+          4
+        ],
+        [
+          -3
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -2,
+          1,
+          4
+        ],
+        [
+          -1,
+          -3,
+          -2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          -4,
+          -2,
+          -1
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          1
+        ],
+        [
+          -2,
+          -3,
+          -4
+        ],
+        [
+          -2,
+          1,
+          3
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          2
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          -3,
+          2,
+          -1
+        ],
+        [
+          -3,
+          -2,
+          4
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3,
+          1
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          -3
+        ],
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          -3
+        ],
+        [
+          1
+        ],
+        [
+          -3,
+          -4,
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          3,
+          -4,
+          2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          1,
+          4,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -4,
+          1,
+          -2
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          -1,
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          -3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          -2
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          -2,
+          4,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          -2,
+          -3,
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          -1,
+          -4,
+          -2
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          -3,
+          4,
+          2
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          3,
+          -1
+        ],
+        [
+          3
+        ],
+        [
+          -3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3,
+          1,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          -1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4
+        ],
+        [
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          4,
+          -2,
+          3
+        ],
+        [
+          -2,
+          -1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          -2,
+          1,
+          4
+        ],
+        [
+          -1,
+          -4,
+          -2
+        ],
+        [
+          -4,
+          -1,
+          -2
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          2,
+          3
+        ],
+        [
+          -3,
+          -1,
+          -4
+        ],
+        [
+          -4,
+          3,
+          1
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          -4
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1,
+          -4
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          -4
+        ],
+        [
+          1,
+          4,
+          -3
+        ],
+        [
+          1
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          4,
+          1
+        ],
+        [
+          -3,
+          -1,
+          4
+        ],
+        [
+          -3,
+          4
+        ],
+        [
+          3,
+          2,
+          -1
+        ],
+        [
+          3,
+          -4,
+          -1
+        ],
+        [
+          -3,
+          4,
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -4,
+          -3
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          -3
+        ],
+        [
+          1,
+          -2,
+          -4
+        ],
+        [
+          -1,
+          -4,
+          -3
+        ],
+        [
+          -3,
+          2,
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4,
+          -1,
+          3
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -2
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          -4,
+          -2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          -3
+        ],
+        [
+          -2,
+          3,
+          4
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -4,
+          1,
+          2
+        ],
+        [
+          -3,
+          4,
+          1
+        ],
+        [
+          -4
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -1
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1,
+          -2
+        ],
+        [
+          3,
+          4,
+          -1
+        ],
+        [
+          -1,
+          -4,
+          3
+        ],
+        [
+          -3
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          -4
+        ],
+        [
+          2,
+          3,
+          -1
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          3,
+          1,
+          -2
+        ],
+        [
+          -4,
+          -2,
+          3
+        ],
+        [
+          2,
+          -3
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          3,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1,
+          4,
+          3
+        ],
+        [
+          3,
+          1,
+          -2
+        ],
+        [
+          4,
+          1,
+          -2
+        ],
+        [
+          2,
+          3,
+          -4
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          -3,
+          2,
+          -1
+        ]
+      ],
+      "max_response_difference": -1,
+      "minimum_unsatisfied": 2
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -3,
+          -1,
+          -2
+        ],
+        [
+          2,
+          -4,
+          -3
+        ],
+        [
+          -2
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -3,
+          4,
+          1
+        ],
+        [
+          4,
+          1,
+          -2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          -2
+        ],
+        [
+          -4
+        ],
+        [
+          2
+        ],
+        [
+          -1
+        ]
+      ],
+      "max_response_difference": -3,
+      "minimum_unsatisfied": 4
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          4,
+          -1
+        ],
+        [
+          2,
+          -3,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          3,
+          1,
+          4
+        ],
+        [
+          -1,
+          -3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          -4,
+          2,
+          -1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          3
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          1,
+          2
+        ],
+        [
+          -3,
+          1,
+          2
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          3,
+          -1,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          -4
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          2,
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          3,
+          -1,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2,
+          -3
+        ],
+        [
+          3,
+          -1,
+          -2
+        ],
+        [
+          -2
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          -1,
+          -4
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -1,
+          4
+        ],
+        [
+          1,
+          -3,
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          -3,
+          -2,
+          1
+        ]
+      ],
+      "max_response_difference": 1,
+      "minimum_unsatisfied": 0
+    },
+    {
+      "n": 4,
+      "clauses": [
+        [
+          4,
+          -2
+        ],
+        [
+          2,
+          3,
+          -4
+        ],
+        [
+          -2
+        ],
+        [
+          -4
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -4,
+          3,
+          -2
+        ],
+        [
+          4,
+          3,
+          -2
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          3,
+          -1
+        ]
+      ],
+      "max_response_difference": 0,
+      "minimum_unsatisfied": 1
+    }
+  ]
+}

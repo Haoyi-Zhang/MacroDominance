@@ -1,0 +1,7618 @@
+{
+  "generated": [
+    {
+      "mode": "equality",
+      "transitions": 37645,
+      "retained_rows": 3680,
+      "producer_cpu_seconds": 0.18450689099999862,
+      "checker_cpu_seconds": 0.6832041479999994
+    },
+    {
+      "mode": "containment",
+      "transitions": 13940,
+      "retained_rows": 2474,
+      "producer_cpu_seconds": 0.1682753039999978,
+      "checker_cpu_seconds": 0.3061184349999997
+    },
+    {
+      "mode": "leaf",
+      "transitions": 4363,
+      "retained_rows": 1330,
+      "producer_cpu_seconds": 0.05823203699999979,
+      "checker_cpu_seconds": 0.115070000000001
+    },
+    {
+      "mode": "response",
+      "transitions": 2152,
+      "retained_rows": 983,
+      "producer_cpu_seconds": 0.05623244199999977,
+      "checker_cpu_seconds": 0.06583477499999979
+    }
+  ],
+  "paired_transitions": {
+    "equality": {
+      "median_ratio": 9.351902173913043,
+      "min_ratio": 1.5227272727272727,
+      "max_ratio": 55.23076923076923,
+      "response_fewer": 40,
+      "tied": 0,
+      "response_greater": 0
+    },
+    "containment": {
+      "median_ratio": 4.012860310421286,
+      "min_ratio": 1.3409090909090908,
+      "max_ratio": 33.130434782608695,
+      "response_fewer": 40,
+      "tied": 0,
+      "response_greater": 0
+    },
+    "leaf": {
+      "median_ratio": 1.3904761904761904,
+      "min_ratio": 1.0,
+      "max_ratio": 9.25,
+      "response_fewer": 32,
+      "tied": 8,
+      "response_greater": 0
+    }
+  },
+  "status_counts": {
+    "success": 293,
+    "limit": 15
+  },
+  "caps_by_mode": {
+    "equality": 6,
+    "containment": 6,
+    "response": 2,
+    "leaf": 1
+  },
+  "cap_reasons": [
+    {
+      "case": "biased_6_4",
+      "mode": "equality",
+      "reason": "coverage transition limit at ''"
+    },
+    {
+      "case": "biased_6_4",
+      "mode": "containment",
+      "reason": "coverage comparison limit"
+    },
+    {
+      "case": "biased_8_2",
+      "mode": "equality",
+      "reason": "coverage transition limit at ''"
+    },
+    {
+      "case": "biased_8_2",
+      "mode": "containment",
+      "reason": "coverage transition limit at ''"
+    },
+    {
+      "case": "biased_8_4",
+      "mode": "equality",
+      "reason": "coverage transition limit at '0'"
+    },
+    {
+      "case": "biased_8_4",
+      "mode": "containment",
+      "reason": "coverage transition limit at '0'"
+    },
+    {
+      "case": "exposed_6_4",
+      "mode": "equality",
+      "reason": "coverage transition limit at ''"
+    },
+    {
+      "case": "exposed_6_4",
+      "mode": "containment",
+      "reason": "coverage comparison limit"
+    },
+    {
+      "case": "exposed_6_4",
+      "mode": "response",
+      "reason": "coverage comparison limit"
+    },
+    {
+      "case": "exposed_8_2",
+      "mode": "equality",
+      "reason": "coverage transition limit at ''"
+    },
+    {
+      "case": "exposed_8_2",
+      "mode": "containment",
+      "reason": "coverage transition limit at ''"
+    },
+    {
+      "case": "exposed_8_4",
+      "mode": "equality",
+      "reason": "coverage transition limit at '0'"
+    },
+    {
+      "case": "exposed_8_4",
+      "mode": "containment",
+      "reason": "coverage transition limit at '0'"
+    },
+    {
+      "case": "exposed_8_4",
+      "mode": "leaf",
+      "reason": "coverage transition limit at '0'"
+    },
+    {
+      "case": "exposed_8_4",
+      "mode": "response",
+      "reason": "coverage transition limit at '0'"
+    }
+  ],
+  "public": [
+    {
+      "case": "openroad_macro_only_balanced",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 1998880,
+        "transitions": 332,
+        "comparisons": 257,
+        "total_states": 75,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.0029641769999999568,
+        "wall_seconds": 0.0029650820000028943
+      }
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 1998880,
+        "transitions": 332,
+        "comparisons": 849,
+        "total_states": 75,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.0027998570000002942,
+        "wall_seconds": 0.0028139620000047216
+      }
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0010399479999998462,
+        "wall_seconds": 0.0010528750000275977
+      }
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0009538479999999794,
+        "wall_seconds": 0.0009665500000437532
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 1998880,
+        "transitions": 356,
+        "comparisons": 257,
+        "total_states": 99,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.003100136000000475,
+        "wall_seconds": 0.003100900999982059
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 1998880,
+        "transitions": 356,
+        "comparisons": 1281,
+        "total_states": 99,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.0038431760000001702,
+        "wall_seconds": 0.0038602250000394633
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0016291120000007098,
+        "wall_seconds": 0.0016480740000019978
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0012895630000002711,
+        "wall_seconds": 0.0013026170000216553
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 1998880,
+        "transitions": 111,
+        "comparisons": 47,
+        "total_states": 64,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 32,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 24
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 16,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 8,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0016580870000000303,
+        "wall_seconds": 0.0016588740000429425
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 1998880,
+        "transitions": 111,
+        "comparisons": 793,
+        "total_states": 64,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 32,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 360
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 16,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 84
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 8,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 18
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0032478020000006325,
+        "wall_seconds": 0.0032607249999614396
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0020309909999998155,
+        "wall_seconds": 0.0020435870000028444
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.000916574999999753,
+        "wall_seconds": 0.0009286309999652076
+      }
+    },
+    {
+      "case": "core_hp_balanced",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 377531,
+        "transitions": 100,
+        "comparisons": 44,
+        "total_states": 56,
+        "max_states": 6,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 5,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 5,
+            "transitions": 8,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 12,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 8
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1010",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 12,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 14,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 4
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 16,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 16,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 15
+          }
+        ],
+        "cpu_seconds": 0.009202783000000103,
+        "wall_seconds": 0.009204585000020415
+      }
+    },
+    {
+      "case": "core_hp_balanced",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 377531,
+        "transitions": 75,
+        "comparisons": 165,
+        "total_states": 47,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 5,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 5,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 42
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 28
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1010",
+            "width": 5,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "110",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "11",
+            "width": 14,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 32
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 8,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 8
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 8,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 7
+          }
+        ],
+        "cpu_seconds": 0.006896905999999703,
+        "wall_seconds": 0.007256680999944365
+      }
+    },
+    {
+      "case": "core_hp_balanced",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 377531,
+        "transitions": 42,
+        "comparisons": 22,
+        "total_states": 30,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1010",
+            "width": 5,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 12,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          }
+        ],
+        "cpu_seconds": 0.002634707000000347,
+        "wall_seconds": 0.0026522740000132217
+      }
+    },
+    {
+      "case": "core_hp_balanced",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 377531,
+        "transitions": 41,
+        "comparisons": 32,
+        "total_states": 29,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1010",
+            "width": 5,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 12,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.002886115999999994,
+        "wall_seconds": 0.002974892999986878
+      }
+    },
+    {
+      "case": "core_hp_netaware",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 377531,
+        "transitions": 498,
+        "comparisons": 402,
+        "total_states": 96,
+        "max_states": 24,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 32,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 16
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1010",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 5,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "111",
+            "width": 5,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 5,
+            "transitions": 8,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 24,
+            "states": 24,
+            "peak_online_states": 24,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 384,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 383
+          }
+        ],
+        "cpu_seconds": 0.006443320999999891,
+        "wall_seconds": 0.006455815999970582
+      }
+    },
+    {
+      "case": "core_hp_netaware",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 377531,
+        "transitions": 204,
+        "comparisons": 547,
+        "total_states": 70,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 5,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1010",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "10",
+            "width": 5,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 5,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "11",
+            "width": 5,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 42
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 128,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 127
+          }
+        ],
+        "cpu_seconds": 0.005371305999999798,
+        "wall_seconds": 0.005390692999981184
+      }
+    },
+    {
+      "case": "core_hp_netaware",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 377531,
+        "transitions": 48,
+        "comparisons": 25,
+        "total_states": 33,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 5,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1010",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 5,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 8,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 7
+          }
+        ],
+        "cpu_seconds": 0.0028417229999995186,
+        "wall_seconds": 0.0028596180000022287
+      }
+    },
+    {
+      "case": "core_hp_netaware",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 377531,
+        "transitions": 48,
+        "comparisons": 49,
+        "total_states": 33,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 5,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1010",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 5,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 5,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 8,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 7
+          }
+        ],
+        "cpu_seconds": 0.0025771450000000584,
+        "wall_seconds": 0.0025895239999726982
+      }
+    },
+    {
+      "case": "core_n10_balanced",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 40685,
+        "transitions": 160,
+        "comparisons": 97,
+        "total_states": 63,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 3,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 16,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 17,
+            "transitions": 32,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 24
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 17,
+            "transitions": 16,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 8
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 64,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 63
+          }
+        ],
+        "cpu_seconds": 0.00536369200000042,
+        "wall_seconds": 0.005365261000008559
+      }
+    },
+    {
+      "case": "core_n10_balanced",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 40685,
+        "transitions": 160,
+        "comparisons": 337,
+        "total_states": 63,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "010",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 3,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 16,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "0",
+            "width": 17,
+            "transitions": 32,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 80
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "1",
+            "width": 17,
+            "transitions": 16,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 64
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 64,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 63
+          }
+        ],
+        "cpu_seconds": 0.0044567930000001255,
+        "wall_seconds": 0.004477186000030997
+      }
+    },
+    {
+      "case": "core_n10_balanced",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 40685,
+        "transitions": 63,
+        "comparisons": 38,
+        "total_states": 38,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 11,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 3,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 16,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 17,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 17,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 4
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 16,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 15
+          }
+        ],
+        "cpu_seconds": 0.00328463499999998,
+        "wall_seconds": 0.003295242000035614
+      }
+    },
+    {
+      "case": "core_n10_balanced",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 40685,
+        "transitions": 44,
+        "comparisons": 41,
+        "total_states": 30,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 11,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 3,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 11,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 16,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 17,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 7
+          },
+          {
+            "node": "110",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 4
+          },
+          {
+            "node": "11",
+            "width": 10,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          }
+        ],
+        "cpu_seconds": 0.0026465239999993173,
+        "wall_seconds": 0.002659901000015452
+      }
+    },
+    {
+      "case": "core_n10_netaware",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 40685,
+        "transitions": 352,
+        "comparisons": 273,
+        "total_states": 79,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 12,
+            "transitions": 32,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 16
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 3,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 12,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.006163974999999766,
+        "wall_seconds": 0.006164503999968929
+      }
+    },
+    {
+      "case": "core_n10_netaware",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 40685,
+        "transitions": 288,
+        "comparisons": 857,
+        "total_states": 75,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "0",
+            "width": 12,
+            "transitions": 32,
+            "states": 12,
+            "peak_online_states": 12,
+            "comparisons": 296
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 3,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 11,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "1",
+            "width": 12,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 192,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 191
+          }
+        ],
+        "cpu_seconds": 0.0069999479999998115,
+        "wall_seconds": 0.007000640999990537
+      }
+    },
+    {
+      "case": "core_n10_netaware",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 40685,
+        "transitions": 66,
+        "comparisons": 38,
+        "total_states": 41,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 12,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 4
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 3,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 11,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 12,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 16,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 15
+          }
+        ],
+        "cpu_seconds": 0.002627824999999362,
+        "wall_seconds": 0.0026485649999585803
+      }
+    },
+    {
+      "case": "core_n10_netaware",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 40685,
+        "transitions": 43,
+        "comparisons": 40,
+        "total_states": 30,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 6,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 10,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 7
+          },
+          {
+            "node": "01",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 10,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "110",
+            "width": 3,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 10,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 4
+          },
+          {
+            "node": "11",
+            "width": 11,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          }
+        ],
+        "cpu_seconds": 0.002667911999999717,
+        "wall_seconds": 0.002683833999981289
+      }
+    },
+    {
+      "case": "core_apte_balanced",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 284720,
+        "transitions": 188,
+        "comparisons": 130,
+        "total_states": 58,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 10,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 10,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 128,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 127
+          }
+        ],
+        "cpu_seconds": 0.004003144999999542,
+        "wall_seconds": 0.0040040299999759554
+      }
+    },
+    {
+      "case": "core_apte_balanced",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 284720,
+        "transitions": 76,
+        "comparisons": 175,
+        "total_states": 41,
+        "max_states": 5,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "0",
+            "width": 10,
+            "transitions": 16,
+            "states": 5,
+            "peak_online_states": 7,
+            "comparisons": 91
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 9,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "1",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 20,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 19
+          }
+        ],
+        "cpu_seconds": 0.004305586000000083,
+        "wall_seconds": 0.004329060000031859
+      }
+    },
+    {
+      "case": "core_apte_balanced",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 284720,
+        "transitions": 73,
+        "comparisons": 46,
+        "total_states": 38,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 10,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 32,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 31
+          }
+        ],
+        "cpu_seconds": 0.0030337079999993577,
+        "wall_seconds": 0.0030469550000020718
+      }
+    },
+    {
+      "case": "core_apte_balanced",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 284720,
+        "transitions": 49,
+        "comparisons": 69,
+        "total_states": 32,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "0",
+            "width": 10,
+            "transitions": 8,
+            "states": 2,
+            "peak_online_states": 3,
+            "comparisons": 17
+          },
+          {
+            "node": "100",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 10,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 8,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 7
+          }
+        ],
+        "cpu_seconds": 0.0036563579999997486,
+        "wall_seconds": 0.0036712099999931525
+      }
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 284720,
+        "transitions": 124,
+        "comparisons": 74,
+        "total_states": 50,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 9,
+            "transitions": 16,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 8
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 9,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 64,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 63
+          }
+        ],
+        "cpu_seconds": 0.004421808000000027,
+        "wall_seconds": 0.004422731999966345
+      }
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 284720,
+        "transitions": 100,
+        "comparisons": 206,
+        "total_states": 46,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 9,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 9,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "1",
+            "width": 9,
+            "transitions": 8,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 50
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 48,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 47
+          }
+        ],
+        "cpu_seconds": 0.0034324849999993745,
+        "wall_seconds": 0.003459000000020751
+      }
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 284720,
+        "transitions": 73,
+        "comparisons": 46,
+        "total_states": 38,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 9,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 32,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 31
+          }
+        ],
+        "cpu_seconds": 0.003282347999999935,
+        "wall_seconds": 0.0032994999999687025
+      }
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 284720,
+        "transitions": 57,
+        "comparisons": 80,
+        "total_states": 34,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 8,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 9,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "100",
+            "width": 8,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 6,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 7,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 9,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 9,
+            "transitions": 8,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 20
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 16,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 15
+          }
+        ],
+        "cpu_seconds": 0.00350494300000026,
+        "wall_seconds": 0.003520718000004308
+      }
+    },
+    {
+      "case": "core_xerox_balanced",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 767665,
+        "transitions": 356,
+        "comparisons": 273,
+        "total_states": 83,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 15,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 25,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 31,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 28,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 19,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 28,
+            "transitions": 32,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 16
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.012320748000000492,
+        "wall_seconds": 0.01232170599996607
+      }
+    },
+    {
+      "case": "core_xerox_balanced",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 767665,
+        "transitions": 356,
+        "comparisons": 1163,
+        "total_states": 83,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "010",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 15,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 25,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 31,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "0",
+            "width": 28,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "100",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 19,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "1",
+            "width": 28,
+            "transitions": 32,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 496
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.01275300899999987,
+        "wall_seconds": 0.01279392200001439
+      }
+    },
+    {
+      "case": "core_xerox_balanced",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 767665,
+        "transitions": 77,
+        "comparisons": 46,
+        "total_states": 41,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 15,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 25,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 31,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 28,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 19,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 28,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 32,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 31
+          }
+        ],
+        "cpu_seconds": 0.006434563000000004,
+        "wall_seconds": 0.006452707999983431
+      }
+    },
+    {
+      "case": "core_xerox_balanced",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 767665,
+        "transitions": 36,
+        "comparisons": 27,
+        "total_states": 25,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 15,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 25,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 31,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 28,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "100",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 19,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 2,
+            "comparisons": 7
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 28,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.008207948999999992,
+        "wall_seconds": 0.008223144999988108
+      }
+    },
+    {
+      "case": "core_xerox_netaware",
+      "mode": "equality",
+      "producer": {
+        "mode": "equality",
+        "optimum": 767665,
+        "transitions": 356,
+        "comparisons": 273,
+        "total_states": 83,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 19,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 25,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 30,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 15,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 26,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 30,
+            "transitions": 32,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 16
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.013572847999999915,
+        "wall_seconds": 0.013573663999977725
+      }
+    },
+    {
+      "case": "core_xerox_netaware",
+      "mode": "containment",
+      "producer": {
+        "mode": "containment",
+        "optimum": 767665,
+        "transitions": 356,
+        "comparisons": 923,
+        "total_states": 83,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 4,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "010",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 19,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 25,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "0",
+            "width": 30,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "100",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 15,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 26,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "1",
+            "width": 30,
+            "transitions": 32,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 256
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.018823452999999546,
+        "wall_seconds": 0.018843082000046252
+      }
+    },
+    {
+      "case": "core_xerox_netaware",
+      "mode": "leaf",
+      "producer": {
+        "mode": "leaf",
+        "optimum": 767665,
+        "transitions": 80,
+        "comparisons": 46,
+        "total_states": 44,
+        "max_states": 8,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 19,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 25,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 30,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 15,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 26,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 30,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 32,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 31
+          }
+        ],
+        "cpu_seconds": 0.008894739999999679,
+        "wall_seconds": 0.008940166999991561
+      }
+    },
+    {
+      "case": "core_xerox_netaware",
+      "mode": "response",
+      "producer": {
+        "mode": "response",
+        "optimum": 767665,
+        "transitions": 36,
+        "comparisons": 27,
+        "total_states": 25,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 12,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "001",
+            "width": 7,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 13,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 14,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 19,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 2,
+            "comparisons": 7
+          },
+          {
+            "node": "01",
+            "width": 25,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 30,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "100",
+            "width": 21,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 15,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 26,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "110",
+            "width": 13,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 17,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 17,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 20,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "11",
+            "width": 25,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 30,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0065987070000002035,
+        "wall_seconds": 0.0066149630000040816
+      }
+    }
+  ],
+  "public_pairs": [
+    {
+      "case": "core_apte_balanced",
+      "leaf_transitions": 73,
+      "response_transitions": 49,
+      "delta": 24,
+      "optimum": 284720
+    },
+    {
+      "case": "core_apte_netaware",
+      "leaf_transitions": 73,
+      "response_transitions": 57,
+      "delta": 16,
+      "optimum": 284720
+    },
+    {
+      "case": "core_hp_balanced",
+      "leaf_transitions": 42,
+      "response_transitions": 41,
+      "delta": 1,
+      "optimum": 377531
+    },
+    {
+      "case": "core_hp_netaware",
+      "leaf_transitions": 48,
+      "response_transitions": 48,
+      "delta": 0,
+      "optimum": 377531
+    },
+    {
+      "case": "core_n10_balanced",
+      "leaf_transitions": 63,
+      "response_transitions": 44,
+      "delta": 19,
+      "optimum": 40685
+    },
+    {
+      "case": "core_n10_netaware",
+      "leaf_transitions": 66,
+      "response_transitions": 43,
+      "delta": 23,
+      "optimum": 40685
+    },
+    {
+      "case": "core_xerox_balanced",
+      "leaf_transitions": 77,
+      "response_transitions": 36,
+      "delta": 41,
+      "optimum": 767665
+    },
+    {
+      "case": "core_xerox_netaware",
+      "leaf_transitions": 80,
+      "response_transitions": 36,
+      "delta": 44,
+      "optimum": 767665
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "leaf_transitions": 29,
+      "response_transitions": 29,
+      "delta": 0,
+      "optimum": 1998880
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "leaf_transitions": 29,
+      "response_transitions": 29,
+      "delta": 0,
+      "optimum": 1998880
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "leaf_transitions": 29,
+      "response_transitions": 29,
+      "delta": 0,
+      "optimum": 1998880
+    }
+  ]
+}

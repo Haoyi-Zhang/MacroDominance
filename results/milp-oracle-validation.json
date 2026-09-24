@@ -1,0 +1,8 @@
+{
+  "cartesian_assignments": 176128,
+  "cartesian_cases": 51,
+  "closed_form_cases": 26,
+  "solver_choices_compared": false,
+  "timing_compared": false,
+  "validated_cases": 77
+}

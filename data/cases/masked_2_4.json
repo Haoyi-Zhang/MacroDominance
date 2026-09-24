@@ -1,0 +1,255 @@
+{
+  "name": "masked_2_4",
+  "regions": [
+    {
+      "id": "v0",
+      "box": [
+        10,
+        0,
+        16,
+        10
+      ],
+      "macros": [
+        {
+          "id": "m_v0",
+          "size": [
+            1,
+            1
+          ],
+          "pins": [
+            {
+              "id": "p",
+              "net": "e0",
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_v0",
+            "xy": [
+              11,
+              5
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_v0",
+            "xy": [
+              12,
+              5
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_v0",
+            "xy": [
+              13,
+              5
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_v0",
+            "xy": [
+              14,
+              5
+            ],
+            "rotation": 0
+          }
+        ]
+      ]
+    },
+    {
+      "id": "v1",
+      "box": [
+        10,
+        12,
+        16,
+        22
+      ],
+      "macros": [
+        {
+          "id": "m_v1",
+          "size": [
+            1,
+            1
+          ],
+          "pins": [
+            {
+              "id": "p",
+              "net": "e1",
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_v1",
+            "xy": [
+              11,
+              17
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_v1",
+            "xy": [
+              12,
+              17
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_v1",
+            "xy": [
+              13,
+              17
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_v1",
+            "xy": [
+              14,
+              17
+            ],
+            "rotation": 0
+          }
+        ]
+      ]
+    },
+    {
+      "id": "left",
+      "box": [
+        0,
+        0,
+        5,
+        34
+      ],
+      "macros": [
+        {
+          "id": "m_left",
+          "size": [
+            5,
+            34
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e0",
+              "offset": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e1",
+              "offset": [
+                2,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_left",
+            "xy": [
+              0,
+              0
+            ],
+            "rotation": 0
+          }
+        ]
+      ]
+    },
+    {
+      "id": "right",
+      "box": [
+        24,
+        0,
+        29,
+        34
+      ],
+      "macros": [
+        {
+          "id": "m_right",
+          "size": [
+            5,
+            34
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e0",
+              "offset": [
+                2,
+                5
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e1",
+              "offset": [
+                2,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_right",
+            "xy": [
+              24,
+              0
+            ],
+            "rotation": 0
+          }
+        ]
+      ]
+    }
+  ],
+  "weights": {
+    "e0": 1,
+    "e1": 1
+  },
+  "tree": [
+    [
+      "v0",
+      "v1"
+    ],
+    [
+      "left",
+      "right"
+    ]
+  ]
+}

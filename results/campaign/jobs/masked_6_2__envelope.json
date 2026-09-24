@@ -1,0 +1,364 @@
+{
+  "case": "masked_6_2",
+  "method": "envelope",
+  "status": "complete",
+  "limits": {
+    "max_states": 20000,
+    "max_transitions": 200000,
+    "producer_seconds": 10,
+    "checker_seconds": 10
+  },
+  "repetitions": [
+    {
+      "producer": {
+        "method": "envelope",
+        "transitions": 167,
+        "table_states": 104,
+        "peak_states": 64,
+        "width": 6,
+        "cpu_seconds": 0.0015733290000000122,
+        "wall_seconds": 0.0015797050000401214,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "011",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "01",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "0",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "10",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "11",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "1",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 64,
+            "states": 1
+          }
+        ]
+      },
+      "checker": {
+        "accepted": true,
+        "optimum": 132,
+        "replayed_transitions": 167,
+        "cpu_seconds": 0.0030959620000000077,
+        "wall_seconds": 0.003098259999887887
+      },
+      "certificate_bytes": 16913
+    },
+    {
+      "producer": {
+        "method": "envelope",
+        "transitions": 167,
+        "table_states": 104,
+        "peak_states": 64,
+        "width": 6,
+        "cpu_seconds": 0.0015473609999999693,
+        "wall_seconds": 0.0015541969999048888,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "011",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "01",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "0",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "10",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "11",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "1",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 64,
+            "states": 1
+          }
+        ]
+      },
+      "checker": {
+        "accepted": true,
+        "optimum": 132,
+        "replayed_transitions": 167,
+        "cpu_seconds": 0.0028992700000000093,
+        "wall_seconds": 0.0029004810000969883
+      },
+      "certificate_bytes": 16913
+    },
+    {
+      "producer": {
+        "method": "envelope",
+        "transitions": 167,
+        "table_states": 104,
+        "peak_states": 64,
+        "width": 6,
+        "cpu_seconds": 0.0014316780000001028,
+        "wall_seconds": 0.0014366400000653812,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "011",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "01",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "0",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "10",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "11",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "1",
+            "width": 6,
+            "transitions": 1,
+            "states": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 64,
+            "states": 1
+          }
+        ]
+      },
+      "checker": {
+        "accepted": true,
+        "optimum": 132,
+        "replayed_transitions": 167,
+        "cpu_seconds": 0.0028911980000000392,
+        "wall_seconds": 0.002892569000096046
+      },
+      "certificate_bytes": 16913
+    }
+  ],
+  "optimum": 132,
+  "cpu_seconds": 0.12373670999999997,
+  "wall_seconds": 0.12373982799999794,
+  "peak_rss_kib": 93872,
+  "process": {
+    "command": [
+      "python",
+      "src/benchmark_job.py",
+      "data/cases/masked_6_2.json",
+      "envelope",
+      "<output job>",
+      "<output certificate>"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"case\": \"masked_6_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.12373670999999997}\n",
+    "stderr": "",
+    "wall_seconds": 0.7604405879999376
+  }
+}

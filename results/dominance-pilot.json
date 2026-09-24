@@ -1,0 +1,4677 @@
+{
+  "results": [
+    {
+      "case": "random_0_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 339,
+        "transitions": 51,
+        "comparisons": 28,
+        "total_states": 23,
+        "max_states": 9,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 9,
+            "states": 9,
+            "peak_online_states": 9,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 27,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 26
+          }
+        ],
+        "cpu_seconds": 0.0005681749999999486,
+        "wall_seconds": 0.0005705920000309561
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 339,
+        "replayed_transitions": 51,
+        "retained_row_evaluations": 23,
+        "dominance_obligations": 51,
+        "cpu_seconds": 0.0013225140000001634,
+        "wall_seconds": 0.0013244720000216148
+      }
+    },
+    {
+      "case": "random_0_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 339,
+        "transitions": 36,
+        "comparisons": 61,
+        "total_states": 18,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 9,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 24
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 12,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 11
+          }
+        ],
+        "cpu_seconds": 0.00043946100000002986,
+        "wall_seconds": 0.0004406140000128289
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 339,
+        "replayed_transitions": 36,
+        "retained_row_evaluations": 18,
+        "dominance_obligations": 36,
+        "cpu_seconds": 0.0008140249999999405,
+        "wall_seconds": 0.0008150499999715066
+      }
+    },
+    {
+      "case": "random_0_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 339,
+        "transitions": 39,
+        "comparisons": 35,
+        "total_states": 19,
+        "max_states": 6,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 6,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 18,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 17
+          }
+        ],
+        "cpu_seconds": 0.0004051179999999821,
+        "wall_seconds": 0.00040574599995579774
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 339,
+        "replayed_transitions": 39,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 39,
+        "cpu_seconds": 0.000804165999999995,
+        "wall_seconds": 0.000804857999980868
+      }
+    },
+    {
+      "case": "random_0_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 339,
+        "transitions": 27,
+        "comparisons": 35,
+        "total_states": 15,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 6,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 6,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 5
+          }
+        ],
+        "cpu_seconds": 0.0004630059999999325,
+        "wall_seconds": 0.0004639609999799177
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 339,
+        "replayed_transitions": 27,
+        "retained_row_evaluations": 15,
+        "dominance_obligations": 27,
+        "cpu_seconds": 0.0008403390000000233,
+        "wall_seconds": 0.0008412630000407262
+      }
+    },
+    {
+      "case": "random_1_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 644,
+        "transitions": 45,
+        "comparisons": 24,
+        "total_states": 21,
+        "max_states": 6,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 3,
+            "transitions": 6,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 3,
+            "transitions": 9,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 18,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 17
+          }
+        ],
+        "cpu_seconds": 0.0004825929999998646,
+        "wall_seconds": 0.0004833469999994122
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 644,
+        "replayed_transitions": 45,
+        "retained_row_evaluations": 21,
+        "dominance_obligations": 45,
+        "cpu_seconds": 0.000994841000000024,
+        "wall_seconds": 0.0009958570000208056
+      }
+    },
+    {
+      "case": "random_1_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 644,
+        "transitions": 45,
+        "comparisons": 92,
+        "total_states": 21,
+        "max_states": 6,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "0",
+            "width": 3,
+            "transitions": 6,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 30
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "1",
+            "width": 3,
+            "transitions": 9,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 24
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 18,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 17
+          }
+        ],
+        "cpu_seconds": 0.0005030029999999464,
+        "wall_seconds": 0.0005036449999806791
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 644,
+        "replayed_transitions": 45,
+        "retained_row_evaluations": 21,
+        "dominance_obligations": 45,
+        "cpu_seconds": 0.0013453590000001014,
+        "wall_seconds": 0.0013466559999528727
+      }
+    },
+    {
+      "case": "random_1_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 644,
+        "transitions": 15,
+        "comparisons": 11,
+        "total_states": 7,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "0",
+            "width": 3,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 3,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0004681150000001022,
+        "wall_seconds": 0.0004689310000003388
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 644,
+        "replayed_transitions": 15,
+        "retained_row_evaluations": 7,
+        "dominance_obligations": 15,
+        "cpu_seconds": 0.0005286449999999387,
+        "wall_seconds": 0.0005293639999877087
+      }
+    },
+    {
+      "case": "random_1_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 644,
+        "transitions": 15,
+        "comparisons": 11,
+        "total_states": 7,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "0",
+            "width": 3,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 3,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.00043519699999983175,
+        "wall_seconds": 0.0004358950000096229
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 644,
+        "replayed_transitions": 15,
+        "retained_row_evaluations": 7,
+        "dominance_obligations": 15,
+        "cpu_seconds": 0.0005380329999999933,
+        "wall_seconds": 0.0005387420000033671
+      }
+    },
+    {
+      "case": "random_2_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 789,
+        "transitions": 93,
+        "comparisons": 64,
+        "total_states": 29,
+        "max_states": 9,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 9,
+            "states": 9,
+            "peak_online_states": 9,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 9,
+            "states": 7,
+            "peak_online_states": 7,
+            "comparisons": 2
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 63,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 62
+          }
+        ],
+        "cpu_seconds": 0.000782092000000123,
+        "wall_seconds": 0.000782889999982217
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 789,
+        "replayed_transitions": 93,
+        "retained_row_evaluations": 29,
+        "dominance_obligations": 93,
+        "cpu_seconds": 0.0019460749999999916,
+        "wall_seconds": 0.001948008999988815
+      }
+    },
+    {
+      "case": "random_2_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 789,
+        "transitions": 55,
+        "comparisons": 116,
+        "total_states": 23,
+        "max_states": 5,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 9,
+            "states": 5,
+            "peak_online_states": 5,
+            "comparisons": 40
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 9,
+            "states": 5,
+            "peak_online_states": 5,
+            "comparisons": 28
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 25,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 24
+          }
+        ],
+        "cpu_seconds": 0.0005489370000000271,
+        "wall_seconds": 0.0005497689999742761
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 789,
+        "replayed_transitions": 55,
+        "retained_row_evaluations": 23,
+        "dominance_obligations": 55,
+        "cpu_seconds": 0.0027288730000001316,
+        "wall_seconds": 0.0027309349999882215
+      }
+    },
+    {
+      "case": "random_2_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 789,
+        "transitions": 31,
+        "comparisons": 34,
+        "total_states": 16,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 12,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 11
+          }
+        ],
+        "cpu_seconds": 0.0005582699999999718,
+        "wall_seconds": 0.0005592219999925874
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 789,
+        "replayed_transitions": 31,
+        "retained_row_evaluations": 16,
+        "dominance_obligations": 31,
+        "cpu_seconds": 0.0007307549999999718,
+        "wall_seconds": 0.0007315509999443748
+      }
+    },
+    {
+      "case": "random_2_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 789,
+        "transitions": 28,
+        "comparisons": 44,
+        "total_states": 15,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 4,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 7
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 9,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 8
+          }
+        ],
+        "cpu_seconds": 0.0004335840000000424,
+        "wall_seconds": 0.00043432600000414823
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 789,
+        "replayed_transitions": 28,
+        "retained_row_evaluations": 15,
+        "dominance_obligations": 28,
+        "cpu_seconds": 0.0007580040000001453,
+        "wall_seconds": 0.0007589170000414924
+      }
+    },
+    {
+      "case": "random_3_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 585,
+        "transitions": 31,
+        "comparisons": 15,
+        "total_states": 16,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 9,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 5
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 8,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 7
+          }
+        ],
+        "cpu_seconds": 0.00047028900000012364,
+        "wall_seconds": 0.0004710360000217406
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 585,
+        "replayed_transitions": 31,
+        "retained_row_evaluations": 16,
+        "dominance_obligations": 31,
+        "cpu_seconds": 0.0009912930000000042,
+        "wall_seconds": 0.0009922130000177276
+      }
+    },
+    {
+      "case": "random_3_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 585,
+        "transitions": 29,
+        "comparisons": 49,
+        "total_states": 15,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 9,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 25
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 6,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 5
+          }
+        ],
+        "cpu_seconds": 0.0005302890000000726,
+        "wall_seconds": 0.0005312480000156938
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 585,
+        "replayed_transitions": 29,
+        "retained_row_evaluations": 15,
+        "dominance_obligations": 29,
+        "cpu_seconds": 0.0007729789999999515,
+        "wall_seconds": 0.000774597999964044
+      }
+    },
+    {
+      "case": "random_3_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 585,
+        "transitions": 21,
+        "comparisons": 19,
+        "total_states": 11,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 6,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          }
+        ],
+        "cpu_seconds": 0.0004144440000000138,
+        "wall_seconds": 0.0004150539999727698
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 585,
+        "replayed_transitions": 21,
+        "retained_row_evaluations": 11,
+        "dominance_obligations": 21,
+        "cpu_seconds": 0.0006485349999998391,
+        "wall_seconds": 0.000649272000032397
+      }
+    },
+    {
+      "case": "random_3_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 585,
+        "transitions": 20,
+        "comparisons": 19,
+        "total_states": 10,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 6,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 5
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0004108279999999187,
+        "wall_seconds": 0.0004115600000318409
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 585,
+        "replayed_transitions": 20,
+        "retained_row_evaluations": 10,
+        "dominance_obligations": 20,
+        "cpu_seconds": 0.0005984300000001497,
+        "wall_seconds": 0.0005991639999933795
+      }
+    },
+    {
+      "case": "random_4_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 770,
+        "transitions": 60,
+        "comparisons": 37,
+        "total_states": 23,
+        "max_states": 6,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 6,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 6,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 36,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 35
+          }
+        ],
+        "cpu_seconds": 0.0005583399999999905,
+        "wall_seconds": 0.0005592020000335651
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 770,
+        "replayed_transitions": 60,
+        "retained_row_evaluations": 23,
+        "dominance_obligations": 60,
+        "cpu_seconds": 0.002660387000000153,
+        "wall_seconds": 0.002661808999960158
+      }
+    },
+    {
+      "case": "random_4_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 770,
+        "transitions": 32,
+        "comparisons": 54,
+        "total_states": 16,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 4,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 12
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 12,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 11
+          }
+        ],
+        "cpu_seconds": 0.0006132540000001185,
+        "wall_seconds": 0.0006143379999912213
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 770,
+        "replayed_transitions": 32,
+        "retained_row_evaluations": 16,
+        "dominance_obligations": 32,
+        "cpu_seconds": 0.0007969780000001148,
+        "wall_seconds": 0.000798015000043506
+      }
+    },
+    {
+      "case": "random_4_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 770,
+        "transitions": 17,
+        "comparisons": 14,
+        "total_states": 9,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          }
+        ],
+        "cpu_seconds": 0.0003204829999998715,
+        "wall_seconds": 0.00032108800002106364
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 770,
+        "replayed_transitions": 17,
+        "retained_row_evaluations": 9,
+        "dominance_obligations": 17,
+        "cpu_seconds": 0.0008508830000000245,
+        "wall_seconds": 0.0008524170000328013
+      }
+    },
+    {
+      "case": "random_4_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 770,
+        "transitions": 16,
+        "comparisons": 15,
+        "total_states": 8,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "01",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "11",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.00033278700000005657,
+        "wall_seconds": 0.00033340100003442785
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 770,
+        "replayed_transitions": 16,
+        "retained_row_evaluations": 8,
+        "dominance_obligations": 16,
+        "cpu_seconds": 0.0005333450000000184,
+        "wall_seconds": 0.000534033000008094
+      }
+    },
+    {
+      "case": "random_5_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 255,
+        "transitions": 26,
+        "comparisons": 12,
+        "total_states": 14,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 1
+          },
+          {
+            "node": "01",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 1,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 1,
+            "transitions": 6,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 3
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 6,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 5
+          }
+        ],
+        "cpu_seconds": 0.000616825000000043,
+        "wall_seconds": 0.000617532999967807
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 255,
+        "replayed_transitions": 26,
+        "retained_row_evaluations": 14,
+        "dominance_obligations": 26,
+        "cpu_seconds": 0.000722056000000082,
+        "wall_seconds": 0.000723333999985698
+      }
+    },
+    {
+      "case": "random_5_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 255,
+        "transitions": 26,
+        "comparisons": 32,
+        "total_states": 14,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "01",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 1,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 1,
+            "transitions": 6,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 9
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 6,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 5
+          }
+        ],
+        "cpu_seconds": 0.00045752099999996076,
+        "wall_seconds": 0.00045856699995283634
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 255,
+        "replayed_transitions": 26,
+        "retained_row_evaluations": 14,
+        "dominance_obligations": 26,
+        "cpu_seconds": 0.0005613669999999793,
+        "wall_seconds": 0.0005620950000206903
+      }
+    },
+    {
+      "case": "random_5_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 255,
+        "transitions": 17,
+        "comparisons": 15,
+        "total_states": 9,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "01",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 1,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 4
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 1,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          }
+        ],
+        "cpu_seconds": 0.00039107899999990536,
+        "wall_seconds": 0.0003918819999739753
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 255,
+        "replayed_transitions": 17,
+        "retained_row_evaluations": 9,
+        "dominance_obligations": 17,
+        "cpu_seconds": 0.0003804510000000594,
+        "wall_seconds": 0.0003811700000255769
+      }
+    },
+    {
+      "case": "random_5_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 255,
+        "transitions": 17,
+        "comparisons": 17,
+        "total_states": 9,
+        "max_states": 2,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 5
+          },
+          {
+            "node": "01",
+            "width": 0,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 1,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 4
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 1,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          }
+        ],
+        "cpu_seconds": 0.0002698199999999762,
+        "wall_seconds": 0.0002703310000242709
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 255,
+        "replayed_transitions": 17,
+        "retained_row_evaluations": 9,
+        "dominance_obligations": 17,
+        "cpu_seconds": 0.00046176000000008877,
+        "wall_seconds": 0.00046268899995993706
+      }
+    },
+    {
+      "case": "random_6_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 529,
+        "transitions": 57,
+        "comparisons": 32,
+        "total_states": 25,
+        "max_states": 9,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 9,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 9,
+            "states": 9,
+            "peak_online_states": 9,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 27,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 26
+          }
+        ],
+        "cpu_seconds": 0.0004768390000000622,
+        "wall_seconds": 0.0004775090000066484
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 529,
+        "replayed_transitions": 57,
+        "retained_row_evaluations": 25,
+        "dominance_obligations": 57,
+        "cpu_seconds": 0.000977766000000102,
+        "wall_seconds": 0.0009784719999856861
+      }
+    },
+    {
+      "case": "random_6_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 529,
+        "transitions": 39,
+        "comparisons": 68,
+        "total_states": 19,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 9,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 20
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 6,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 16
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 12,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 11
+          }
+        ],
+        "cpu_seconds": 0.0005032310000001594,
+        "wall_seconds": 0.000504374000001917
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 529,
+        "replayed_transitions": 39,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 39,
+        "cpu_seconds": 0.0007226499999999358,
+        "wall_seconds": 0.0007232250000015483
+      }
+    },
+    {
+      "case": "random_6_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 529,
+        "transitions": 24,
+        "comparisons": 21,
+        "total_states": 13,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 6,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 4
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          }
+        ],
+        "cpu_seconds": 0.0004410099999998529,
+        "wall_seconds": 0.0004417819999957828
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 529,
+        "replayed_transitions": 24,
+        "retained_row_evaluations": 13,
+        "dominance_obligations": 24,
+        "cpu_seconds": 0.0005169110000000643,
+        "wall_seconds": 0.0005174730000021555
+      }
+    },
+    {
+      "case": "random_6_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 529,
+        "transitions": 22,
+        "comparisons": 23,
+        "total_states": 12,
+        "max_states": 3,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 2,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 6,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 6
+          },
+          {
+            "node": "10",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          }
+        ],
+        "cpu_seconds": 0.00042021800000013876,
+        "wall_seconds": 0.0004209579999496782
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 529,
+        "replayed_transitions": 22,
+        "retained_row_evaluations": 12,
+        "dominance_obligations": 22,
+        "cpu_seconds": 0.0005215069999999766,
+        "wall_seconds": 0.0005220549999762625
+      }
+    },
+    {
+      "case": "random_7_4_3",
+      "stats": {
+        "mode": "equality",
+        "optimum": 530,
+        "transitions": 84,
+        "comparisons": 56,
+        "total_states": 28,
+        "max_states": 9,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 9,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 3
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 9,
+            "states": 9,
+            "peak_online_states": 9,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 54,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 53
+          }
+        ],
+        "cpu_seconds": 0.0004583609999999627,
+        "wall_seconds": 0.00045902099998329504
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 530,
+        "replayed_transitions": 84,
+        "retained_row_evaluations": 28,
+        "dominance_obligations": 84,
+        "cpu_seconds": 0.0012649040000001222,
+        "wall_seconds": 0.0012660419999974692
+      }
+    },
+    {
+      "case": "random_7_4_3",
+      "stats": {
+        "mode": "containment",
+        "optimum": 530,
+        "transitions": 48,
+        "comparisons": 88,
+        "total_states": 21,
+        "max_states": 6,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 6,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 14
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 3,
+            "peak_online_states": 3,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 6,
+            "states": 6,
+            "peak_online_states": 6,
+            "comparisons": 30
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 24,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 23
+          }
+        ],
+        "cpu_seconds": 0.0004570509999999306,
+        "wall_seconds": 0.000457666999977846
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 530,
+        "replayed_transitions": 48,
+        "retained_row_evaluations": 21,
+        "dominance_obligations": 48,
+        "cpu_seconds": 0.0012755159999999766,
+        "wall_seconds": 0.0012769670000238875
+      }
+    },
+    {
+      "case": "random_7_4_3",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 530,
+        "transitions": 26,
+        "comparisons": 24,
+        "total_states": 14,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 8,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 7
+          }
+        ],
+        "cpu_seconds": 0.00041416800000004805,
+        "wall_seconds": 0.0004148419999978614
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 530,
+        "replayed_transitions": 26,
+        "retained_row_evaluations": 14,
+        "dominance_obligations": 26,
+        "cpu_seconds": 0.000607995999999833,
+        "wall_seconds": 0.0006086309999773221
+      }
+    },
+    {
+      "case": "random_7_4_3",
+      "stats": {
+        "mode": "response",
+        "optimum": 530,
+        "transitions": 26,
+        "comparisons": 38,
+        "total_states": 14,
+        "max_states": 4,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 3,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "11",
+            "width": 1,
+            "transitions": 3,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 2,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 8,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 7
+          }
+        ],
+        "cpu_seconds": 0.0003939680000000223,
+        "wall_seconds": 0.00039462999995976134
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 530,
+        "replayed_transitions": 26,
+        "retained_row_evaluations": 14,
+        "dominance_obligations": 26,
+        "cpu_seconds": 0.0006676789999999766,
+        "wall_seconds": 0.0006687730000294323
+      }
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "stats": {
+        "mode": "equality",
+        "optimum": 1998880,
+        "transitions": 332,
+        "comparisons": 257,
+        "total_states": 75,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.0050500049999999685,
+        "wall_seconds": 0.005051783999988402
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 332,
+        "retained_row_evaluations": 75,
+        "dominance_obligations": 332,
+        "cpu_seconds": 0.011734942999999998,
+        "wall_seconds": 0.011736575999975685
+      }
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "stats": {
+        "mode": "containment",
+        "optimum": 1998880,
+        "transitions": 332,
+        "comparisons": 849,
+        "total_states": 75,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.0030586530000000778,
+        "wall_seconds": 0.0030601739999838173
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 332,
+        "retained_row_evaluations": 75,
+        "dominance_obligations": 332,
+        "cpu_seconds": 0.016105813000000024,
+        "wall_seconds": 0.016107374000000618
+      }
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.001219332999999878,
+        "wall_seconds": 0.0012202879999563265
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 29,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 29,
+        "cpu_seconds": 0.0017276999999999987,
+        "wall_seconds": 0.0017291409999984353
+      }
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "stats": {
+        "mode": "response",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 6,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "10",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1111",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "111",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0009073250000000144,
+        "wall_seconds": 0.0009083979999786607
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 29,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 29,
+        "cpu_seconds": 0.0013817929999999645,
+        "wall_seconds": 0.0013830780000034792
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "stats": {
+        "mode": "equality",
+        "optimum": 1998880,
+        "transitions": 356,
+        "comparisons": 257,
+        "total_states": 99,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.0035198339999999995,
+        "wall_seconds": 0.0035214249999739877
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 356,
+        "retained_row_evaluations": 99,
+        "dominance_obligations": 356,
+        "cpu_seconds": 0.013497102000000094,
+        "wall_seconds": 0.013503807000006418
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "stats": {
+        "mode": "containment",
+        "optimum": 1998880,
+        "transitions": 356,
+        "comparisons": 1281,
+        "total_states": 99,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 256,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 255
+          }
+        ],
+        "cpu_seconds": 0.003985472999999962,
+        "wall_seconds": 0.003986460000021452
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 356,
+        "retained_row_evaluations": 99,
+        "dominance_obligations": 356,
+        "cpu_seconds": 0.014866728999999967,
+        "wall_seconds": 0.014868288000002394
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0010244680000000006,
+        "wall_seconds": 0.0010253089999991971
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 29,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 29,
+        "cpu_seconds": 0.0016283459999999472,
+        "wall_seconds": 0.001629912999987937
+      }
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "stats": {
+        "mode": "response",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0100",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0101",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "010",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0110",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0111",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "011",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1000",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "100",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1010",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1011",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "101",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "10",
+            "width": 8,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "11",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0011129510000000842,
+        "wall_seconds": 0.001114832999974169
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 29,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 29,
+        "cpu_seconds": 0.001440702000000016,
+        "wall_seconds": 0.0014415320000011889
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "stats": {
+        "mode": "equality",
+        "optimum": 1998880,
+        "transitions": 111,
+        "comparisons": 47,
+        "total_states": 64,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 0
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 0
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 0
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 32,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 24
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 16,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 8,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 6
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 0
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.001660020999999956,
+        "wall_seconds": 0.0016617740000128833
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 111,
+        "retained_row_evaluations": 64,
+        "dominance_obligations": 111,
+        "cpu_seconds": 0.005871211999999959,
+        "wall_seconds": 0.005872435000014775
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "stats": {
+        "mode": "containment",
+        "optimum": 1998880,
+        "transitions": 111,
+        "comparisons": 793,
+        "total_states": 64,
+        "max_states": 16,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 4,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 12
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 8,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 56
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 16,
+            "states": 16,
+            "peak_online_states": 16,
+            "comparisons": 240
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 32,
+            "states": 8,
+            "peak_online_states": 8,
+            "comparisons": 360
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 16,
+            "states": 4,
+            "peak_online_states": 4,
+            "comparisons": 84
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 8,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 18
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 2,
+            "peak_online_states": 2,
+            "comparisons": 2
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 4,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 3
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.002676613999999855,
+        "wall_seconds": 0.0026788269999542536
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 111,
+        "retained_row_evaluations": 64,
+        "dominance_obligations": 111,
+        "cpu_seconds": 0.006295820000000063,
+        "wall_seconds": 0.006297405999987404
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "stats": {
+        "mode": "leaf",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.001072263999999823,
+        "wall_seconds": 0.0010734759999877497
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 29,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 29,
+        "cpu_seconds": 0.0026248939999999887,
+        "wall_seconds": 0.0026265200000352706
+      }
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "stats": {
+        "mode": "response",
+        "optimum": 1998880,
+        "transitions": 29,
+        "comparisons": 10,
+        "total_states": 19,
+        "max_states": 1,
+        "per_node": [
+          {
+            "node": "000000000",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "000001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "00001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "0001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "000",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "00",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "01",
+            "width": 2,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "0",
+            "width": 4,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          },
+          {
+            "node": "1",
+            "width": 4,
+            "transitions": 2,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 1
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 1,
+            "states": 1,
+            "peak_online_states": 1,
+            "comparisons": 0
+          }
+        ],
+        "cpu_seconds": 0.0008441290000000823,
+        "wall_seconds": 0.0008450689999790484
+      },
+      "replay": {
+        "accepted": true,
+        "optimum": 1998880,
+        "replayed_transitions": 29,
+        "retained_row_evaluations": 19,
+        "dominance_obligations": 29,
+        "cpu_seconds": 0.0020307930000000862,
+        "wall_seconds": 0.0020328230000359326
+      }
+    }
+  ],
+  "cpu_seconds": 0.15432648799999993
+}

@@ -1,0 +1,174 @@
+{
+  "constant_net_control": {
+    "comparison": "status, optimum, limits, cap reasons, state/transition counts, and certificate bytes",
+    "execution_chunks": [
+      [
+        0,
+        29
+      ]
+    ],
+    "records_compared": 29,
+    "status": "passed",
+    "structural_caps_equal": 6,
+    "successful_certificates_byte_equal": 23
+  },
+  "core_checks": {
+    "commands": [
+      "python tests/pilot_algebra.py",
+      "python tests/test_suite.py",
+      "python tests/pilot_dominance.py",
+      "python tests/test_dominance.py",
+      "python tests/test_context_hardness.py",
+      "python tests/test_frontier.py",
+      "python tests/test_actual_context_gap.py",
+      "python tests/test_order_invariance.py",
+      "python tests/test_public_inputs.py",
+      "python tests/test_milp_oracle.py",
+      "python audit_artifact.py"
+    ],
+    "notable_counts": {
+      "actual_context_conservative_misses": 11,
+      "actual_context_ordered_pairs": 1746,
+      "artifact_python_files_parsed": 38,
+      "frontier_node_tables": 463,
+      "hardness_formulas": 335,
+      "milp_differential_fuzz_assignments": 38737,
+      "milp_differential_fuzz_cases": 40,
+      "milp_rejected_malformed_oversized_or_unsafe": 6,
+      "normalization_instances": 80,
+      "order_invariance_certificates": 184,
+      "order_invariance_pairs": 92,
+      "public_hierarchy_cases": 11,
+      "response_end_to_end_cases": 69
+    },
+    "status": "passed"
+  },
+  "date": "2026-09-21",
+  "environment_policy": {
+    "gpu_required": false,
+    "network_required": false,
+    "numerical_library_threads": 1,
+    "toolchain_fingerprint_recorded": false,
+    "workers": 1
+  },
+  "execution_interruptions": [
+    {
+      "event": "The outer execution call reached its wall-time limit after deterministic records 30-38 had been written.",
+      "handling": "No unrecorded success was inferred. No child process remained. The existing complete records were retained under the runner's documented resume contract, the remaining indices were executed in bounded chunks, and the final complete 87-record inventory was independently replayed and byte-compared.",
+      "stage": "initial 30-60 inherited-campaign slice in the fresh extraction"
+    }
+  ],
+  "final_packaging": {
+    "clean_project_paper_rebuild": {
+      "abstract_words": 219,
+      "bibliography_entries": 64,
+      "distinct_cited_keys": 64,
+      "embedded_font_rows": 20,
+      "keywords": 6,
+      "overfull_boxes": 0,
+      "pages": 12,
+      "status": "passed",
+      "uncited_entries": 0,
+      "unknown_citations": 0,
+      "unresolved_references": 0
+    },
+    "complete_project_archive": {
+      "archive_name": "surrogate-free-feasibility-certificates-hierarchical-floorplans.zip",
+      "integrity_test": "passed",
+      "root_entries": [
+        "CURRENT-STATE.md",
+        "artifact",
+        "paper",
+        "research-plan.md"
+      ],
+      "single_extracted_root": "surrogate-free-feasibility-certificates-hierarchical-floorplans"
+    },
+    "delivery_hygiene": {
+      "forbidden_cache_or_bytecode_files": 0,
+      "invented_repository_links": 0,
+      "latex_intermediate_files": 0,
+      "nested_archives": 0
+    },
+    "render_comparison": {
+      "changed_pages": 0,
+      "dpi": 200,
+      "pages_compared": 12,
+      "status": "passed"
+    },
+    "standalone_repository_archive": {
+      "archive_name": "surrogate-free-feasibility.zip",
+      "artifact_audit": "passed",
+      "integrity_test": "passed",
+      "single_extracted_root": "surrogate-free-feasibility"
+    },
+    "status": "passed"
+  },
+  "four_orientation_extension": {
+    "cases": 8,
+    "comparison": "deterministic input bytes, policy status, optimum, work counts, cap reasons, certificate bytes, and deterministic MILP fields",
+    "exact_input_files_equal": 8,
+    "milp_cases_compared": 8,
+    "records_compared": 32,
+    "replayed_coverage_obligations": 66570,
+    "status": "passed",
+    "structural_caps_equal": 6,
+    "successful_certificates_byte_equal": 26
+  },
+  "inherited_three_method_campaign": {
+    "comparison": "status, optimum, limits, cap reasons, state/transition counts, and certificate bytes",
+    "execution_chunks": [
+      [
+        0,
+        30
+      ],
+      [
+        30,
+        39
+      ],
+      [
+        39,
+        48
+      ],
+      [
+        48,
+        60
+      ],
+      [
+        60,
+        72
+      ],
+      [
+        72,
+        78
+      ],
+      [
+        78,
+        87
+      ]
+    ],
+    "records_compared": 87,
+    "status": "passed",
+    "structural_caps_equal": 24,
+    "successful_certificates_byte_equal": 63
+  },
+  "interpretation": "This receipt verifies deterministic reproduction in one clean extraction. It is not independent replication, a formal proof, a cross-machine performance benchmark, or a venue acceptance decision.",
+  "main_response_campaign": {
+    "comparison": "status, optimum, deterministic work counts, limit reason, exact input bytes, and certificate bytes",
+    "exact_input_files_equal": 77,
+    "records_compared": 308,
+    "replayed_coverage_obligations": 114482,
+    "status": "passed",
+    "structural_caps_equal": 15,
+    "successful_certificates_byte_equal": 293
+  },
+  "milp_cross_check": {
+    "cartesian_assignments": 176128,
+    "cartesian_cases": 51,
+    "cases_compared": 77,
+    "closed_form_cases": 26,
+    "comparison": "deterministic instance identity, exact witness objective, optimum, numerical envelope, solver status, gap, and primal/dual agreement; timing, solver-selected tied witness, and branch-and-bound path excluded",
+    "optimal_zero_gap_exact_witness": 77,
+    "status": "passed"
+  },
+  "scope": "Fresh extraction of a candidate standalone repository; all documented fast tests and every retained campaign were rerun with one worker and one numerical-library thread. Deterministic scientific outputs were compared against the distributed artifact. Timing, RSS, tied solver witness choices, and branch-and-bound paths are excluded from equality."
+}

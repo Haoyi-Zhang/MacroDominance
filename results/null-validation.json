@@ -1,0 +1,12 @@
+{
+  "expected_jobs": 29,
+  "methods": [
+    "constant_raw"
+  ],
+  "rechecked_certificates": 23,
+  "reproduced_structural_caps": 6,
+  "cpu_seconds": 1.8736870210000003,
+  "wall_seconds": 1.873818678999669,
+  "peak_rss_kib": 134752,
+  "scope": "Replays and deterministic cap checks; not a general proof or a speed replication."
+}

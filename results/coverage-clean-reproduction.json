@@ -1,0 +1,129 @@
+{
+  "status": "passed_with_recorded_outer_tool_interruptions",
+  "date": "2026-09-16",
+  "source": "candidate standalone ZIP produced from the final scientific code/data tree before insertion of this receipt and final packaging metadata",
+  "clean_extraction": "surrogate-free-feasibility/",
+  "environment": {
+    "workers": 1,
+    "gpu": false,
+    "external_compute": false,
+    "model_api": false,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    }
+  },
+  "finite_checks": {
+    "normalization_instances": 80,
+    "normalization_full_assignments": 31907,
+    "normalization_partial_assignments": 107097,
+    "normalization_node_tables": 1578,
+    "self_context_pairs": 23625,
+    "self_context_explicit_contexts": 110250,
+    "dominance_suite_cases": 69,
+    "dominance_policy_outputs": 276,
+    "dominance_oracle_assignments": 16265,
+    "dominance_mutation_families_rejected": 18,
+    "frontier_node_frontiers": 463,
+    "frontier_partial_assignments": 9940,
+    "frontier_collective_cases": 17766,
+    "frontier_collective_contexts": 266490,
+    "hardness_formulas": 335,
+    "hardness_assignments": 3320,
+    "public_input_cases": 11,
+    "public_input_oracle_assignments": 12288,
+    "public_adapter_held_out_after_freeze": [
+      "apte"
+    ],
+    "public_adapter_prospective_postfreeze_extension": [
+      "xerox"
+    ],
+    "all_commands_exit_zero_after_recovery": true
+  },
+  "response_campaign": {
+    "cases": 77,
+    "jobs": 308,
+    "success": 293,
+    "structural_limits": 15,
+    "failures": 0,
+    "oracle_cases": 51,
+    "oracle_assignments": 176128,
+    "dominance_obligations_replayed": 114482,
+    "exact_inputs": 77,
+    "exact_jobs": 308,
+    "byte_equal_certificates": 293,
+    "timing_and_rss_compared": false,
+    "fresh_cpu_seconds": 14.60877515,
+    "fresh_peak_rss_kib": 114416
+  },
+  "legacy_campaign": {
+    "jobs": 87,
+    "complete": 63,
+    "structural_caps": 24,
+    "matched_jobs": 87,
+    "byte_equal_certificates": 63,
+    "timing_and_rss_compared": false,
+    "validation_cpu_seconds": 10.157517523,
+    "validation_peak_rss_kib": 138728
+  },
+  "constant_net_control": {
+    "jobs": 29,
+    "complete": 23,
+    "structural_caps": 6,
+    "matched_jobs": 29,
+    "byte_equal_certificates": 23,
+    "timing_and_rss_compared": false,
+    "validation_cpu_seconds": 2.294425274,
+    "validation_peak_rss_kib": 133864
+  },
+  "artifact_inventory_audit": {
+    "python_files_parsed": 27,
+    "campaign_inputs_regenerated_byte_equal": 77,
+    "campaign_records": 308,
+    "certificate_inventory": 293,
+    "oracle_cases": 51,
+    "reference_records": 63,
+    "calibration_groups": {
+      "same-venue": 12,
+      "influential": 5,
+      "adjacent": 5
+    },
+    "external_resource_records": 78,
+    "claim_ledger_records": 27,
+    "forbidden_cache_files": 0
+  },
+  "clean_project_build": {
+    "pages": 12,
+    "renderer": "PDF render at 200 dpi",
+    "pixel_equal_pages_to_distributed_pdf": 12,
+    "overfull_boxes": 0,
+    "undefined_citations_or_references": 0,
+    "multiply_defined_labels": 0,
+    "bibliography_entries": 63,
+    "body_citation_keys": 63,
+    "abstract_words": 197,
+    "keywords": 6,
+    "pdf_preflight_warnings": 0
+  },
+  "interruptions_and_recovery": [
+    {
+      "stage": "fresh response campaign in a combined wrapper",
+      "observed_partial_records": 297,
+      "recovery": "confirmed no child process survived; deleted the incomplete reproduction directory; reran all 308 jobs from an empty directory; validated and compared the complete inventory"
+    },
+    {
+      "stage": "legacy campaign chunk 30-60",
+      "observed_complete_records_after_stop": 47,
+      "recovery": "confirmed no child process survived; resumed at job 47 using the runner documented filename-resume behavior; then validated and exactly compared all 87 jobs"
+    },
+    {
+      "stage": "constant-net control command",
+      "observed_complete_records_after_stop": 20,
+      "recovery": "confirmed no child process survived; resumed jobs 20-28; then validated and exactly compared all 29 jobs"
+    }
+  ],
+  "comparison_scope": "Exact deterministic scientific outputs and serialized certificates are compared; CPU time and RSS are intentionally excluded.",
+  "claim_boundary": "Successful command replay is not a proof of general correctness, independent external review, or industrial placement performance."
+}

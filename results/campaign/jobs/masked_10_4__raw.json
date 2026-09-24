@@ -1,0 +1,30 @@
+{
+  "case": "masked_10_4",
+  "method": "raw",
+  "status": "producer_capped",
+  "limits": {
+    "max_states": 20000,
+    "max_transitions": 200000,
+    "producer_seconds": 10,
+    "checker_seconds": 10
+  },
+  "repetitions": [],
+  "reason": "join limit at '0': 2280+1048576>200000",
+  "cpu_seconds": 0.05275632499999999,
+  "wall_seconds": 0.05275720900021952,
+  "peak_rss_kib": 97716,
+  "process": {
+    "command": [
+      "python",
+      "src/benchmark_job.py",
+      "data/cases/masked_10_4.json",
+      "raw",
+      "<output job>",
+      "<output certificate>"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"case\": \"masked_10_4\", \"method\": \"raw\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.05275632499999999}\n",
+    "stderr": "",
+    "wall_seconds": 0.6006458900001235
+  }
+}

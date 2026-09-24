@@ -1,0 +1,11 @@
+{
+  "cases": 61,
+  "node_frontiers": 463,
+  "partial_assignments": 9940,
+  "direct_pair_tests": 3435,
+  "cardinality_checks": 1389,
+  "collective_cases": 17766,
+  "collective_context_evaluations": 266490,
+  "cpu_seconds": 1.3681015460000001,
+  "peak_rss_kib": 100772
+}

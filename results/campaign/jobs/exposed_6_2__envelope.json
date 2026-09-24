@@ -1,0 +1,508 @@
+{
+  "case": "exposed_6_2",
+  "method": "envelope",
+  "status": "complete",
+  "limits": {
+    "max_states": 20000,
+    "max_transitions": 200000,
+    "producer_seconds": 10,
+    "checker_seconds": 10
+  },
+  "repetitions": [
+    {
+      "producer": {
+        "method": "envelope",
+        "transitions": 4296,
+        "table_states": 201,
+        "peak_states": 64,
+        "width": 6,
+        "cpu_seconds": 0.016241422999999977,
+        "wall_seconds": 0.01624800000013238,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "011",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "01",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "0",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "100",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "10",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "111",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "1",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 4096,
+            "states": 1
+          }
+        ]
+      },
+      "checker": {
+        "accepted": true,
+        "optimum": 138,
+        "replayed_transitions": 4296,
+        "cpu_seconds": 0.05749184400000007,
+        "wall_seconds": 0.057495977999906245
+      },
+      "certificate_bytes": 32860
+    },
+    {
+      "producer": {
+        "method": "envelope",
+        "transitions": 4296,
+        "table_states": 201,
+        "peak_states": 64,
+        "width": 6,
+        "cpu_seconds": 0.016219611000000023,
+        "wall_seconds": 0.016225345000066227,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "011",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "01",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "0",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "100",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "10",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "111",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "1",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 4096,
+            "states": 1
+          }
+        ]
+      },
+      "checker": {
+        "accepted": true,
+        "optimum": 138,
+        "replayed_transitions": 4296,
+        "cpu_seconds": 0.05577129199999997,
+        "wall_seconds": 0.05578724199995122
+      },
+      "certificate_bytes": 32860
+    },
+    {
+      "producer": {
+        "method": "envelope",
+        "transitions": 4296,
+        "table_states": 201,
+        "peak_states": 64,
+        "width": 6,
+        "cpu_seconds": 0.016106122999999917,
+        "wall_seconds": 0.016126315999827057,
+        "per_node": [
+          {
+            "node": "000",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "001",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "00",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "0111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "011",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "01",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "0",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "100",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1010",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1011",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "101",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "10",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1110",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "1111",
+            "width": 1,
+            "transitions": 2,
+            "states": 2
+          },
+          {
+            "node": "111",
+            "width": 2,
+            "transitions": 4,
+            "states": 4
+          },
+          {
+            "node": "11",
+            "width": 3,
+            "transitions": 8,
+            "states": 8
+          },
+          {
+            "node": "1",
+            "width": 6,
+            "transitions": 64,
+            "states": 64
+          },
+          {
+            "node": "",
+            "width": 0,
+            "transitions": 4096,
+            "states": 1
+          }
+        ]
+      },
+      "checker": {
+        "accepted": true,
+        "optimum": 138,
+        "replayed_transitions": 4296,
+        "cpu_seconds": 0.056837201000000004,
+        "wall_seconds": 0.05684113899997101
+      },
+      "certificate_bytes": 32860
+    }
+  ],
+  "optimum": 138,
+  "cpu_seconds": 0.35384909600000003,
+  "wall_seconds": 0.3538845660000334,
+  "peak_rss_kib": 93872,
+  "process": {
+    "command": [
+      "python",
+      "src/benchmark_job.py",
+      "data/cases/exposed_6_2.json",
+      "envelope",
+      "<output job>",
+      "<output certificate>"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"case\": \"exposed_6_2\", \"method\": \"envelope\", \"status\": \"complete\", \"cpu_seconds\": 0.35384909600000003}\n",
+    "stderr": "",
+    "wall_seconds": 0.9489116310001009
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "adapter": "frozen quarter-offset R0/R180",
+  "rows": [
+    {
+      "case": "core_apte_balanced",
+      "mode": "equality",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 188,
+      "states": 58,
+      "comparisons": 130,
+      "cpu_seconds": 0.007235218000000154
+    },
+    {
+      "case": "core_apte_balanced",
+      "mode": "containment",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 76,
+      "states": 41,
+      "comparisons": 175,
+      "cpu_seconds": 0.004362202000000037
+    },
+    {
+      "case": "core_apte_balanced",
+      "mode": "leaf",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 73,
+      "states": 38,
+      "comparisons": 46,
+      "cpu_seconds": 0.005228430000000062
+    },
+    {
+      "case": "core_apte_balanced",
+      "mode": "response",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 49,
+      "states": 32,
+      "comparisons": 69,
+      "cpu_seconds": 0.00502879299999992
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "equality",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 124,
+      "states": 50,
+      "comparisons": 74,
+      "cpu_seconds": 0.0048786569999998974
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "containment",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 100,
+      "states": 46,
+      "comparisons": 206,
+      "cpu_seconds": 0.004694986999999928
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "leaf",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 73,
+      "states": 38,
+      "comparisons": 46,
+      "cpu_seconds": 0.00761347499999987
+    },
+    {
+      "case": "core_apte_netaware",
+      "mode": "response",
+      "optimum": 284720,
+      "assignments": 512,
+      "transitions": 57,
+      "states": 34,
+      "comparisons": 80,
+      "cpu_seconds": 0.004195477999999975
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "campaign_cartesian_checks": 51,
+  "campaign_cases": 77,
+  "campaign_closed_form_checks": 26,
+  "cpu_seconds": 4.427276177,
+  "differential_fuzz_assignments": 38737,
+  "differential_fuzz_cases": 40,
+  "rejected_malformed": 6,
+  "scope": "finite differential testing; SciPy/HiGHS optimal status is not a proof log"
+}

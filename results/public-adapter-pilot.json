@@ -1,0 +1,338 @@
+{
+  "development_circuits": [
+    "hp",
+    "n10"
+  ],
+  "translation_null": "center pins and two diagonal translations; inspected first",
+  "frozen_adapter": "sorted incident nets cycle over four quarter-offset pin sites; R0/R180 candidates",
+  "held_out_after_freeze": [
+    "apte"
+  ],
+  "prospective_postfreeze_extension": [
+    "xerox"
+  ],
+  "rows": [
+    {
+      "case": "core_hp_balanced_translation",
+      "portfolio": "translation",
+      "mode": "equality",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 50,
+      "states": 33,
+      "comparisons": 17
+    },
+    {
+      "case": "core_hp_balanced_translation",
+      "portfolio": "translation",
+      "mode": "containment",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 37,
+      "states": 25,
+      "comparisons": 22
+    },
+    {
+      "case": "core_hp_balanced_translation",
+      "portfolio": "translation",
+      "mode": "leaf",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 33,
+      "states": 22,
+      "comparisons": 16
+    },
+    {
+      "case": "core_hp_balanced_translation",
+      "portfolio": "translation",
+      "mode": "response",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 33,
+      "states": 22,
+      "comparisons": 16
+    },
+    {
+      "case": "core_hp_balanced",
+      "portfolio": "orientation",
+      "mode": "equality",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 100,
+      "states": 56,
+      "comparisons": 44
+    },
+    {
+      "case": "core_hp_balanced",
+      "portfolio": "orientation",
+      "mode": "containment",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 75,
+      "states": 47,
+      "comparisons": 165
+    },
+    {
+      "case": "core_hp_balanced",
+      "portfolio": "orientation",
+      "mode": "leaf",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 42,
+      "states": 30,
+      "comparisons": 22
+    },
+    {
+      "case": "core_hp_balanced",
+      "portfolio": "orientation",
+      "mode": "response",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 41,
+      "states": 29,
+      "comparisons": 32
+    },
+    {
+      "case": "core_hp_netaware_translation",
+      "portfolio": "translation",
+      "mode": "equality",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 68,
+      "states": 42,
+      "comparisons": 26
+    },
+    {
+      "case": "core_hp_netaware_translation",
+      "portfolio": "translation",
+      "mode": "containment",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 40,
+      "states": 28,
+      "comparisons": 28
+    },
+    {
+      "case": "core_hp_netaware_translation",
+      "portfolio": "translation",
+      "mode": "leaf",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 33,
+      "states": 22,
+      "comparisons": 16
+    },
+    {
+      "case": "core_hp_netaware_translation",
+      "portfolio": "translation",
+      "mode": "response",
+      "optimum": 472658,
+      "assignments": 2048,
+      "transitions": 33,
+      "states": 22,
+      "comparisons": 16
+    },
+    {
+      "case": "core_hp_netaware",
+      "portfolio": "orientation",
+      "mode": "equality",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 498,
+      "states": 96,
+      "comparisons": 402
+    },
+    {
+      "case": "core_hp_netaware",
+      "portfolio": "orientation",
+      "mode": "containment",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 204,
+      "states": 70,
+      "comparisons": 547
+    },
+    {
+      "case": "core_hp_netaware",
+      "portfolio": "orientation",
+      "mode": "leaf",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 48,
+      "states": 33,
+      "comparisons": 25
+    },
+    {
+      "case": "core_hp_netaware",
+      "portfolio": "orientation",
+      "mode": "response",
+      "optimum": 377531,
+      "assignments": 2048,
+      "transitions": 48,
+      "states": 33,
+      "comparisons": 49
+    },
+    {
+      "case": "core_n10_balanced_translation",
+      "portfolio": "translation",
+      "mode": "equality",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 50,
+      "states": 33,
+      "comparisons": 17
+    },
+    {
+      "case": "core_n10_balanced_translation",
+      "portfolio": "translation",
+      "mode": "containment",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 48,
+      "states": 32,
+      "comparisons": 50
+    },
+    {
+      "case": "core_n10_balanced_translation",
+      "portfolio": "translation",
+      "mode": "leaf",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 33,
+      "states": 23,
+      "comparisons": 16
+    },
+    {
+      "case": "core_n10_balanced_translation",
+      "portfolio": "translation",
+      "mode": "response",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 33,
+      "states": 23,
+      "comparisons": 20
+    },
+    {
+      "case": "core_n10_balanced",
+      "portfolio": "orientation",
+      "mode": "equality",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 160,
+      "states": 63,
+      "comparisons": 97
+    },
+    {
+      "case": "core_n10_balanced",
+      "portfolio": "orientation",
+      "mode": "containment",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 160,
+      "states": 63,
+      "comparisons": 337
+    },
+    {
+      "case": "core_n10_balanced",
+      "portfolio": "orientation",
+      "mode": "leaf",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 63,
+      "states": 38,
+      "comparisons": 38
+    },
+    {
+      "case": "core_n10_balanced",
+      "portfolio": "orientation",
+      "mode": "response",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 44,
+      "states": 30,
+      "comparisons": 41
+    },
+    {
+      "case": "core_n10_netaware_translation",
+      "portfolio": "translation",
+      "mode": "equality",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 63,
+      "states": 40,
+      "comparisons": 23
+    },
+    {
+      "case": "core_n10_netaware_translation",
+      "portfolio": "translation",
+      "mode": "containment",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 61,
+      "states": 39,
+      "comparisons": 110
+    },
+    {
+      "case": "core_n10_netaware_translation",
+      "portfolio": "translation",
+      "mode": "leaf",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 34,
+      "states": 24,
+      "comparisons": 16
+    },
+    {
+      "case": "core_n10_netaware_translation",
+      "portfolio": "translation",
+      "mode": "response",
+      "optimum": 48030,
+      "assignments": 1024,
+      "transitions": 34,
+      "states": 24,
+      "comparisons": 22
+    },
+    {
+      "case": "core_n10_netaware",
+      "portfolio": "orientation",
+      "mode": "equality",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 352,
+      "states": 79,
+      "comparisons": 273
+    },
+    {
+      "case": "core_n10_netaware",
+      "portfolio": "orientation",
+      "mode": "containment",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 288,
+      "states": 75,
+      "comparisons": 857
+    },
+    {
+      "case": "core_n10_netaware",
+      "portfolio": "orientation",
+      "mode": "leaf",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 66,
+      "states": 41,
+      "comparisons": 38
+    },
+    {
+      "case": "core_n10_netaware",
+      "portfolio": "orientation",
+      "mode": "response",
+      "optimum": 40685,
+      "assignments": 1024,
+      "transitions": 43,
+      "states": 30,
+      "comparisons": 40
+    }
+  ],
+  "cpu_seconds": 1.43580117,
+  "peak_rss_kib": 95020
+}

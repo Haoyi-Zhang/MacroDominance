@@ -1,0 +1,965 @@
+{
+  "name": "core_hp_balanced",
+  "regions": [
+    {
+      "id": "clkc",
+      "box": [
+        0,
+        0,
+        1036,
+        462
+      ],
+      "macros": [
+        {
+          "id": "m_clkc",
+          "size": [
+            1036,
+            462
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e00",
+              "offset": [
+                259,
+                115
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e01",
+              "offset": [
+                777,
+                115
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e02",
+              "offset": [
+                259,
+                347
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e03",
+              "offset": [
+                777,
+                347
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_clkc",
+            "xy": [
+              0,
+              0
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_clkc",
+            "xy": [
+              0,
+              0
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "clkd",
+      "box": [
+        3404,
+        0,
+        3782,
+        700
+      ],
+      "macros": [
+        {
+          "id": "m_clkd",
+          "size": [
+            378,
+            700
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e04",
+              "offset": [
+                94,
+                175
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e05",
+              "offset": [
+                284,
+                175
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_clkd",
+            "xy": [
+              3404,
+              0
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_clkd",
+            "xy": [
+              3404,
+              0
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cmp1",
+      "box": [
+        6808,
+        0,
+        7788,
+        210
+      ],
+      "macros": [
+        {
+          "id": "m_cmp1",
+          "size": [
+            980,
+            210
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e00",
+              "offset": [
+                245,
+                52
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e01",
+              "offset": [
+                735,
+                52
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e06",
+              "offset": [
+                245,
+                158
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e07",
+              "offset": [
+                735,
+                158
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cmp1",
+            "xy": [
+              6808,
+              0
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cmp1",
+            "xy": [
+              6808,
+              0
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cmp2",
+      "box": [
+        10212,
+        0,
+        11192,
+        210
+      ],
+      "macros": [
+        {
+          "id": "m_cmp2",
+          "size": [
+            980,
+            210
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e00",
+              "offset": [
+                245,
+                52
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e01",
+              "offset": [
+                735,
+                52
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e06",
+              "offset": [
+                245,
+                158
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e08",
+              "offset": [
+                735,
+                158
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cmp2",
+            "xy": [
+              10212,
+              0
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cmp2",
+            "xy": [
+              10212,
+              0
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cmp3",
+      "box": [
+        0,
+        800,
+        980,
+        1010
+      ],
+      "macros": [
+        {
+          "id": "m_cmp3",
+          "size": [
+            980,
+            210
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e00",
+              "offset": [
+                245,
+                52
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e01",
+              "offset": [
+                735,
+                52
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e06",
+              "offset": [
+                245,
+                158
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e09",
+              "offset": [
+                735,
+                158
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cmp3",
+            "xy": [
+              0,
+              800
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cmp3",
+            "xy": [
+              0,
+              800
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cntd",
+      "box": [
+        3404,
+        800,
+        6708,
+        1346
+      ],
+      "macros": [
+        {
+          "id": "m_cntd",
+          "size": [
+            3304,
+            546
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                826,
+                136
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e04",
+              "offset": [
+                2478,
+                136
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e10",
+              "offset": [
+                826,
+                410
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e11",
+              "offset": [
+                2478,
+                410
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cntd",
+            "xy": [
+              3404,
+              800
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cntd",
+            "xy": [
+              3404,
+              800
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cntu",
+      "box": [
+        6808,
+        800,
+        10112,
+        1346
+      ],
+      "macros": [
+        {
+          "id": "m_cntu",
+          "size": [
+            3304,
+            546
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e01",
+              "offset": [
+                826,
+                136
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e02",
+              "offset": [
+                2478,
+                136
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e03",
+              "offset": [
+                826,
+                410
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e12",
+              "offset": [
+                2478,
+                410
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e13",
+              "offset": [
+                826,
+                136
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cntu",
+            "xy": [
+              6808,
+              800
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cntu",
+            "xy": [
+              6808,
+              800
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "npd",
+      "box": [
+        10212,
+        800,
+        12228,
+        1052
+      ],
+      "macros": [
+        {
+          "id": "m_npd",
+          "size": [
+            2016,
+            252
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                504,
+                63
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e03",
+              "offset": [
+                1512,
+                63
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e05",
+              "offset": [
+                504,
+                189
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e08",
+              "offset": [
+                1512,
+                189
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e12",
+              "offset": [
+                504,
+                63
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e14",
+              "offset": [
+                1512,
+                63
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e15",
+              "offset": [
+                504,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_npd",
+            "xy": [
+              10212,
+              800
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_npd",
+            "xy": [
+              10212,
+              800
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "nps",
+      "box": [
+        0,
+        1600,
+        3080,
+        2062
+      ],
+      "macros": [
+        {
+          "id": "m_nps",
+          "size": [
+            3080,
+            462
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e01",
+              "offset": [
+                770,
+                115
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e02",
+              "offset": [
+                2310,
+                115
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e03",
+              "offset": [
+                770,
+                347
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e05",
+              "offset": [
+                2310,
+                347
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e07",
+              "offset": [
+                770,
+                115
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e12",
+              "offset": [
+                2310,
+                115
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e13",
+              "offset": [
+                770,
+                347
+              ]
+            },
+            {
+              "id": "p7",
+              "net": "e14",
+              "offset": [
+                2310,
+                347
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_nps",
+            "xy": [
+              0,
+              1600
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_nps",
+            "xy": [
+              0,
+              1600
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "ppd",
+      "box": [
+        3404,
+        1600,
+        5420,
+        1852
+      ],
+      "macros": [
+        {
+          "id": "m_ppd",
+          "size": [
+            2016,
+            252
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                504,
+                63
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e03",
+              "offset": [
+                1512,
+                63
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e05",
+              "offset": [
+                504,
+                189
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e08",
+              "offset": [
+                1512,
+                189
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e10",
+              "offset": [
+                504,
+                63
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e14",
+              "offset": [
+                1512,
+                63
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e15",
+              "offset": [
+                504,
+                189
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_ppd",
+            "xy": [
+              3404,
+              1600
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_ppd",
+            "xy": [
+              3404,
+              1600
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "pps",
+      "box": [
+        6808,
+        1600,
+        9888,
+        2062
+      ],
+      "macros": [
+        {
+          "id": "m_pps",
+          "size": [
+            3080,
+            462
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                770,
+                115
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e04",
+              "offset": [
+                2310,
+                115
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e05",
+              "offset": [
+                770,
+                347
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e09",
+              "offset": [
+                2310,
+                347
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e10",
+              "offset": [
+                770,
+                115
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e11",
+              "offset": [
+                2310,
+                115
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e15",
+              "offset": [
+                770,
+                347
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_pps",
+            "xy": [
+              6808,
+              1600
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_pps",
+            "xy": [
+              6808,
+              1600
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    }
+  ],
+  "weights": {
+    "e00": 6,
+    "e01": 4,
+    "e02": 2,
+    "e03": 4,
+    "e04": 4,
+    "e05": 2,
+    "e06": 2,
+    "e07": 2,
+    "e08": 2,
+    "e09": 2,
+    "e10": 1,
+    "e11": 5,
+    "e12": 1,
+    "e13": 5,
+    "e14": 1,
+    "e15": 1
+  },
+  "tree": [
+    [
+      [
+        "clkc",
+        "clkd"
+      ],
+      [
+        "cmp1",
+        [
+          "cmp2",
+          "cmp3"
+        ]
+      ]
+    ],
+    [
+      [
+        "cntd",
+        [
+          "cntu",
+          "npd"
+        ]
+      ],
+      [
+        "nps",
+        [
+          "ppd",
+          "pps"
+        ]
+      ]
+    ]
+  ],
+  "provenance": "MCNC hp block dimensions and macro-only hypergraph from normalized text copies in the CORE repository. Fixed terminals are removed and repeated block-induced hyperedges become integer weights. Disjoint owner boxes, deterministic quarter-offset point pins, and R0/R180 alternatives are newly constructed by the frozen orientation adapter. This is not an original benchmark placement or a CORE execution result."
+}

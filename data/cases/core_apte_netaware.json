@@ -1,0 +1,925 @@
+{
+  "name": "core_apte_netaware",
+  "regions": [
+    {
+      "id": "cc_11",
+      "box": [
+        0,
+        0,
+        3146,
+        1826
+      ],
+      "macros": [
+        {
+          "id": "m_cc_11",
+          "size": [
+            3146,
+            1826
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e00",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e01",
+              "offset": [
+                2360,
+                456
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e02",
+              "offset": [
+                786,
+                1370
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e03",
+              "offset": [
+                2360,
+                1370
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e04",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e05",
+              "offset": [
+                2360,
+                456
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e06",
+              "offset": [
+                786,
+                1370
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_11",
+            "xy": [
+              0,
+              0
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_11",
+            "xy": [
+              0,
+              0
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cc_12",
+      "box": [
+        3286,
+        0,
+        6432,
+        1826
+      ],
+      "macros": [
+        {
+          "id": "m_cc_12",
+          "size": [
+            3146,
+            1826
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e00",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e01",
+              "offset": [
+                2360,
+                456
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e02",
+              "offset": [
+                786,
+                1370
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e03",
+              "offset": [
+                2360,
+                1370
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e04",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e07",
+              "offset": [
+                2360,
+                456
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e08",
+              "offset": [
+                786,
+                1370
+              ]
+            },
+            {
+              "id": "p7",
+              "net": "e09",
+              "offset": [
+                2360,
+                1370
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_12",
+            "xy": [
+              3286,
+              0
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_12",
+            "xy": [
+              3286,
+              0
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cc_13",
+      "box": [
+        6572,
+        0,
+        9718,
+        1826
+      ],
+      "macros": [
+        {
+          "id": "m_cc_13",
+          "size": [
+            3146,
+            1826
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e01",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e02",
+              "offset": [
+                2360,
+                456
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e03",
+              "offset": [
+                786,
+                1370
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e07",
+              "offset": [
+                2360,
+                1370
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e08",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e10",
+              "offset": [
+                2360,
+                456
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e11",
+              "offset": [
+                786,
+                1370
+              ]
+            },
+            {
+              "id": "p7",
+              "net": "e12",
+              "offset": [
+                2360,
+                1370
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_13",
+            "xy": [
+              6572,
+              0
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_13",
+            "xy": [
+              6572,
+              0
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cc_14",
+      "box": [
+        0,
+        1932,
+        3146,
+        3758
+      ],
+      "macros": [
+        {
+          "id": "m_cc_14",
+          "size": [
+            3146,
+            1826
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e01",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e02",
+              "offset": [
+                2360,
+                456
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e03",
+              "offset": [
+                786,
+                1370
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e10",
+              "offset": [
+                2360,
+                1370
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e11",
+              "offset": [
+                786,
+                456
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e13",
+              "offset": [
+                2360,
+                456
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_14",
+            "xy": [
+              0,
+              1932
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_14",
+            "xy": [
+              0,
+              1932
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cc_21",
+      "box": [
+        3286,
+        1932,
+        6472,
+        3764
+      ],
+      "macros": [
+        {
+          "id": "m_cc_21",
+          "size": [
+            3186,
+            1832
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e03",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e04",
+              "offset": [
+                796,
+                1374
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e05",
+              "offset": [
+                2390,
+                1374
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e09",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e14",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e15",
+              "offset": [
+                796,
+                1374
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_21",
+            "xy": [
+              3286,
+              1932
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_21",
+            "xy": [
+              3286,
+              1932
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cc_22",
+      "box": [
+        6572,
+        1932,
+        9758,
+        3764
+      ],
+      "macros": [
+        {
+          "id": "m_cc_22",
+          "size": [
+            3186,
+            1832
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e03",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e04",
+              "offset": [
+                796,
+                1374
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e08",
+              "offset": [
+                2390,
+                1374
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e09",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e12",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e14",
+              "offset": [
+                796,
+                1374
+              ]
+            },
+            {
+              "id": "p7",
+              "net": "e15",
+              "offset": [
+                2390,
+                1374
+              ]
+            },
+            {
+              "id": "p8",
+              "net": "e16",
+              "offset": [
+                796,
+                458
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_22",
+            "xy": [
+              6572,
+              1932
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_22",
+            "xy": [
+              6572,
+              1932
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cc_23",
+      "box": [
+        0,
+        3864,
+        3186,
+        5696
+      ],
+      "macros": [
+        {
+          "id": "m_cc_23",
+          "size": [
+            3186,
+            1832
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e03",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e08",
+              "offset": [
+                796,
+                1374
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e11",
+              "offset": [
+                2390,
+                1374
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e12",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e13",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e15",
+              "offset": [
+                796,
+                1374
+              ]
+            },
+            {
+              "id": "p7",
+              "net": "e16",
+              "offset": [
+                2390,
+                1374
+              ]
+            },
+            {
+              "id": "p8",
+              "net": "e17",
+              "offset": [
+                796,
+                458
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_23",
+            "xy": [
+              0,
+              3864
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_23",
+            "xy": [
+              0,
+              3864
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cc_24",
+      "box": [
+        3286,
+        3864,
+        6472,
+        5696
+      ],
+      "macros": [
+        {
+          "id": "m_cc_24",
+          "size": [
+            3186,
+            1832
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e02",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p1",
+              "net": "e03",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p2",
+              "net": "e06",
+              "offset": [
+                796,
+                1374
+              ]
+            },
+            {
+              "id": "p3",
+              "net": "e11",
+              "offset": [
+                2390,
+                1374
+              ]
+            },
+            {
+              "id": "p4",
+              "net": "e13",
+              "offset": [
+                796,
+                458
+              ]
+            },
+            {
+              "id": "p5",
+              "net": "e15",
+              "offset": [
+                2390,
+                458
+              ]
+            },
+            {
+              "id": "p6",
+              "net": "e17",
+              "offset": [
+                796,
+                1374
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_cc_24",
+            "xy": [
+              3286,
+              3864
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_cc_24",
+            "xy": [
+              3286,
+              3864
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    },
+    {
+      "id": "clk",
+      "box": [
+        6572,
+        3864,
+        7398,
+        4150
+      ],
+      "macros": [
+        {
+          "id": "m_clk",
+          "size": [
+            826,
+            286
+          ],
+          "pins": [
+            {
+              "id": "p0",
+              "net": "e03",
+              "offset": [
+                206,
+                71
+              ]
+            }
+          ]
+        }
+      ],
+      "candidates": [
+        [
+          {
+            "macro": "m_clk",
+            "xy": [
+              6572,
+              3864
+            ],
+            "rotation": 0
+          }
+        ],
+        [
+          {
+            "macro": "m_clk",
+            "xy": [
+              6572,
+              3864
+            ],
+            "rotation": 180
+          }
+        ]
+      ]
+    }
+  ],
+  "weights": {
+    "e00": 5,
+    "e01": 1,
+    "e02": 2,
+    "e03": 5,
+    "e04": 1,
+    "e05": 4,
+    "e06": 1,
+    "e07": 5,
+    "e08": 1,
+    "e09": 3,
+    "e10": 5,
+    "e11": 1,
+    "e12": 3,
+    "e13": 3,
+    "e14": 1,
+    "e15": 1,
+    "e16": 1,
+    "e17": 1
+  },
+  "tree": [
+    [
+      [
+        "cc_11",
+        "cc_12"
+      ],
+      [
+        "cc_21",
+        "cc_22"
+      ]
+    ],
+    [
+      [
+        "cc_13",
+        "cc_14"
+      ],
+      [
+        "cc_23",
+        [
+          "cc_24",
+          "clk"
+        ]
+      ]
+    ]
+  ],
+  "provenance": "MCNC apte block dimensions and macro-only hypergraph from normalized text copies in the CORE repository. Fixed terminals are removed and repeated block-induced hyperedges become integer weights. Disjoint owner boxes, deterministic quarter-offset point pins, and R0/R180 alternatives are newly constructed by the frozen orientation adapter. This is not an original benchmark placement or a CORE execution result."
+}

@@ -1,0 +1,8 @@
+{
+  "rechecked_certificates": 63,
+  "reproduced_structural_caps": 24,
+  "cpu_seconds": 8.533337906,
+  "wall_seconds": 8.53408033400001,
+  "peak_rss_kib": 138424,
+  "scope": "Replays and deterministic cap checks; not a general proof or a speed replication."
+}

@@ -1,0 +1,42 @@
+{
+  "algebra_identities": 24696,
+  "algebra_profiles": 4116,
+  "instances": 80,
+  "oracle_assignments": 31907,
+  "solver_checker_comparisons": 240,
+  "partial_assignments_checked": 107097,
+  "per_node_table_comparisons": 1578,
+  "constant_baseline_comparisons": 80,
+  "constant_baseline_mutants_rejected": 3,
+  "certificate_mutants_rejected": [
+    "root optimum",
+    "root witness",
+    "missing node",
+    "duplicate node",
+    "missing state",
+    "duplicate state",
+    "cost",
+    "fake coordinates",
+    "unknown net",
+    "invalid choice",
+    "missing region witness",
+    "float cost",
+    "boolean cost",
+    "foreign field",
+    "method substitution"
+  ],
+  "invalid_inputs_rejected_by_both": [
+    "overlapping owners",
+    "out of owner",
+    "invalid rotation",
+    "missing tree leaf",
+    "negative net weight",
+    "pin outside rectangle",
+    "duplicate region id",
+    "empty portfolio"
+  ],
+  "cpu_seconds": 11.544308218000001,
+  "wall_seconds": 11.544550028999993,
+  "peak_rss_kib": 102444,
+  "scope": "finite exact tests, not machine-checked proofs or independent external review"
+}

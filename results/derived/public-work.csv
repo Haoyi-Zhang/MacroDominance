@@ -1,0 +1,12 @@
+case,leaf_transitions,response_transitions,delta,optimum
+core_apte_balanced,73,49,24,284720
+core_apte_netaware,73,57,16,284720
+core_hp_balanced,42,41,1,377531
+core_hp_netaware,48,48,0,377531
+core_n10_balanced,63,44,19,40685
+core_n10_netaware,66,43,23,40685
+core_xerox_balanced,77,36,41,767665
+core_xerox_netaware,80,36,44,767665
+openroad_macro_only_balanced,29,29,0,1998880
+openroad_macro_only_chain,29,29,0,1998880
+openroad_macro_only_columns,29,29,0,1998880

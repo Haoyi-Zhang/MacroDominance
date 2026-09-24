@@ -1,0 +1,21 @@
+{
+  "cartesian_assignments_not_enumerated": 13107200,
+  "cases": 8,
+  "completed_leaf_response_pairs": 8,
+  "cpu_seconds": 5.7710253,
+  "failure": 0,
+  "jobs": 32,
+  "limit": 6,
+  "limits": {
+    "max_comparisons": 500000,
+    "max_joins": 50000,
+    "max_states": 10000,
+    "seconds": 15
+  },
+  "milp_optimal": 8,
+  "peak_rss_kib": 148148,
+  "response_fewer": 8,
+  "response_greater": 0,
+  "success": 26,
+  "ties": 0
+}

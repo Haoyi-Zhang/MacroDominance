@@ -1,0 +1,10 @@
+{
+  "expected_jobs": 29,
+  "recorded_jobs": 29,
+  "statuses": {
+    "complete": 23,
+    "producer_capped": 6
+  },
+  "reported_child_cpu_seconds": 8.378124649,
+  "maximum_child_peak_rss_kib": 132792
+}

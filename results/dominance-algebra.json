@@ -1,0 +1,7 @@
+{
+  "identity_pairs": 23625,
+  "explicit_context_evaluations": 110250,
+  "cpu_seconds": 0.1654628709999999,
+  "peak_rss_kib": 92200,
+  "passed": true
+}

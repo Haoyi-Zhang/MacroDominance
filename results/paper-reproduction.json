@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pages": 12,
+  "bibliography_items": 63,
+  "body_citation_keys": 63,
+  "abstract_words": 197,
+  "keywords": 6,
+  "main_sections": 8,
+  "native_figures": 3,
+  "booktabs_tables": 3,
+  "clean_project_build_pages": 12,
+  "pixel_equal_pages_at_200_dpi": 12,
+  "overfull_boxes": 0,
+  "undefined_citations_or_references": 0,
+  "multiply_defined_labels": 0,
+  "embedded_font_rows": 20,
+  "pdf_preflight_warnings": 0,
+  "template_class_and_bst_byte_identical_to_attached_template": true,
+  "scope": "Clean LaTeX rebuild, static audit, page-by-page rendering, PDF preflight, and pixel identity check; not venue acceptance or independent review."
+}

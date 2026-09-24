@@ -1,0 +1,105 @@
+{
+  "cases": 11,
+  "oracle_assignments": 12288,
+  "rows": [
+    {
+      "case": "core_hp_balanced",
+      "blocks": 11,
+      "source_nets": 70,
+      "induced_edges": 16,
+      "edge_multiplicity": 44,
+      "assignments": 2048,
+      "optimum": 377531
+    },
+    {
+      "case": "core_hp_netaware",
+      "blocks": 11,
+      "source_nets": 70,
+      "induced_edges": 16,
+      "edge_multiplicity": 44,
+      "assignments": 2048,
+      "optimum": 377531
+    },
+    {
+      "case": "core_n10_balanced",
+      "blocks": 10,
+      "source_nets": 118,
+      "induced_edges": 26,
+      "edge_multiplicity": 54,
+      "assignments": 1024,
+      "optimum": 40685
+    },
+    {
+      "case": "core_n10_netaware",
+      "blocks": 10,
+      "source_nets": 118,
+      "induced_edges": 26,
+      "edge_multiplicity": 54,
+      "assignments": 1024,
+      "optimum": 40685
+    },
+    {
+      "case": "core_apte_balanced",
+      "blocks": 9,
+      "source_nets": 96,
+      "induced_edges": 18,
+      "edge_multiplicity": 44,
+      "assignments": 512,
+      "optimum": 284720
+    },
+    {
+      "case": "core_apte_netaware",
+      "blocks": 9,
+      "source_nets": 96,
+      "induced_edges": 18,
+      "edge_multiplicity": 44,
+      "assignments": 512,
+      "optimum": 284720
+    },
+    {
+      "case": "core_xerox_balanced",
+      "blocks": 10,
+      "source_nets": 182,
+      "induced_edges": 47,
+      "edge_multiplicity": 182,
+      "assignments": 1024,
+      "optimum": 767665
+    },
+    {
+      "case": "core_xerox_netaware",
+      "blocks": 10,
+      "source_nets": 182,
+      "induced_edges": 47,
+      "edge_multiplicity": 182,
+      "assignments": 1024,
+      "optimum": 767665
+    },
+    {
+      "case": "openroad_macro_only_balanced",
+      "blocks": 10,
+      "source_nets": 12,
+      "induced_edges": 12,
+      "edge_multiplicity": 12,
+      "assignments": 1024,
+      "optimum": 1998880
+    },
+    {
+      "case": "openroad_macro_only_columns",
+      "blocks": 10,
+      "source_nets": 12,
+      "induced_edges": 12,
+      "edge_multiplicity": 12,
+      "assignments": 1024,
+      "optimum": 1998880
+    },
+    {
+      "case": "openroad_macro_only_chain",
+      "blocks": 10,
+      "source_nets": 12,
+      "induced_edges": 12,
+      "edge_multiplicity": 12,
+      "assignments": 1024,
+      "optimum": 1998880
+    }
+  ]
+}
