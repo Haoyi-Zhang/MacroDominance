@@ -1,0 +1,111 @@
+{
+  "cases": [
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "hp",
+      "layout": "balanced",
+      "regions": 11,
+      "tree_equal": true,
+      "weights_equal": true
+    },
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "hp",
+      "layout": "netaware",
+      "regions": 11,
+      "tree_equal": true,
+      "weights_equal": true
+    },
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "n10",
+      "layout": "balanced",
+      "regions": 10,
+      "tree_equal": true,
+      "weights_equal": true
+    },
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "n10",
+      "layout": "netaware",
+      "regions": 10,
+      "tree_equal": true,
+      "weights_equal": true
+    },
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "apte",
+      "layout": "balanced",
+      "regions": 9,
+      "tree_equal": true,
+      "weights_equal": true
+    },
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "apte",
+      "layout": "netaware",
+      "regions": 9,
+      "tree_equal": true,
+      "weights_equal": true
+    },
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "xerox",
+      "layout": "balanced",
+      "regions": 10,
+      "tree_equal": true,
+      "weights_equal": true
+    },
+    {
+      "boxes_macros_pins_equal": true,
+      "candidate_subset_indices": [
+        0,
+        2
+      ],
+      "circuit": "xerox",
+      "layout": "netaware",
+      "regions": 10,
+      "tree_equal": true,
+      "weights_equal": true
+    }
+  ],
+  "hp_cmp3": {
+    "four_way_square_grid_origin": [
+      0,
+      3404
+    ],
+    "region": "cmp3",
+    "two_orientation_rectangular_grid_origin": [
+      0,
+      800
+    ]
+  }
+}

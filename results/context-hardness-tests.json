@@ -3,8 +3,8 @@
   "assignments": 3320,
   "satisfiable": 299,
   "unsatisfiable": 36,
-  "cpu_seconds": 0.9752758109999999,
-  "peak_rss_kib": 99884,
+  "cpu_seconds": 0.258199721,
+  "peak_rss_kib": 95020,
   "records": [
     {
       "n": 3,

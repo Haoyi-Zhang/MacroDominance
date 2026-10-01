@@ -1,0 +1,10 @@
+{
+  "dependencies": "closed-form modules import only Python standard-library paths; no NumPy/SciPy or milp_oracle import",
+  "frozen_controls_matched": 26,
+  "mutant_assignments_enumerated": 16,
+  "mutant_case": "exposed_2_2",
+  "mutant_change": "v0 candidate 1 xy [5,5] -> [1,5]",
+  "mutant_closed_form_rejected": true,
+  "mutant_true_optimum": 43,
+  "mutant_zero_witness_value": 46
+}

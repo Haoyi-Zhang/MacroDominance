@@ -1,0 +1,18 @@
+{
+  "case_pairs": 8,
+  "cpu_seconds": 1.763023429,
+  "four_le_two_verified": 8,
+  "limits": {
+    "max_comparisons": 500000,
+    "max_joins": 50000,
+    "max_states": 10000,
+    "seconds": 15
+  },
+  "matched_geometry_verified": 8,
+  "original_four_way_records_unchanged": true,
+  "peak_rss_kib": 132012,
+  "subset_failure": 0,
+  "subset_limit": 0,
+  "subset_policy_jobs": 16,
+  "subset_success": 16
+}

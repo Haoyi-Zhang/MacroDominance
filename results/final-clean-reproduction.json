@@ -1,4 +1,13 @@
 {
+  "closed_form_guard": {
+    "dependency_audit": "closed-form modules import only Python standard-library paths; closed-form and MILP share the pure-integer parser but neither shares producer/replay code",
+    "frozen_controls_matched": 26,
+    "mutant_assignments_enumerated": 16,
+    "mutant_closed_form_rejected": true,
+    "mutant_true_optimum": 43,
+    "mutant_zero_witness_value": 46,
+    "status": "passed"
+  },
   "constant_net_control": {
     "comparison": "status, optimum, limits, cap reasons, state/transition counts, and certificate bytes",
     "execution_chunks": [
@@ -23,19 +32,31 @@
       "python tests/test_actual_context_gap.py",
       "python tests/test_order_invariance.py",
       "python tests/test_public_inputs.py",
+      "python tests/test_online_frontier_peak.py",
+      "python tests/test_control_oracle.py",
       "python tests/test_milp_oracle.py",
+      "python validate_dominance.py results/dominance-campaign",
+      "python validate_results.py results/campaign",
+      "python validate_results.py results/null-baseline --methods constant_raw",
+      "python validate_milp_oracle.py --report results/milp-oracle-validation.json",
+      "python validate_public_extension.py results/public-portfolio-extension",
+      "python validate_public_matched_control.py results/public-portfolio-matched-control",
+      "python compare_public_extension.py results/public-portfolio-extension results/public-portfolio-extension-reproduction",
+      "python compare_public_matched_control.py results/public-portfolio-matched-control results/public-portfolio-matched-control-reproduction",
       "python audit_artifact.py"
     ],
     "notable_counts": {
       "actual_context_conservative_misses": 11,
       "actual_context_ordered_pairs": 1746,
-      "artifact_python_files_parsed": 38,
+      "artifact_python_files_parsed": 44,
+      "closed_form_controls_guarded": 26,
       "frontier_node_tables": 463,
       "hardness_formulas": 335,
       "milp_differential_fuzz_assignments": 38737,
       "milp_differential_fuzz_cases": 40,
       "milp_rejected_malformed_oversized_or_unsafe": 6,
       "normalization_instances": 80,
+      "online_frontier_peak_rows": 8,
       "order_invariance_certificates": 184,
       "order_invariance_pairs": 92,
       "public_hierarchy_cases": 11,
@@ -43,7 +64,7 @@
     },
     "status": "passed"
   },
-  "date": "2026-09-21",
+  "date": "2026-09-26",
   "environment_policy": {
     "gpu_required": false,
     "network_required": false,
@@ -53,18 +74,24 @@
   },
   "execution_interruptions": [
     {
-      "event": "The outer execution call reached its wall-time limit after deterministic records 30-38 had been written.",
-      "handling": "No unrecorded success was inferred. No child process remained. The existing complete records were retained under the runner's documented resume contract, the remaining indices were executed in bounded chunks, and the final complete 87-record inventory was independently replayed and byte-compared.",
-      "stage": "initial 30-60 inherited-campaign slice in the fresh extraction"
+      "event": "The outer execution window ended after 10 of 16 subset-policy records had been written.",
+      "handling": "No child process remained. The partial destination was deleted rather than resumed, all 16 jobs were rerun from an empty directory, and validation plus deterministic byte comparison were repeated on the complete inventory.",
+      "stage": "matched square-grid R0/R180 clean reproduction"
+    },
+    {
+      "event": "The outer execution window ended after job 39 had been written but before the enclosing slice refreshed totals.",
+      "handling": "No child process remained. The documented resumable runner retained only complete job reports, the remaining bounded slices were executed, and all 87 records were replayed and compared; no partial result was counted.",
+      "stage": "inherited three-method clean reproduction"
     }
   ],
   "final_packaging": {
     "clean_project_paper_rebuild": {
-      "abstract_words": 219,
+      "abstract_words": 225,
       "bibliography_entries": 64,
       "distinct_cited_keys": 64,
-      "embedded_font_rows": 20,
+      "embedded_font_rows": 21,
       "keywords": 6,
+      "layout_manipulation_markers": 0,
       "overfull_boxes": 0,
       "pages": 12,
       "status": "passed",
@@ -161,6 +188,21 @@
     "structural_caps_equal": 15,
     "successful_certificates_byte_equal": 293
   },
+  "matched_square_r0180_control": {
+    "case_pairs": 8,
+    "comparison": "same square owner boxes, macros, pins, weights and trees; exact R0/R180 candidate inclusion; policy status, optimum, work counts, exact certificate bytes, and deterministic MILP-pair fields",
+    "exact_geometry_audit": true,
+    "exact_input_files_equal": 8,
+    "exact_matched_pairs": 8,
+    "four_le_two_checks": 8,
+    "milp_pairs_compared": 8,
+    "original_four_way_records_unchanged": true,
+    "records_compared": 16,
+    "replayed_coverage_obligations": 876,
+    "status": "passed",
+    "structural_caps_equal": 0,
+    "successful_certificates_byte_equal": 16
+  },
   "milp_cross_check": {
     "cartesian_assignments": 176128,
     "cartesian_cases": 51,
@@ -168,6 +210,24 @@
     "closed_form_cases": 26,
     "comparison": "deterministic instance identity, exact witness objective, optimum, numerical envelope, solver status, gap, and primal/dual agreement; timing, solver-selected tied witness, and branch-and-bound path excluded",
     "optimal_zero_gap_exact_witness": 77,
+    "status": "passed"
+  },
+  "online_frontier_peak": {
+    "comparison": "producer counts, Cartesian optimum, replayed transitions, and stated formulas",
+    "construction": "legal two-owner, live-width-one stress family",
+    "forward_predictions_matched": 4,
+    "k_values": [
+      3,
+      7,
+      15,
+      31
+    ],
+    "measured_rows": 8,
+    "orders": [
+      "forward",
+      "reverse"
+    ],
+    "reverse_predictions_matched": 4,
     "status": "passed"
   },
   "scope": "Fresh extraction of a candidate standalone repository; all documented fast tests and every retained campaign were rerun with one worker and one numerical-library thread. Deterministic scientific outputs were compared against the distributed artifact. Timing, RSS, tied solver witness choices, and branch-and-bound paths are excluded from equality."

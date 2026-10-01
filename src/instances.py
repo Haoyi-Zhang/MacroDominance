@@ -192,13 +192,13 @@ def core_public_case(upstream:Path,circuit='hp',layout='balanced',portfolio='ori
     not placements distributed by the source project.
     """
     if circuit not in ('hp','n10','apte','xerox'):raise ValueError(circuit)
-    if portfolio not in ('orientation','orientation4','translation'):raise ValueError(portfolio)
+    if portfolio not in ('orientation','orientation4','orientation4_r0180','translation'):raise ValueError(portfolio)
     blocks,raw_nets,edges=_parse_core_bookshelf(upstream,circuit)
     names=sorted(blocks);edge_names={edge:f'e{i:02d}' for i,edge in enumerate(sorted(edges))}
     if portfolio=='orientation':
         cell_w=max(w for w,_ in blocks.values())+100
         cell_h=max(h for _,h in blocks.values())+100
-    elif portfolio=='orientation4':
+    elif portfolio in ('orientation4','orientation4_r0180'):
         side=max(max(w,h) for w,h in blocks.values())
         cell_w=cell_h=side+100
     else:
@@ -208,7 +208,7 @@ def core_public_case(upstream:Path,circuit='hp',layout='balanced',portfolio='ori
     for index,name in enumerate(names):
         w,h=blocks[name];x=(index%cols)*cell_w;y=(index//cols)*cell_h
         incident=sorted(e for e in edges if name in e)
-        if portfolio in ('orientation','orientation4'):
+        if portfolio in ('orientation','orientation4','orientation4_r0180'):
             x1=max(1,w//4);x2=w-x1;y1=max(1,h//4);y2=h-y1
             sites=((x1,y1),(x2,y1),(x1,y2),(x2,y2))
             pins=[pin('p'+str(j),edge_names[edge],*sites[j%len(sites)])
@@ -217,7 +217,8 @@ def core_public_case(upstream:Path,circuit='hp',layout='balanced',portfolio='ori
                 box=[x,y,x+w,y+h];poses=[([x,y],0),([x,y],180)]
             else:
                 side=max(w,h);box=[x,y,x+side,y+side]
-                poses=[([x,y],angle) for angle in (0,90,180,270)]
+                angles=(0,180) if portfolio=='orientation4_r0180' else (0,90,180,270)
+                poses=[([x,y],angle) for angle in angles]
         else:
             dx=max(1,w//4);dy=max(1,h//4)
             pins=[pin('p'+str(j),edge_names[edge],w//2,h//2)
@@ -228,10 +229,18 @@ def core_public_case(upstream:Path,circuit='hp',layout='balanced',portfolio='ori
     elif layout=='netaware':tree=_netaware_tree(names,edges)
     else:raise ValueError(layout)
     suite='GSRC' if circuit.startswith('n') else 'MCNC'
-    suffix={'orientation':'','orientation4':'_orientation4','translation':'_translation'}[portfolio]
+    suffix={'orientation':'','orientation4':'_orientation4','orientation4_r0180':'_orientation4_r0180','translation':'_translation'}[portfolio]
+    if portfolio=='orientation':
+        adapter='Disjoint owner boxes, deterministic quarter-offset point pins, and R0/R180 alternatives are newly constructed by the frozen orientation adapter.'
+    elif portfolio=='orientation4':
+        adapter='Disjoint square owner boxes, the same deterministic quarter-offset point pins, and R0/R90/R180/R270 alternatives are newly constructed by the frozen four-orientation extension adapter.'
+    elif portfolio=='orientation4_r0180':
+        adapter='The owner boxes and point pins exactly match the square-grid four-orientation extension, but each owner retains only its R0/R180 candidate subset; this is the matched portfolio control.'
+    else:
+        adapter='Disjoint owner boxes, center pins, and two diagonal translations are newly constructed by the retained development null adapter.'
     return {'name':f'core_{circuit}_{layout}{suffix}','regions':regions,
             'weights':{edge_names[e]:edges[e] for e in sorted(edges)},'tree':tree,
-            'provenance':f'{suite} {circuit} block dimensions and macro-only hypergraph from normalized text copies in the CORE repository. Fixed terminals are removed and repeated block-induced hyperedges become integer weights. '+('Disjoint owner boxes, deterministic quarter-offset point pins, and R0/R180 alternatives are newly constructed by the frozen orientation adapter.' if portfolio=='orientation' else ('Disjoint square owner boxes, the same deterministic quarter-offset point pins, and R0/R90/R180/R270 alternatives are newly constructed by the frozen four-orientation extension adapter.' if portfolio=='orientation4' else 'Disjoint owner boxes, center pins, and two diagonal translations are newly constructed by the retained development null adapter.'))+' This is not an original benchmark placement or a CORE execution result.'}
+            'provenance':f'{suite} {circuit} block dimensions and macro-only hypergraph from normalized text copies in the CORE repository. Fixed terminals are removed and repeated block-induced hyperedges become integer weights. '+adapter+' This is not an original benchmark placement or a CORE execution result.'}
 
 def generate(out:Path,upstream:Path,include_core:bool=False):
     out.mkdir(parents=True,exist_ok=True)

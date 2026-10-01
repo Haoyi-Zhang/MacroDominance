@@ -35,8 +35,8 @@
     "duplicate region id",
     "empty portfolio"
   ],
-  "cpu_seconds": 11.544308218000001,
-  "wall_seconds": 11.544550028999993,
-  "peak_rss_kib": 102444,
+  "cpu_seconds": 2.924786413,
+  "wall_seconds": 2.924855407999985,
+  "peak_rss_kib": 97964,
   "scope": "finite exact tests, not machine-checked proofs or independent external review"
 }

@@ -1,0 +1,2930 @@
+[
+  {
+    "case": "core_hp_balanced_orientation4_r0180",
+    "circuit": "hp",
+    "layout": "balanced",
+    "mode": "leaf",
+    "truth_optimum": 544187,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 544187,
+      "transitions": 42,
+      "comparisons": 22,
+      "total_states": 30,
+      "max_states": 2,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 2,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0111",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 8,
+          "transitions": 4,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "100",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1010",
+          "width": 5,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1011",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 9,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "10",
+          "width": 12,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        }
+      ],
+      "cpu_seconds": 0.0061743340000000035,
+      "wall_seconds": 0.002176265000002786
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 544187,
+      "replayed_transitions": 42,
+      "retained_row_evaluations": 30,
+      "dominance_obligations": 42,
+      "cpu_seconds": 0.007259113000000039,
+      "wall_seconds": 0.003228444999990643
+    },
+    "certificate_bytes": 8489,
+    "total_cpu_seconds": 0.013738469999999947
+  },
+  {
+    "case": "core_hp_balanced_orientation4_r0180",
+    "circuit": "hp",
+    "layout": "balanced",
+    "mode": "response",
+    "truth_optimum": 544187,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 544187,
+      "transitions": 41,
+      "comparisons": 32,
+      "total_states": 29,
+      "max_states": 2,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 2,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "010",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0111",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "01",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0",
+          "width": 8,
+          "transitions": 4,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 3
+        },
+        {
+          "node": "100",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1010",
+          "width": 5,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1011",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 9,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "10",
+          "width": 12,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "11",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        }
+      ],
+      "cpu_seconds": 0.00456282600000002,
+      "wall_seconds": 0.002141724000011891
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 544187,
+      "replayed_transitions": 41,
+      "retained_row_evaluations": 29,
+      "dominance_obligations": 41,
+      "cpu_seconds": 0.0034068310000000546,
+      "wall_seconds": 0.0034079810000093858
+    },
+    "certificate_bytes": 8173,
+    "total_cpu_seconds": 0.00824914099999996
+  },
+  {
+    "case": "core_hp_netaware_orientation4_r0180",
+    "circuit": "hp",
+    "layout": "netaware",
+    "mode": "leaf",
+    "truth_optimum": 544187,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 544187,
+      "transitions": 48,
+      "comparisons": 25,
+      "total_states": 33,
+      "max_states": 4,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 5,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "0111",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 11,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 8,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "100",
+          "width": 2,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1010",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1011",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 6,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "10",
+          "width": 5,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1111",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 8,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 7
+        }
+      ],
+      "cpu_seconds": 0.002041237000000029,
+      "wall_seconds": 0.002042086000017207
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 544187,
+      "replayed_transitions": 48,
+      "retained_row_evaluations": 33,
+      "dominance_obligations": 48,
+      "cpu_seconds": 0.007267214999999938,
+      "wall_seconds": 0.0032717489999640748
+    },
+    "certificate_bytes": 8989,
+    "total_cpu_seconds": 0.009678069999999983
+  },
+  {
+    "case": "core_hp_netaware_orientation4_r0180",
+    "circuit": "hp",
+    "layout": "netaware",
+    "mode": "response",
+    "truth_optimum": 544187,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 544187,
+      "transitions": 48,
+      "comparisons": 49,
+      "total_states": 33,
+      "max_states": 4,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 5,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "010",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "0111",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 11,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "01",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0",
+          "width": 8,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 12
+        },
+        {
+          "node": "100",
+          "width": 2,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1010",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1011",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 6,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "10",
+          "width": 5,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1111",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "11",
+          "width": 5,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 8,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 7
+        }
+      ],
+      "cpu_seconds": 0.006000686000000033,
+      "wall_seconds": 0.002495968999994602
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 544187,
+      "replayed_transitions": 48,
+      "retained_row_evaluations": 33,
+      "dominance_obligations": 48,
+      "cpu_seconds": 0.0031535959999999807,
+      "wall_seconds": 0.003154304000020147
+    },
+    "certificate_bytes": 8993,
+    "total_cpu_seconds": 0.009893457999999966
+  },
+  {
+    "case": "core_n10_balanced_orientation4_r0180",
+    "circuit": "n10",
+    "layout": "balanced",
+    "mode": "leaf",
+    "truth_optimum": 42035,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 42035,
+      "transitions": 63,
+      "comparisons": 38,
+      "total_states": 38,
+      "max_states": 4,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 6,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "00",
+          "width": 11,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0111",
+          "width": 3,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "011",
+          "width": 11,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 16,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 17,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "100",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 10,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 10,
+          "transitions": 4,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "11",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 17,
+          "transitions": 8,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 4
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 16,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 15
+        }
+      ],
+      "cpu_seconds": 0.002200072000000053,
+      "wall_seconds": 0.0022010920000070655
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 42035,
+      "replayed_transitions": 63,
+      "retained_row_evaluations": 38,
+      "dominance_obligations": 63,
+      "cpu_seconds": 0.008466103000000058,
+      "wall_seconds": 0.004467279999971652
+    },
+    "certificate_bytes": 12468,
+    "total_cpu_seconds": 0.011019498999999988
+  },
+  {
+    "case": "core_n10_balanced_orientation4_r0180",
+    "circuit": "n10",
+    "layout": "balanced",
+    "mode": "response",
+    "truth_optimum": 42035,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 42035,
+      "transitions": 44,
+      "comparisons": 41,
+      "total_states": 30,
+      "max_states": 2,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 6,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "00",
+          "width": 11,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "010",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0111",
+          "width": 3,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "011",
+          "width": 11,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 16,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0",
+          "width": 17,
+          "transitions": 4,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 4
+        },
+        {
+          "node": "100",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 10,
+          "transitions": 4,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 7
+        },
+        {
+          "node": "110",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 10,
+          "transitions": 4,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 4
+        },
+        {
+          "node": "11",
+          "width": 10,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 17,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 4,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 3
+        }
+      ],
+      "cpu_seconds": 0.007057503999999937,
+      "wall_seconds": 0.002504041000008783
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 42035,
+      "replayed_transitions": 44,
+      "retained_row_evaluations": 30,
+      "dominance_obligations": 44,
+      "cpu_seconds": 0.003930367000000046,
+      "wall_seconds": 0.003931286000010914
+    },
+    "certificate_bytes": 9278,
+    "total_cpu_seconds": 0.01124481300000002
+  },
+  {
+    "case": "core_n10_netaware_orientation4_r0180",
+    "circuit": "n10",
+    "layout": "netaware",
+    "mode": "leaf",
+    "truth_optimum": 42035,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 42035,
+      "transitions": 66,
+      "comparisons": 38,
+      "total_states": 41,
+      "max_states": 4,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 6,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "00",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0111",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 10,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 10,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 12,
+          "transitions": 8,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 4
+        },
+        {
+          "node": "100",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "10",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 3,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 10,
+          "transitions": 4,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "11",
+          "width": 11,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 12,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 16,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 15
+        }
+      ],
+      "cpu_seconds": 0.00608664400000003,
+      "wall_seconds": 0.0020870930000000953
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 42035,
+      "replayed_transitions": 66,
+      "retained_row_evaluations": 41,
+      "dominance_obligations": 66,
+      "cpu_seconds": 0.008684697999999935,
+      "wall_seconds": 0.004688278000003265
+    },
+    "certificate_bytes": 11993,
+    "total_cpu_seconds": 0.015125615999999953
+  },
+  {
+    "case": "core_n10_netaware_orientation4_r0180",
+    "circuit": "n10",
+    "layout": "netaware",
+    "mode": "response",
+    "truth_optimum": 42035,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 42035,
+      "transitions": 43,
+      "comparisons": 40,
+      "total_states": 30,
+      "max_states": 2,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 6,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "00",
+          "width": 9,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "010",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0111",
+          "width": 4,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 10,
+          "transitions": 4,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 7
+        },
+        {
+          "node": "01",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0",
+          "width": 12,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "100",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 4,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "10",
+          "width": 10,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "110",
+          "width": 3,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "111",
+          "width": 10,
+          "transitions": 4,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 4
+        },
+        {
+          "node": "11",
+          "width": 11,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 12,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 4,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 3
+        }
+      ],
+      "cpu_seconds": 0.0054242820000000025,
+      "wall_seconds": 0.002156535999972675
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 42035,
+      "replayed_transitions": 43,
+      "retained_row_evaluations": 30,
+      "dominance_obligations": 43,
+      "cpu_seconds": 0.0033667619999999676,
+      "wall_seconds": 0.0033675810000204365
+    },
+    "certificate_bytes": 8413,
+    "total_cpu_seconds": 0.009046724000000061
+  },
+  {
+    "case": "core_apte_balanced_orientation4_r0180",
+    "circuit": "apte",
+    "layout": "balanced",
+    "mode": "leaf",
+    "truth_optimum": 345650,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 345650,
+      "transitions": 73,
+      "comparisons": 46,
+      "total_states": 38,
+      "max_states": 8,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "01",
+          "width": 8,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 10,
+          "transitions": 8,
+          "states": 8,
+          "peak_online_states": 8,
+          "comparisons": 0
+        },
+        {
+          "node": "100",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1111",
+          "width": 1,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 7,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 10,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 32,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 31
+        }
+      ],
+      "cpu_seconds": 0.00266127599999999,
+      "wall_seconds": 0.0026623860000540844
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 345650,
+      "replayed_transitions": 73,
+      "retained_row_evaluations": 38,
+      "dominance_obligations": 73,
+      "cpu_seconds": 0.005214562000000145,
+      "wall_seconds": 0.005215480000003936
+    },
+    "certificate_bytes": 12381,
+    "total_cpu_seconds": 0.008360947000000118
+  },
+  {
+    "case": "core_apte_balanced_orientation4_r0180",
+    "circuit": "apte",
+    "layout": "balanced",
+    "mode": "response",
+    "truth_optimum": 345650,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 345650,
+      "transitions": 49,
+      "comparisons": 69,
+      "total_states": 32,
+      "max_states": 4,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "010",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "01",
+          "width": 8,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 12
+        },
+        {
+          "node": "0",
+          "width": 10,
+          "transitions": 8,
+          "states": 2,
+          "peak_online_states": 3,
+          "comparisons": 17
+        },
+        {
+          "node": "100",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "110",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1111",
+          "width": 1,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 7,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1",
+          "width": 10,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 12
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 8,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 7
+        }
+      ],
+      "cpu_seconds": 0.002479246000000046,
+      "wall_seconds": 0.0024939759999824673
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 345650,
+      "replayed_transitions": 49,
+      "retained_row_evaluations": 32,
+      "dominance_obligations": 49,
+      "cpu_seconds": 0.0036043450000000643,
+      "wall_seconds": 0.003605103000040799
+    },
+    "certificate_bytes": 10157,
+    "total_cpu_seconds": 0.006587456999999963
+  },
+  {
+    "case": "core_apte_netaware_orientation4_r0180",
+    "circuit": "apte",
+    "layout": "netaware",
+    "mode": "leaf",
+    "truth_optimum": 345650,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 345650,
+      "transitions": 73,
+      "comparisons": 46,
+      "total_states": 38,
+      "max_states": 8,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "01",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 9,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "100",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 8,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1111",
+          "width": 1,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 7,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 9,
+          "transitions": 8,
+          "states": 8,
+          "peak_online_states": 8,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 32,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 31
+        }
+      ],
+      "cpu_seconds": 0.003157380999999848,
+      "wall_seconds": 0.003158170999995491
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 345650,
+      "replayed_transitions": 73,
+      "retained_row_evaluations": 38,
+      "dominance_obligations": 73,
+      "cpu_seconds": 0.004660740000000052,
+      "wall_seconds": 0.004661709000004066
+    },
+    "certificate_bytes": 12050,
+    "total_cpu_seconds": 0.008206667999999917
+  },
+  {
+    "case": "core_apte_netaware_orientation4_r0180",
+    "circuit": "apte",
+    "layout": "netaware",
+    "mode": "response",
+    "truth_optimum": 345650,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 345650,
+      "transitions": 57,
+      "comparisons": 80,
+      "total_states": 34,
+      "max_states": 4,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 7,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 8,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "010",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "01",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0",
+          "width": 9,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 12
+        },
+        {
+          "node": "100",
+          "width": 8,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 6,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 8,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 12
+        },
+        {
+          "node": "110",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1110",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1111",
+          "width": 1,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 7,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 9,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1",
+          "width": 9,
+          "transitions": 8,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 20
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 16,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 15
+        }
+      ],
+      "cpu_seconds": 0.0030518550000000477,
+      "wall_seconds": 0.0030648929999870234
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 345650,
+      "replayed_transitions": 57,
+      "retained_row_evaluations": 34,
+      "dominance_obligations": 57,
+      "cpu_seconds": 0.003979499999999803,
+      "wall_seconds": 0.00398031899999296
+    },
+    "certificate_bytes": 10650,
+    "total_cpu_seconds": 0.00731879099999988
+  },
+  {
+    "case": "core_xerox_balanced_orientation4_r0180",
+    "circuit": "xerox",
+    "layout": "balanced",
+    "mode": "leaf",
+    "truth_optimum": 1121837,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 1121837,
+      "transitions": 77,
+      "comparisons": 46,
+      "total_states": 41,
+      "max_states": 8,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 12,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 21,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 15,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0111",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "011",
+          "width": 25,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 31,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 28,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "100",
+          "width": 13,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 19,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 17,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 17,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 20,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 25,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 28,
+          "transitions": 8,
+          "states": 8,
+          "peak_online_states": 8,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 32,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 31
+        }
+      ],
+      "cpu_seconds": 0.013074846000000084,
+      "wall_seconds": 0.005057485999998335
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 1121837,
+      "replayed_transitions": 77,
+      "retained_row_evaluations": 41,
+      "dominance_obligations": 77,
+      "cpu_seconds": 0.019710434999999915,
+      "wall_seconds": 0.011697726000022612
+    },
+    "certificate_bytes": 26630,
+    "total_cpu_seconds": 0.03364742900000017
+  },
+  {
+    "case": "core_xerox_balanced_orientation4_r0180",
+    "circuit": "xerox",
+    "layout": "balanced",
+    "mode": "response",
+    "truth_optimum": 1121837,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 1121837,
+      "transitions": 36,
+      "comparisons": 27,
+      "total_states": 25,
+      "max_states": 2,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 12,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "010",
+          "width": 21,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0110",
+          "width": 15,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0111",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "011",
+          "width": 25,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 31,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0",
+          "width": 28,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "100",
+          "width": 13,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "10",
+          "width": 19,
+          "transitions": 4,
+          "states": 1,
+          "peak_online_states": 2,
+          "comparisons": 7
+        },
+        {
+          "node": "110",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 17,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 17,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 20,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "11",
+          "width": 25,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 28,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        }
+      ],
+      "cpu_seconds": 0.004343339999999918,
+      "wall_seconds": 0.004354352999996536
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 1121837,
+      "replayed_transitions": 36,
+      "retained_row_evaluations": 25,
+      "dominance_obligations": 36,
+      "cpu_seconds": 0.006469742000000167,
+      "wall_seconds": 0.0064711110000530425
+    },
+    "certificate_bytes": 14043,
+    "total_cpu_seconds": 0.011143192000000024
+  },
+  {
+    "case": "core_xerox_netaware_orientation4_r0180",
+    "circuit": "xerox",
+    "layout": "netaware",
+    "mode": "leaf",
+    "truth_optimum": 1121837,
+    "status": "success",
+    "producer": {
+      "mode": "leaf",
+      "optimum": 1121837,
+      "transitions": 80,
+      "comparisons": 46,
+      "total_states": 44,
+      "max_states": 8,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 12,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "010",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0110",
+          "width": 13,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0111",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 19,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "01",
+          "width": 25,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 30,
+          "transitions": 8,
+          "states": 8,
+          "peak_online_states": 8,
+          "comparisons": 0
+        },
+        {
+          "node": "100",
+          "width": 21,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 15,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "10",
+          "width": 26,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "110",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 17,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 17,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 20,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "11",
+          "width": 25,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 30,
+          "transitions": 4,
+          "states": 4,
+          "peak_online_states": 4,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 32,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 31
+        }
+      ],
+      "cpu_seconds": 0.01393387899999965,
+      "wall_seconds": 0.005938672000013412
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 1121837,
+      "replayed_transitions": 80,
+      "retained_row_evaluations": 44,
+      "dominance_obligations": 80,
+      "cpu_seconds": 0.019899845999999943,
+      "wall_seconds": 0.01193919399997867
+    },
+    "certificate_bytes": 29178,
+    "total_cpu_seconds": 0.03453127
+  },
+  {
+    "case": "core_xerox_netaware_orientation4_r0180",
+    "circuit": "xerox",
+    "layout": "netaware",
+    "mode": "response",
+    "truth_optimum": 1121837,
+    "status": "success",
+    "producer": {
+      "mode": "response",
+      "optimum": 1121837,
+      "transitions": 36,
+      "comparisons": 27,
+      "total_states": 25,
+      "max_states": 2,
+      "per_node": [
+        {
+          "node": "000",
+          "width": 12,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "001",
+          "width": 7,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "00",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "010",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "0110",
+          "width": 13,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "0111",
+          "width": 14,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "011",
+          "width": 19,
+          "transitions": 4,
+          "states": 1,
+          "peak_online_states": 2,
+          "comparisons": 7
+        },
+        {
+          "node": "01",
+          "width": 25,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "0",
+          "width": 30,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "100",
+          "width": 21,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "101",
+          "width": 15,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "10",
+          "width": 26,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "110",
+          "width": 13,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "1110",
+          "width": 17,
+          "transitions": 2,
+          "states": 2,
+          "peak_online_states": 2,
+          "comparisons": 2
+        },
+        {
+          "node": "1111",
+          "width": 17,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "111",
+          "width": 20,
+          "transitions": 2,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 1
+        },
+        {
+          "node": "11",
+          "width": 25,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "1",
+          "width": 30,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        },
+        {
+          "node": "",
+          "width": 0,
+          "transitions": 1,
+          "states": 1,
+          "peak_online_states": 1,
+          "comparisons": 0
+        }
+      ],
+      "cpu_seconds": 0.004293475999999963,
+      "wall_seconds": 0.004306162000034419
+    },
+    "checker": {
+      "accepted": true,
+      "optimum": 1121837,
+      "replayed_transitions": 36,
+      "retained_row_evaluations": 25,
+      "dominance_obligations": 36,
+      "cpu_seconds": 0.0058752610000003536,
+      "wall_seconds": 0.005876450000016575
+    },
+    "certificate_bytes": 13992,
+    "total_cpu_seconds": 0.010518946000000362
+  }
+]

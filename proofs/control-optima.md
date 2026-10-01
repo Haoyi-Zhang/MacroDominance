@@ -48,8 +48,19 @@ for every `i`, and
 
 ## Executable check
 
-`tests/control_oracle.py` recognizes only the frozen family names, checks the
-candidate-count inventory, evaluates an explicit attaining assignment using an
-independent integer HPWL routine, and returns the formula value. The 77-case MILP
-test compares these 26 formulas against a separate one-hot MILP. The formulas are
-written arguments plus finite implementation checks, not proof-assistant output.
+`tests/control_oracle.py` does not infer family membership from a name, candidate
+counts, or one attaining witness. It reconstructs the named frozen case with the
+deterministic family constructor and requires exact equality of all geometry,
+weights, connectivity, hierarchy, candidate order, and alternatives before
+returning the formula value. It then evaluates the explicit attaining assignment
+with the standard-library exact integer evaluator. This evaluator/parser is
+shared with the optional MILP wrapper, but neither path imports the producer or
+replay checker.
+
+`tests/test_control_oracle.py` checks all 26 frozen controls and a legal adversarial
+mutation. Starting from `exposed_2_2`, it changes only the second candidate of
+`v0` from `(5,5)` to `(1,5)`. The all-zero assignment still has value 46, but an
+independent enumeration of all 16 complete assignments finds optimum 43. The
+closed-form guard rejects the mutated input instead of returning 46. The written
+lower bounds above, not the attaining witness alone, establish each formula; the
+executable checks are finite validation, not proof-assistant output.

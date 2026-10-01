@@ -1,0 +1,11 @@
+{
+  "compared_subset_jobs": 16,
+  "exact_geometry_audit": true,
+  "exact_matched_pairs": 8,
+  "exact_subset_certificates": 16,
+  "exact_subset_inputs": 8,
+  "four_le_two_checks": 8,
+  "milp_pairs": 8,
+  "solver_witness_choice_compared": false,
+  "timing_and_rss_compared": false
+}

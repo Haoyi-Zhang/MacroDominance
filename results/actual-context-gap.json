@@ -3,13 +3,13 @@
   "actual_not_relaxed_pairs": 11,
   "cases": 33,
   "cases_with_conservative_miss": 6,
-  "cpu_seconds": 0.315010883,
+  "cpu_seconds": 0.10927959800000003,
   "max_relaxation_slack": 48,
   "mutual_actual_equivalences_not_relaxed": 1,
   "nodes": 164,
   "nodes_with_conservative_miss": 8,
   "ordered_pairs": 1746,
-  "peak_rss_kib": 99752,
+  "peak_rss_kib": 95016,
   "records": [
     {
       "actual_dominance_pairs": 3,

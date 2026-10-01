@@ -1,0 +1,30 @@
+{
+  "case": "exposed_10_2",
+  "method": "envelope",
+  "status": "producer_capped",
+  "limits": {
+    "max_states": 20000,
+    "max_transitions": 200000,
+    "producer_seconds": 10,
+    "checker_seconds": 10
+  },
+  "repetitions": [],
+  "reason": "join limit at '': 2280+1048576>200000",
+  "cpu_seconds": 0.06874534899999996,
+  "wall_seconds": 0.06874614899993503,
+  "peak_rss_kib": 102316,
+  "process": {
+    "command": [
+      "python",
+      "src/benchmark_job.py",
+      "data/cases/exposed_10_2.json",
+      "envelope",
+      "<output job>",
+      "<output certificate>"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"case\": \"exposed_10_2\", \"method\": \"envelope\", \"status\": \"producer_capped\", \"cpu_seconds\": 0.06874534899999996}\n",
+    "stderr": "",
+    "wall_seconds": 0.5884893510001348
+  }
+}

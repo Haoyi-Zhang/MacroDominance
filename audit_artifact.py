@@ -91,6 +91,40 @@ def main():
     milp_validation=read(ROOT/'results/milp-oracle-validation.json')
     assert milp_validation['validated_cases']==77 and milp_validation['cartesian_assignments']==176128
 
+    control_guard=read(ROOT/'results/control-oracle-guard.json')
+    assert control_guard['frozen_controls_matched']==26
+    assert control_guard['mutant_assignments_enumerated']==16
+    assert control_guard['mutant_zero_witness_value']==46
+    assert control_guard['mutant_true_optimum']==43
+    assert control_guard['mutant_closed_form_rejected'] is True
+
+    online_peak=read(ROOT/'results/online-frontier-peak.json')
+    assert len(online_peak['rows'])==8
+    for row in online_peak['rows']:
+        k=row['k']; measured=row['measured']
+        assert row['prediction_matched'] is True and row['optimum']==11
+        assert measured['transitions']==k+5 and measured['final_s_max']==2
+        if row['candidate_order']=='forward':
+            assert measured['inside_peak']==k and measured['global_peak']==k
+            assert measured['comparisons']==k*(k+1)+3
+        else:
+            assert measured['inside_peak']==1 and measured['global_peak']==2
+            assert measured['comparisons']==k+3
+
+    # The exact parser and closed-form path remain standard-library only.
+    exact_tree=ast.parse((ROOT/'src/portfolio_exact.py').read_text())
+    control_tree=ast.parse((ROOT/'tests/control_oracle.py').read_text())
+    def imported_roots(tree):
+        roots=set()
+        for node in ast.walk(tree):
+            if isinstance(node,ast.Import):
+                roots.update(alias.name.split('.')[0] for alias in node.names)
+            elif isinstance(node,ast.ImportFrom) and node.module:
+                roots.add(node.module.split('.')[0])
+        return roots
+    assert not ({'numpy','scipy'} & imported_roots(exact_tree))
+    assert not ({'numpy','scipy','milp_oracle'} & imported_roots(control_tree))
+
     actual_gap=read(ROOT/'results/actual-context-gap.json')
     assert actual_gap['cases']==33 and actual_gap['ordered_pairs']==1746
     assert actual_gap['actual_not_relaxed_pairs']==11
@@ -123,6 +157,72 @@ def main():
     assert extension_validation=={'accepted':26,'completed_leaf_response_pairs':8,
                                   'dominance_obligations':66570,'milp_oracles':8,
                                   'structural_caps':6}
+    extension_reproduction_validation=read(ROOT/'results/public-portfolio-extension-reproduction/validation.json')
+    extension_reproduction_comparison=read(ROOT/'results/public-portfolio-extension-reproduction/comparison.json')
+    assert extension_reproduction_validation==extension_validation
+    assert extension_reproduction_comparison=={'compared_jobs':32,'exact_certificates':26,
+                                                'exact_inputs':8,'milp_cases':8,
+                                                'solver_witness_choice_compared':False,
+                                                'timing_compared':False}
+
+    matched=ROOT/'results/public-portfolio-matched-control'
+    matched_summary=read(matched/'summary.json')
+    matched_records=read(matched/'records.json')
+    matched_pairs=read(matched/'matched-pairs.json')
+    matched_oracles=read(matched/'milp-oracles.json')
+    matched_geometry=read(matched/'geometry-audit.json')
+    matched_validation=read(matched/'validation.json')
+    expected_matched={}
+    for circuit in EXPECTED_PUBLIC:
+        for layout in ('balanced','netaware'):
+            case=core_public_case(ROOT/'data/upstream/core',circuit,layout,'orientation4_r0180')
+            expected_matched[case['name']]=(json.dumps(case,sort_keys=True)+'\n').encode()
+    actual_matched={path.stem:path.read_bytes() for path in (matched/'inputs').glob('*.json')}
+    assert actual_matched==expected_matched
+    assert matched_summary['case_pairs']==8 and matched_summary['subset_policy_jobs']==16
+    assert matched_summary['subset_success']==16 and matched_summary['subset_limit']==0 and matched_summary['subset_failure']==0
+    assert matched_summary['matched_geometry_verified']==matched_summary['four_le_two_verified']==8
+    assert matched_summary['original_four_way_records_unchanged'] is True
+    assert len(matched_records)==16 and all(row['status']=='success' for row in matched_records)
+    matched_certs={path.name for path in (matched/'certificates').glob('*.json')}
+    assert matched_certs=={row['case']+'_'+row['mode']+'.json' for row in matched_records}
+    assert len(matched_pairs)==len(matched_oracles)==8
+    assert all(row['matched_geometry_verified'] and row['four_le_two'] for row in matched_pairs)
+    assert all(row['four_le_two'] and row['four_way']['optimum']<=row['matched_r0180']['optimum'] for row in matched_oracles)
+    assert matched_geometry['hp_cmp3']=={'region':'cmp3','two_orientation_rectangular_grid_origin':[0,800],'four_way_square_grid_origin':[0,3404]}
+    assert all(row['boxes_macros_pins_equal'] and row['weights_equal'] and row['tree_equal'] and row['candidate_subset_indices']==[0,2] for row in matched_geometry['cases'])
+    assert matched_validation=={'accepted_subset_certificates':16,'dominance_obligations':876,'four_le_two_checks':8,'matched_case_pairs':8,'original_four_way_records_unchanged':True,'subset_structural_caps':0}
+    matched_reproduction_validation=read(ROOT/'results/public-portfolio-matched-control-reproduction/validation.json')
+    matched_reproduction_comparison=read(ROOT/'results/public-portfolio-matched-control-reproduction/comparison.json')
+    assert matched_reproduction_validation==matched_validation
+    assert matched_reproduction_comparison=={
+        'compared_subset_jobs':16,'exact_geometry_audit':True,'exact_matched_pairs':8,
+        'exact_subset_certificates':16,'exact_subset_inputs':8,'four_le_two_checks':8,
+        'milp_pairs':8,'solver_witness_choice_compared':False,
+        'timing_and_rss_compared':False}
+
+    main_reproduction_validation=read(ROOT/'results/dominance-reproduction-validation.json')
+    main_reproduction_comparison=read(ROOT/'results/dominance-reproduction-comparison.json')
+    assert main_reproduction_validation['accepted']==293 and main_reproduction_validation['structural_caps']==15
+    assert main_reproduction_validation['dominance_obligations']==114482
+    assert main_reproduction_comparison=={'exact_jobs':308,'exact_inputs':77,
+                                          'byte_equal_certificates':293,
+                                          'timing_and_rss_compared':False}
+    inherited_reproduction_validation=read(ROOT/'results/reproduction-validation.json')
+    inherited_reproduction_comparison=read(ROOT/'results/reproduction-comparison.json')
+    assert inherited_reproduction_validation['expected_jobs']==87
+    assert inherited_reproduction_validation['rechecked_certificates']==63
+    assert inherited_reproduction_validation['reproduced_structural_caps']==24
+    assert inherited_reproduction_comparison['matched_jobs']==87
+    assert inherited_reproduction_comparison['identical_certificates']==63
+    null_reproduction_validation=read(ROOT/'results/null-reproduction-validation.json')
+    null_reproduction_comparison=read(ROOT/'results/null-reproduction-comparison.json')
+    assert null_reproduction_validation['expected_jobs']==29
+    assert null_reproduction_validation['rechecked_certificates']==23
+    assert null_reproduction_validation['reproduced_structural_caps']==6
+    assert null_reproduction_comparison['matched_jobs']==29
+    assert null_reproduction_comparison['identical_certificates']==23
+
     assert (ROOT/'licenses/SciPy-LICENSE').is_file() and (ROOT/'licenses/HiGHS-LICENSE').is_file()
 
     final_reproduction=read(ROOT/'results/final-clean-reproduction.json')
@@ -132,6 +232,10 @@ def main():
     assert final_reproduction['constant_net_control']['records_compared']==29
     assert final_reproduction['milp_cross_check']['cases_compared']==77
     assert final_reproduction['four_orientation_extension']['records_compared']==32
+    assert final_reproduction['matched_square_r0180_control']['records_compared']==16
+    assert final_reproduction['online_frontier_peak']['measured_rows']==8
+    assert final_reproduction['closed_form_guard']['frozen_controls_matched']==26
+    assert final_reproduction['closed_form_guard']['mutant_true_optimum']==43
     packaging=final_reproduction['final_packaging']
     assert packaging['status']=='passed'
     assert packaging['complete_project_archive']['root_entries']==[
@@ -162,6 +266,8 @@ def main():
             'milp_oracle_cases':77,'milp_cartesian_cases':51,'milp_closed_form_cases':26,
             'public_orientation4_cases':8,'public_orientation4_jobs':32,
             'public_orientation4_success':26,'public_orientation4_limits':6,
+            'public_matched_r0180_cases':8,'public_matched_r0180_jobs':16,
+            'online_frontier_peak_rows':8,'closed_form_controls_guarded':26,
             'milp_differential_fuzz_cases':40,'milp_differential_fuzz_assignments':38737,
             'actual_context_pairs':1746,'actual_context_conservative_misses':11,
             'order_invariance_pairs':92,'order_invariance_certificates':184}

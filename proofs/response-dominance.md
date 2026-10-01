@@ -137,15 +137,48 @@ only affects size, not soundness. Nor must its accepted packet equal the
 producer's particular pruning order. Soundness is a property of the supplied
 covering packet, not of trusting the search implementation.
 
-Let M be the total number of leaf alternatives and retained-child Cartesian
-pairs, S the total retained rows and w the maximum live-net count. Coverage uses
-M integer indices plus S source indices, excluding row/witness representations.
-After geometric reconstruction, replay has exactly M dominance obligations and
-O(Mw) arithmetic for those obligations. This is not an O(Mw) bound on the entire
-checker: direct witness reconstruction additionally reads the relevant pins.
-The simple producer can make O(M S_max w) dominance work and may be slower than
-equality pruning. It has explicit comparison, transition, state, time and memory
-caps. Exhausting a cap proves neither portfolio nor unrestricted infeasibility.
+For each node v, let S_v be its **final** retained-row count. Let M_v be the
+number of generated candidates: the local portfolio size at a leaf, or
+S_left*S_right at an internal node. Let P_v be the largest size reached by the
+online ``kept`` dictionary while node v is processed, and let w_v be the live-net
+count. These quantities are different: a row that arrives late can remove many
+currently kept rows, so P_v need not be bounded by final S_v or by
+S_max=max_v S_v.
+
+For one candidate, the producer scans at most P_v current rows. It evaluates at
+most two dominance directions per scanned row, and each direction takes
+O(w_v+1) exact arithmetic operations. Therefore
+
+    producer work = O(sum_v M_v P_v (w_v+1))
+                  <= O((w+1) sum_v M_v P_v),
+
+where w=max_v w_v. For nontrivial w>=1 this is conventionally written
+O(w sum_v M_v P_v). This is a direct summation proof, not a claim that every scan
+reaches the bound. Equal-key dictionary handling adds O(sum_v M_v) expected
+lookups. During node production the implementation stores up to P_v actual rows
+and M_v redirection entries, besides completed child/final tables.
+
+The distinction is witnessed by the executable legal two-owner family in
+``tests/test_online_frontier_peak.py``. The inside owner is
+[0,3k+5] x [0,3] and contains unit squares A and B. Its first k candidates put
+A=(i,0), B=(i+k,1) for i=1,...,k, followed by A=(0,0), B=(0,1). A unit local net
+joins the lower-left pins of A and B. A unit live net joins A to unit square C in
+the disjoint owner [0,3k+5] x [10,12], where C has candidates (0,10) and
+(k+1,10). The first k inside rows are pairwise incomparable, while the last row
+dominates all of them. Thus forward order has total M=k+5, final S_max=2,
+inside P=k, and k(k+1)+3 producer comparisons. Reversing the inside candidate
+list presents the dominator first, giving inside P=1, global P=2, and k+3
+comparisons. Exact Cartesian, producer, and replay executions for k=3,7,15,31
+match these formulas. Those eight runs are finite checks; the general work bound
+comes from the scan argument above.
+
+Let M=sum_v M_v and S=sum_v S_v. Coverage uses M integer indices plus S source
+indices, excluding row/witness representations. After geometric reconstruction,
+replay has exactly M dominance obligations and O(Mw) arithmetic for those
+obligations. This is not an O(Mw) bound on the entire checker: direct witness
+reconstruction additionally reads the relevant pins. The producer has explicit
+comparison, transition, temporary-state, time and memory caps. Exhausting a cap
+proves neither portfolio nor unrestricted infeasibility.
 
 ## 4. Nonconstant separation from equality and box inclusion
 

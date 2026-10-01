@@ -1956,6 +1956,6 @@
       "states": 51
     }
   ],
-  "cpu_seconds": 6.826131037000001,
-  "peak_rss_kib": 101672
+  "cpu_seconds": 1.9424127199999999,
+  "peak_rss_kib": 96812
 }

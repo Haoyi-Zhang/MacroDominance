@@ -55,33 +55,41 @@ def main():
     # Reject an independent set of malformed inputs, including a broken tree and
     # nonintegral candidate schema.  Existing producer/checker mutation suites are
     # separate and do not satisfy this oracle-specific obligation.
-    malformed = []
+    structural_malformed = []
     base = random_small(4242, 3, 2)
-    bad = json.loads(json.dumps(base)); bad["weights"][next(iter(bad["weights"]))] = 0; malformed.append(bad)
-    bad = json.loads(json.dumps(base)); bad["tree"] = [bad["regions"][0]["id"], bad["regions"][0]["id"]]; malformed.append(bad)
-    bad = json.loads(json.dumps(base)); bad["regions"][0]["candidates"][0][0]["rotation"] = 45; malformed.append(bad)
-    bad = json.loads(json.dumps(base)); bad["regions"][0]["box"][2] = bad["regions"][0]["box"][0]; malformed.append(bad)
-    # The optional numerical oracle deliberately rejects coefficients outside the
-    # exact-in-double envelope, even though the integer DP has a wider contract.
-    bad = json.loads(json.dumps(base))
-    shift = 2**53
-    region = bad["regions"][0]
-    region["box"] = [value + shift if index in (0, 2) else value for index, value in enumerate(region["box"])]
-    for candidate in region["candidates"]:
-        for placement in candidate:
-            placement["xy"][0] += shift
-    malformed.append(bad)
+    bad = json.loads(json.dumps(base)); bad["weights"][next(iter(bad["weights"]))] = 0; structural_malformed.append(bad)
+    bad = json.loads(json.dumps(base)); bad["tree"] = [bad["regions"][0]["id"], bad["regions"][0]["id"]]; structural_malformed.append(bad)
+    bad = json.loads(json.dumps(base)); bad["regions"][0]["candidates"][0][0]["rotation"] = 45; structural_malformed.append(bad)
+    bad = json.loads(json.dumps(base)); bad["regions"][0]["box"][2] = bad["regions"][0]["box"][0]; structural_malformed.append(bad)
     bad = json.loads(json.dumps(base))
     bad["regions"][0]["candidates"] = bad["regions"][0]["candidates"] * 17
-    malformed.append(bad)
+    structural_malformed.append(bad)
     rejected = 0
-    for case in malformed:
+    for case in structural_malformed:
         try:
             parse_instance(case)
         except InvalidMilpInstance:
             rejected += 1
         else:
-            raise AssertionError("malformed MILP input accepted")
+            raise AssertionError("malformed exact-parser input accepted")
+
+    # The shared exact parser accepts wide integers.  The optional numerical
+    # oracle applies the narrower exact-in-double envelope at solve time.
+    numerical = json.loads(json.dumps(base))
+    shift = 2**53
+    region = numerical["regions"][0]
+    region["box"] = [value + shift if index in (0, 2) else value for index, value in enumerate(region["box"])]
+    for candidate in region["candidates"]:
+        for placement in candidate:
+            placement["xy"][0] += shift
+    parse_instance(numerical)
+    try:
+        solve_milp(numerical, time_limit=30)
+    except InvalidMilpInstance as exc:
+        assert "exact-in-double envelope" in str(exc)
+        rejected += 1
+    else:
+        raise AssertionError("numerically unsafe MILP input accepted")
 
     payload = {
         "campaign_cases": campaign_checks,

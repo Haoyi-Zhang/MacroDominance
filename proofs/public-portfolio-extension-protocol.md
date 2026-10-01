@@ -5,10 +5,13 @@
 This protocol was written before running any four-orientation producer, checker,
 or MILP result. The existing two-candidate R0/R180 public cases had already been
 inspected. The extension therefore is not a pristine preregistration and is not
-presented as an independent replication. Its purpose is narrower: test whether
-the reported pruning relation survives a deterministic increase in each public
-owner's local portfolio size, and obtain an exact cross-check on public cases too
-large for the existing Cartesian oracle limit.
+presented as an independent replication. Its intended purpose was to test whether the pruning relation survives a larger
+local orientation set and to obtain exact cross-checks on cases beyond the
+Cartesian limit. A later geometry audit found that the square-owner construction
+also changes the global owner lattice relative to the earlier rectangular-owner
+adapter. The retained results are therefore interpreted as a joint
+geometry-and-portfolio robustness group, not as a one-factor portfolio-size
+sensitivity experiment.
 
 ## Included sources
 
@@ -21,12 +24,15 @@ This yields eight case/hierarchy inputs.
 ## Adapter frozen before outcomes
 
 Preserve the same block dimensions, terminal removal, macro-only hypergraph,
-duplicate-edge weights, sorted incident-net order, and quarter-offset pin sites as
-the two-candidate adapter. For a block of width `w` and height `h`, place it at the
-lower-left corner of a square owner of side `max(w,h)`. Supply exactly four
-candidates at that same origin with rotations R0, R90, R180, and R270. Place
-owners on a nonoverlapping deterministic grid. These are newly constructed finite
-portfolios, not native benchmark placements or CORE optimizer outputs.
+duplicate-edge weights, sorted incident-net order, and local quarter-offset pin
+sites as the two-candidate adapter. For a block of width `w` and height `h`, place
+it at the lower-left corner of a square owner of side `max(w,h)`. Supply exactly
+four candidates at that same origin with rotations R0, R90, R180, and R270. Place
+owners on a square-cell nonoverlapping deterministic grid. The earlier adapter
+uses separate maximum-width and maximum-height cell pitches, so absolute owner
+origins are not preserved; for example, `hp` block `cmp3` moves from `(0,800)` to
+`(0,3404)`. These are newly constructed finite portfolios, not nested expansions
+of the earlier cases, native benchmark placements, or CORE optimizer outputs.
 
 ## Comparisons and fixed limits
 

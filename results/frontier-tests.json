@@ -6,6 +6,6 @@
   "cardinality_checks": 1389,
   "collective_cases": 17766,
   "collective_context_evaluations": 266490,
-  "cpu_seconds": 1.3681015460000001,
-  "peak_rss_kib": 100772
+  "cpu_seconds": 0.41296469900000005,
+  "peak_rss_kib": 96040
 }

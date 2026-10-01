@@ -1,0 +1,58 @@
+[
+  {
+    "case": "core_hp_balanced_orientation4",
+    "delta": 30,
+    "leaf_transitions": 118,
+    "optimum": 507559,
+    "response_transitions": 88
+  },
+  {
+    "case": "core_hp_netaware_orientation4",
+    "delta": 72,
+    "leaf_transitions": 220,
+    "optimum": 507559,
+    "response_transitions": 148
+  },
+  {
+    "case": "core_n10_balanced_orientation4",
+    "delta": 27,
+    "leaf_transitions": 99,
+    "optimum": 39641,
+    "response_transitions": 72
+  },
+  {
+    "case": "core_n10_netaware_orientation4",
+    "delta": 24,
+    "leaf_transitions": 93,
+    "optimum": 39641,
+    "response_transitions": 69
+  },
+  {
+    "case": "core_apte_balanced_orientation4",
+    "delta": 264,
+    "leaf_transitions": 406,
+    "optimum": 328100,
+    "response_transitions": 142
+  },
+  {
+    "case": "core_apte_netaware_orientation4",
+    "delta": 246,
+    "leaf_transitions": 396,
+    "optimum": 328100,
+    "response_transitions": 150
+  },
+  {
+    "case": "core_xerox_balanced_orientation4",
+    "delta": 354,
+    "leaf_transitions": 448,
+    "optimum": 1069048,
+    "response_transitions": 94
+  },
+  {
+    "case": "core_xerox_netaware_orientation4",
+    "delta": 1215,
+    "leaf_transitions": 1335,
+    "optimum": 1069048,
+    "response_transitions": 120
+  }
+]

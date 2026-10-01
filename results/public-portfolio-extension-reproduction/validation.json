@@ -1,0 +1,7 @@
+{
+  "accepted": 26,
+  "completed_leaf_response_pairs": 8,
+  "dominance_obligations": 66570,
+  "milp_oracles": 8,
+  "structural_caps": 6
+}

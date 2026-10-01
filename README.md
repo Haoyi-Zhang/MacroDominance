@@ -33,17 +33,19 @@ actual-context boundary, and an explicit exponential response-frontier family.
 They are mathematical arguments with finite executable checks, not a
 proof-assistant formalization.
 
-## Independent optimum routes
+## Separate optimum routes
 
 The artifact deliberately uses four distinct optimum routes where applicable:
 
 1. a Cartesian oracle that evaluates complete assignments by pairwise pin
    diameters and imports no dynamic-program code;
-2. closed-form lower/upper-bound arguments for the frozen `biased`, `masked`,
-   and `exposed` controls;
+2. proved closed-form lower bounds plus attaining witnesses for the frozen
+   `biased`, `masked`, and `exposed` controls, accepted only after exact
+   full-input reconstruction;
 3. the response-frontier producer plus independent coverage replay; and
-4. a separately parsed one-hot MILP with net-extremum variables, solved through
-   `scipy.optimize.milp` and HiGHS.
+4. a one-hot MILP with net-extremum variables, solved through
+   `scipy.optimize.milp` and HiGHS. It shares the standard-library exact parser
+   with the closed-form guard, but neither path imports the producer or replay.
 
 The MILP path re-evaluates the selected candidate vector with exact integer
 arithmetic, requires optimal status, zero reported MIP gap, and agreement of the
@@ -56,8 +58,9 @@ development authorship.
 
 ## Requirements and resource contract
 
-The producer, replay checker, Cartesian oracle, closed-form checks, and all
-original campaigns use Python 3 and the standard library only. The independent
+The producer, replay checker, Cartesian oracle, closed-form guard, and all
+original campaigns use Python 3 and the standard library only. In particular,
+importing `tests/control_oracle.py` does not import NumPy or SciPy. The optional
 MILP cross-check additionally requires NumPy and SciPy as listed in
 `requirements-milp.txt`; SciPy and HiGHS license notices are retained under
 `licenses/`. No source optimizer, GPU, model API, OpenROAD executable, or
@@ -91,6 +94,8 @@ python tests/test_frontier.py
 python tests/test_actual_context_gap.py
 python tests/test_order_invariance.py
 python tests/test_public_inputs.py
+python tests/test_online_frontier_peak.py
+python tests/test_control_oracle.py
 python tests/test_milp_oracle.py
 python validate_dominance.py results/dominance-campaign
 python validate_results.py results/campaign
@@ -98,6 +103,9 @@ python validate_results.py results/null-baseline --methods constant_raw
 python validate_milp_oracle.py --report results/milp-oracle-validation.json
 python validate_public_extension.py results/public-portfolio-extension \
   --report results/public-portfolio-extension-validation.json
+python validate_public_matched_control.py \
+  results/public-portfolio-matched-control \
+  --report results/public-portfolio-matched-control/validation.json
 python audit_artifact.py
 ```
 
@@ -113,7 +121,7 @@ python src/response_checker.py \
 
 ## Robustness audits outside the performance campaign
 
-Two finite audits target common reviewer concerns without enlarging the frozen
+Four finite audits target common reviewer concerns without enlarging the frozen
 performance sample. `tests/test_order_invariance.py` permutes region records and
 every candidate list on 23 inputs. Across all four policies, 92 paired runs and
 184 replayed certificates preserve the exact optimum, every retained
@@ -126,6 +134,20 @@ excess. It also records 11 actual dominance relations missed by the relaxation,
 including one mutual actual equivalence absent from the relaxed relation. These
 are soundness and conservatism audits, not an unbounded actual-context solver or
 additional practical benchmark evidence.
+
+`tests/test_online_frontier_peak.py` exercises the legal two-owner, live-width-one
+construction used in the production-complexity correction. For
+`k in {3,7,15,31}`, forward and reversed candidate orders are solved by Cartesian
+enumeration, production, and replay. Forward order measures `M=k+5`, final
+`S_max=2`, inside temporary peak `P=k`, and `k(k+1)+3` comparisons; reverse order
+measures inside `P=1`, global `P=2`, and `k+3` comparisons. The stored JSON
+contains every actual per-node count.
+
+`tests/test_control_oracle.py` requires all 26 closed-form controls to match their
+complete deterministic constructors. It then changes only `exposed_2_2` owner
+`v0` candidate 1 from `(5,5)` to `(1,5)`: the all-zero witness remains 46, but an
+independent 16-assignment enumeration gives optimum 43. The closed-form guard
+rejects the mutation. This test uses the standard library only.
 
 ## Reproduce the 77-case response campaign
 
@@ -151,11 +173,12 @@ On the forty prospectively selected coupled generated cases, transition totals
 for Equality, Containment, Leaf-only Response, and All-level Response are
 37,645, 13,940, 4,363, and 2,152. All-level Response uses fewer transitions than
 Leaf-only in 32 cases and ties in eight. These are deterministic work counts,
-not a universal runtime claim; dominance comparisons and transient storage also
-consume work, and under equal caps two Response jobs versus one Leaf job are
-limited.
+not a universal runtime claim. At node `v`, final rows `S_v`, generated
+transitions `M_v`, and temporary online peak `P_v` are distinct; the direct scan
+bound is `O(sum_v M_v P_v (w_v+1))`. Under equal caps two Response jobs versus one
+Leaf job are limited.
 
-## Reproduce the independent MILP cross-check
+## Reproduce the separate MILP cross-check
 
 ```sh
 python run_milp_oracle.py --out results/milp-reproduction.json
@@ -166,19 +189,25 @@ python compare_milp_oracle.py \
 
 All 77 frozen inputs terminate with optimal status, zero reported gap, matching
 primal/dual values, and an exact integer witness recheck. They agree with all 51
-Cartesian and 26 closed-form optima. A separate test-only differential suite
+Cartesian and 26 guarded closed-form optima. The closed-form and MILP paths share
+`src/portfolio_exact.py`; this parser is separate from producer/replay code but is shared by those two
+oracle routes, so they are not independent parsing implementations. A separate test-only differential suite
 uses 40 new quarter-turn instances, 38,737 complete assignments, the MILP, the
 Cartesian oracle, the all-level producer, and replay; six malformed, oversized,
 or numerically unsafe inputs are rejected. Solver witness tie choices, branch-and-bound paths,
 timing, and RSS are intentionally excluded from deterministic equality.
 
-## Reproduce the four-orientation public extension
+## Reproduce the joint four-way public extension
 
 The extension protocol was frozen in
 `proofs/public-portfolio-extension-protocol.md` before its new producer, checker,
 or MILP outcomes were inspected. It retains all four previously imported CORE
-hypergraphs (`hp`, `n10`, `apte`, and `xerox`), both frozen hierarchy rules, and
-supplies R0/R90/R180/R270 candidates in square disjoint owners.
+hypergraphs (`hp`, `n10`, `apte`, and `xerox`) and both frozen hierarchy rules.
+It supplies R0/R90/R180/R270 candidates in square disjoint owners. The earlier
+two-way adapter uses a rectangular global owner grid, so this extension changes
+absolute owner coordinates as well as the candidate set; for `hp`, `cmp3` moves
+from `(0,800)` to `(0,3404)`. It is a joint geometry-and-portfolio instance group,
+not a nested portfolio-size sensitivity experiment.
 
 ```sh
 python run_public_extension.py \
@@ -195,8 +224,34 @@ six retained structural caps, and no other failures. Both Leaf and Response
 complete on every input; Response uses fewer transitions in all eight. The eight
 MILPs are optimal and exact-witness checked. Replay checks 66,570 coverage
 obligations. The combined full products contain 13,107,200 assignments and are
-not relabeled as Cartesian enumeration. This is a deterministic portfolio-size
-sensitivity test on adapted public hypergraphs, not native benchmark placement.
+not relabeled as Cartesian enumeration. The valid comparison is Leaf versus
+Response within each new instance. Cross-column optima are not monotone evidence:
+relative to the earlier rectangular cases they rise for `hp`, `apte`, and `xerox`
+and fall for `n10`. This remains adapted finite-portfolio evidence, not native
+benchmark placement.
+
+## Reproduce the square-geometry matched R0/R180 control
+
+This corrective control leaves the frozen 32-job four-way records untouched. It
+regenerates the same square owner boxes, point pins, weights, and trees, retains
+only full-list candidate indices 0 and 2, and checks exact structural equality and
+candidate containment before running Leaf and Response under the original limits.
+
+```sh
+python run_public_matched_control.py \
+  --out results/public-portfolio-matched-control-reproduction
+python validate_public_matched_control.py \
+  results/public-portfolio-matched-control-reproduction
+python compare_public_matched_control.py \
+  results/public-portfolio-matched-control \
+  results/public-portfolio-matched-control-reproduction
+```
+
+The retained run has eight matched case pairs and sixteen successful subset
+certificates, with no subset cap or failure. Eight MILP pairs verify exact witness
+values and `W*_four <= W*_R0/R180`; replay checks 876 dominance obligations. The
+control isolates candidate inclusion on the square geometry but is not an
+independent preregistration or an industrial benchmark.
 
 ## Reproduce the inherited equality/normalization controls
 
@@ -230,8 +285,8 @@ those outcomes.
 
 `results/final-clean-reproduction.json` records a fresh-extraction execution of
 all fast tests, the 308-job main campaign, the 87-job inherited campaign, the
-29-job constant-net control, all 77 MILPs, and the 32-job four-orientation
-extension. Comparisons require exact statuses, optima, structural-cap reasons,
+29-job constant-net control, all 77 MILPs, the retained 32-job four-way group,
+and the 16-job matched square-grid R0/R180 control. Comparisons require exact statuses, optima, structural-cap reasons,
 deterministic work counts, input bytes, and successful certificate bytes where
 applicable. Timing, RSS, solver-selected tied witnesses, and branch-and-bound
 paths are excluded. The receipt also records outer execution interruptions and
@@ -245,8 +300,9 @@ to centers at 2,000 database units per micrometre and constructs fixed disjoint
 R0/R180 owners. The CORE adapter preserves block dimensions and macro-only
 hypergraph incidence, removes fixed terminals, collapses repeated induced
 hyperedges to integer weights, and assigns sorted incident nets cyclically to
-four quarter-offset pin sites. The two- and four-orientation portfolios and all
-owner boxes are newly constructed experiment inputs.
+four quarter-offset pin sites. The two-way rectangular grid and four-way square
+grid are separately constructed experiment inputs. The matched R0/R180 control
+uses the square grid and exact candidate subset of the four-way group.
 
 `hp` and `n10` were adapter-development sources; `apte` was inspected after the
 orientation rule was frozen; `xerox` was selected in a written post-freeze
@@ -266,9 +322,11 @@ tapeout result is claimed.
 - `proofs/*protocol.md`: frozen comparisons and falsification rules.
 - `src/producer.py`, `src/response_cover.py`: exact producers.
 - `src/checker.py`, `src/response_checker.py`: separately implemented replay.
-- `src/milp_oracle.py`: independent one-hot MILP parser and exact witness check.
-- `tests/`: Cartesian, frontier, mutation, reduction, public-input, and
-  differential MILP tests.
+- `src/portfolio_exact.py`: standard-library exact parser/evaluator shared by the
+  closed-form guard and optional MILP, but not by producer/replay.
+- `src/milp_oracle.py`: one-hot MILP formulation and exact witness check.
+- `tests/`: Cartesian, frontier, mutation, transient-frontier, reduction,
+  public-input, control-guard, and differential MILP tests.
 - `results/`: every retained success, cap, certificate, validation, and derived
   table input.
 - `claim_evidence_ledger.csv`: claim-to-proof/test/result map.

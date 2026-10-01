@@ -1,0 +1,17 @@
+{
+  "cases": 77,
+  "jobs": 308,
+  "limits": {
+    "max_joins": 50000,
+    "max_states": 10000,
+    "max_comparisons": 500000,
+    "seconds": 15
+  },
+  "oracle_cases": 51,
+  "oracle_assignments": 176128,
+  "cpu_seconds": 9.974442171000002,
+  "peak_rss_kib": 114468,
+  "success": 293,
+  "limit": 15,
+  "failure": 0
+}

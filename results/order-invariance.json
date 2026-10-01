@@ -1,7 +1,7 @@
 {
   "cases": 23,
   "certificates_verified": 184,
-  "cpu_seconds": 1.1208760039999999,
+  "cpu_seconds": 0.36360313099999997,
   "invariance_failures": 0,
   "modes": [
     "equality",
@@ -10,7 +10,7 @@
     "response"
   ],
   "paired_comparisons": 92,
-  "peak_rss_kib": 100264,
+  "peak_rss_kib": 95280,
   "records": [
     {
       "case": "random_2000_4_3",
