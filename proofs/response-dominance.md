@@ -120,8 +120,7 @@ each retained row from its cited transition and compares the whole row. It then
 enumerates every leaf/child-pair transition, reconstructs its actual response and
 checks the indicated coverage edge. For full response coverage it evaluates the
 response difference at the target's self-context via max/min span arithmetic,
-not by importing the producer's positive-part formula. This code separation is
-not independent authorship, an external audit or machine verification.
+not by importing the producer's positive-part formula. These are separately implemented, replay checks, not machine verification.
 
 **Theorem (coverage-replay soundness).** Acceptance establishes both attainability
 and exact objective optimality in the finite input model.
