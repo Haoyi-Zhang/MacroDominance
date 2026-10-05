@@ -148,13 +148,17 @@ For one candidate, the producer scans at most P_v current rows. It evaluates at
 most two dominance directions per scanned row, and each direction takes
 O(w_v+1) exact arithmetic operations. Therefore
 
-    producer work = O(sum_v M_v P_v (w_v+1))
+    dominance-scan arithmetic = O(sum_v M_v P_v (w_v+1))
                   <= O((w+1) sum_v M_v P_v),
 
 where w=max_v w_v. For nontrivial w>=1 this is conventionally written
 O(w sum_v M_v P_v). This is a direct summation proof, not a claim that every scan
-reaches the bound. Equal-key dictionary handling adds O(sum_v M_v) expected
-lookups. During node production the implementation stores up to P_v actual rows
+reaches the bound. This counts scan arithmetic after candidate construction,
+not total production work. Equal-key dictionary handling uses O(sum_v M_v)
+expected lookups; variable-length key hashing/comparison costs extra. Model and
+original-portfolio support preparation, raw joins, actual witness copying and
+sorting, final table ordering, and certificate construction are separate costs.
+During node production the implementation stores up to P_v actual rows
 and M_v redirection entries, besides completed child/final tables.
 
 The distinction is witnessed by the executable legal two-owner family in
@@ -173,8 +177,8 @@ comes from the scan argument above.
 
 Let M=sum_v M_v and S=sum_v S_v. Coverage uses M integer indices plus S source
 indices, excluding row/witness representations. After geometric reconstruction,
-replay has exactly M dominance obligations and O(Mw) arithmetic for those
-obligations. This is not an O(Mw) bound on the entire checker: direct witness
+replay has exactly M dominance obligations and O(M(w+1)) arithmetic for those
+obligations, including scalar comparison at w=0. This is not a bound on the entire checker: direct witness
 reconstruction additionally reads the relevant pins. The producer has explicit
 comparison, transition, temporary-state, time and memory caps. Exhausting a cap
 proves neither portfolio nor unrestricted infeasibility.
