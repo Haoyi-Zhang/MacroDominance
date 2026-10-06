@@ -97,6 +97,7 @@ python tests/test_public_inputs.py
 python tests/test_online_frontier_peak.py
 python tests/test_control_oracle.py
 python tests/test_milp_oracle.py
+python tests/test_boundary_inputs.py
 python validate_dominance.py results/dominance-campaign
 python validate_results.py results/campaign
 python validate_results.py results/null-baseline --methods constant_raw
@@ -281,9 +282,9 @@ masked-family compression, and two-sided clipping alone does not reduce the
 OpenROAD tables beyond a one-envelope representation. No later experiment erases
 those outcomes.
 
-## Final clean-reproduction receipt
+## Archived clean-reproduction record
 
-`results/final-clean-reproduction.json` records a fresh-extraction execution of
+`results/final-clean-reproduction.json` records the earlier fresh-extraction execution of
 all fast tests, the 308-job main campaign, the 87-job inherited campaign, the
 29-job constant-net control, all 77 MILPs, the retained 32-job four-way group,
 and the 16-job matched square-grid R0/R180 control. Comparisons require exact statuses, optima, structural-cap reasons,
@@ -291,6 +292,16 @@ deterministic work counts, input bytes, and successful certificate bytes where
 applicable. Timing, RSS, solver-selected tied witnesses, and branch-and-bound
 paths are excluded. The receipt also records outer execution interruptions and
 their fail-closed handling; interrupted output is not treated as evidence.
+The CPU and RSS measurements in those frozen records belong to the original
+measurement host, not to later local rechecks. The boundary-input test separately
+checks pinless, singleton-net, degenerate-exterior, rotated, and wide-integer
+instances without adding them to the frozen performance campaigns.
+
+The scientific-checks workflow runs finite tests, replays retained certificates,
+and compares a new main-campaign run with the frozen results on Ubuntu 24.04.
+It operates on a scratch copy, has a whole-run deadline and process limits, and
+uploads raw logs and result files on success or failure. A prepared workflow is
+not evidence that a hosted run has occurred.
 
 ## Public inputs and adaptation boundary
 
