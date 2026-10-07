@@ -31,7 +31,16 @@ def covers(left,right,weights,mode):
         return left.cost<=right.cost and all(
             a[1]>=b[1] and a[2]<=b[2] and a[3]>=b[3] and a[4]<=b[4]
             for a,b in zip(left.key,right.key))
-    return excess(left,right,weights)<=0
+    # Same-node keys and positive weights come from the validated Model.
+    # Remaining penalties are nonnegative, so a positive prefix cannot recover.
+    value=left.cost-right.cost
+    if value>0:return False
+    for a,b in zip(left.key,right.key):
+        assert a[0]==b[0]
+        value+=weights[a[0]]*sum(max(b[j]-a[j],0) if j%2 else max(a[j]-b[j],0)
+                                for j in range(1,5))
+        if value>0:return False
+    return True
 
 def solve(data,mode='response',max_joins=200000,max_states=20000,
           max_comparisons=2000000,seconds=30):

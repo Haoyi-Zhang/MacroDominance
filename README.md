@@ -84,6 +84,12 @@ an incomplete bounded computation, never evidence of layout infeasibility.
 
 From the repository root:
 
+The bounded implementation regression `python -B tests/test_boolean_covers.py`
+uses a test-local interval-span reference, five self-contained portfolio inputs,
+Cartesian optima, independent replay, and fixed test clocks. It checks Boolean
+short-circuiting without changing numeric `excess`, predicate-call counters, or
+structural-cap boundaries. It is not a new timing result or a campaign rerun.
+
 ```sh
 python tests/pilot_algebra.py
 python tests/test_suite.py
