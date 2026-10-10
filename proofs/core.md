@@ -235,7 +235,8 @@ result parameterized only by live-net width. No hardness result ruling out a
 better width-only algorithm is asserted.
 
 The certificate stores full selected candidate vectors, costing up to
-O(sum_v S_v*(wL+n log(max_r |C_r|+1)+identifier length)) bits. The replay may
+O(sum_v S_v*((w+1)L+n log(max_r |C_r|+1)+identifier length)) bits, including
+the scalar cost's L bits even when w=0. The replay may
 perform T direct pin evaluations and is not promised to take time linear in
 certificate size. Input legality also includes ordinary pairwise macro/region
 checks. The abstract theorem has finite nonempty portfolios of arbitrary size;

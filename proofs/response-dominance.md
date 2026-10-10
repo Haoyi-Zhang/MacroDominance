@@ -168,7 +168,7 @@ A=(i,0), B=(i+k,1) for i=1,...,k, followed by A=(0,0), B=(0,1). A unit local net
 joins the lower-left pins of A and B. A unit live net joins A to unit square C in
 the disjoint owner [0,3k+5] x [10,12], where C has candidates (0,10) and
 (k+1,10). The first k inside rows are pairwise incomparable, while the last row
-dominates all of them. Thus forward order has total M=k+5, final S_max=2,
+dominates all of them. For k>=2, forward order has total M=k+5, final S_max=2,
 inside P=k, and k(k+1)+3 producer comparisons. Reversing the inside candidate
 list presents the dominator first, giving inside P=1, global P=2, and k+3
 comparisons. Exact Cartesian, producer, and replay executions for k=3,7,15,31
