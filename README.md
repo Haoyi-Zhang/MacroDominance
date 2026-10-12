@@ -369,3 +369,18 @@ exactly for the declared point pins but remains a routing proxy. Agreement among
 Cartesian, closed-form, replay, and MILP routes reduces selected implementation
 risks; it does not establish venue acceptance, industrial value, or an
 independent novelty judgment.
+
+## Optional vector figures
+
+From the standalone artifact root, install the renderer dependencies if needed
+and generate the PDF figures:
+
+```sh
+python -m pip install "matplotlib==3.10.7"
+python -B scripts/plot_figures.py
+```
+
+Times New Roman is used when available. The --font-file option selects a usable Times font explicitly; STIXGeneral is the portable fallback, rather than an exact Times font match.
+
+This optional rendering step is separate from the scientific reproduction
+commands and works without a sibling paper directory.
