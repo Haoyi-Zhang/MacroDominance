@@ -311,7 +311,7 @@ not evidence that a hosted run has occurred.
 
 ## Public inputs and adaptation boundary
 
-`data/upstream/` retains the exact public text inputs used by the adapters, and
+`data/upstream/` retains the public source-derived text inputs used by the adapters, and
 `licenses/` retains their notices. The OpenROAD case converts one-pin rectangles
 to centers at 2,000 database units per micrometre and constructs fixed disjoint
 R0/R180 owners. The CORE adapter preserves block dimensions and macro-only
@@ -347,7 +347,7 @@ tapeout result is claimed.
 - `results/`: every retained success, cap, certificate, validation, and derived
   table input.
 - `claim_evidence_ledger.csv`: claim-to-proof/test/result map.
-- `reference-audit.csv`: 64 cited scholarly records and supported clauses.
+- `reference-audit.csv`: 66 cited scholarly, software, and source records with supported clauses.
 - `reference-verification.csv`: one row per bibliography key with citation count,
   manuscript lines, identifier/metadata status, source, and context check.
 - `literature-calibration.csv` / `.md`: non-overlapping 12 TCAD + 5

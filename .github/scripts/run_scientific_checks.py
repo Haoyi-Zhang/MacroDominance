@@ -22,6 +22,7 @@ TESTS = (
     "test_context_hardness", "test_frontier", "test_actual_context_gap",
     "test_order_invariance", "test_public_inputs", "test_online_frontier_peak",
     "test_control_oracle", "test_milp_oracle", "test_boundary_inputs",
+    "test_reference_inventory",
 )
 
 

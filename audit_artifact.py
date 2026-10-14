@@ -6,6 +6,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT/'src'))
 from campaign import dominance_cases
 from instances import _parse_core_bookshelf, core_public_case
+from reference_inventory import validate_reference_inventory
 
 EXPECTED_PUBLIC = {
     'hp': (11, 70, 16, 44),
@@ -63,13 +64,7 @@ def main():
     calibration=list(csv.DictReader((ROOT/'literature-calibration.csv').open(newline='')))
     assert len(ledger)==len({r['claim_id'] for r in ledger}) and all(r['claim'] for r in ledger)
     assert len(external)==len({r['name'] for r in external}) and all(r['license'] and r['scholarly_or_official_url'].startswith('http') for r in external)
-    assert len(references)==64==len({r['key'] for r in references})
-    assert all(r['author'] and r['title'] and r['venue'] and r['year'].isdigit() and r['source'].startswith('http') and r['basis'] and r['claim'] for r in references)
-    assert len(reference_verification)==64==len({r['key'] for r in reference_verification})
-    assert {r['key'] for r in reference_verification}=={r['key'] for r in references}
-    assert all(int(r['citation_count'])>0 and r['manuscript_lines'] and r['metadata_status'] and r['identifier_status'] and r['citation_context_status'] and r['scholarly_source'].startswith('http') and r['supported_clause'] for r in reference_verification)
-    dois=[r['doi'].lower() for r in references if r['doi']]
-    assert len(dois)==len(set(dois))
+    validate_reference_inventory(references, reference_verification)
     assert len(calibration)==22==len({r['key'] for r in calibration})
     assert {r['key'] for r in calibration}<={r['key'] for r in references}
     groups={g:sum(r['group']==g for r in calibration) for g in {r['group'] for r in calibration}}
@@ -242,6 +237,7 @@ def main():
         'CURRENT-STATE.md','artifact','paper','research-plan.md']
     assert packaging['standalone_repository_archive']['artifact_audit']=='passed'
     assert packaging['clean_project_paper_rebuild']['pages']==12
+    # Frozen clean-rebuild receipt: this historical 64-key run is not the live inventory.
     assert packaging['clean_project_paper_rebuild']['bibliography_entries']==64
     assert packaging['clean_project_paper_rebuild']['distinct_cited_keys']==64
     assert packaging['clean_project_paper_rebuild']['uncited_entries']==0
