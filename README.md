@@ -59,14 +59,25 @@ development authorship.
 ## Requirements and resource contract
 
 The producer, replay checker, Cartesian oracle, closed-form guard, and all
-original campaigns use Python 3 and the standard library only. In particular,
+original campaigns use Python 3.12 (the CI version) and the standard library
+only. Use Linux: the campaign launchers and several tests use the Unix
+`resource` module. Keep assertions enabled; do not use `python -O` or set
+`PYTHONOPTIMIZE`. In particular,
 importing `tests/control_oracle.py` does not import NumPy or SciPy. The optional
 MILP cross-check additionally requires NumPy and SciPy as listed in
 `requirements-milp.txt`; SciPy and HiGHS license notices are retained under
 `licenses/`. No source optimizer, GPU, model API, OpenROAD executable, or
 network access is required.
 
-Run one process at a time and constrain numerical-library threads:
+Install the optional MILP dependencies before the MILP tests, oracle validation,
+and public-extension commands:
+
+```sh
+python -m pip install -r requirements-milp.txt
+```
+
+Scientific CI pins NumPy 2.3.5 and SciPy 1.16.3. Run one process at a time and
+constrain numerical-library threads:
 
 ```sh
 export PYTHONDONTWRITEBYTECODE=1
@@ -107,12 +118,12 @@ python tests/test_boundary_inputs.py
 python validate_dominance.py results/dominance-campaign
 python validate_results.py results/campaign
 python validate_results.py results/null-baseline --methods constant_raw
-python validate_milp_oracle.py --report results/milp-oracle-validation.json
+python validate_milp_oracle.py
 python validate_public_extension.py results/public-portfolio-extension \
-  --report results/public-portfolio-extension-validation.json
+  --report ../replay-public-extension-validation.json
 python validate_public_matched_control.py \
   results/public-portfolio-matched-control \
-  --report results/public-portfolio-matched-control/validation.json
+  --report ../replay-public-matched-validation.json
 python audit_artifact.py
 ```
 
@@ -158,15 +169,18 @@ rejects the mutation. This test uses the standard library only.
 
 ## Reproduce the 77-case response campaign
 
-Use a new empty destination. Expected results are read only by the final
-comparison, never by the producer.
+Use new empty sibling destinations as shown below. The bundled
+`results/*reproduction*` directories are historical evidence, not fresh output
+locations. Inherited equality jobs skip existing reports, so use a new directory
+for that campaign too. Expected results are read only by the final comparison,
+never by the producer.
 
 ```sh
-python run_dominance.py --out results/dominance-reproduction
-python validate_dominance.py results/dominance-reproduction
+python run_dominance.py --out ../replay-dominance
+python validate_dominance.py ../replay-dominance
 python compare_dominance.py \
-  results/dominance-campaign results/dominance-reproduction
-python analyze_dominance.py
+  results/dominance-campaign ../replay-dominance
+python analyze_dominance.py ../replay-dominance --out ../replay-dominance-derived
 ```
 
 The frozen campaign contains 77 case/hierarchy inputs and four policies: 308
@@ -188,10 +202,10 @@ Leaf job are limited.
 ## Reproduce the separate MILP cross-check
 
 ```sh
-python run_milp_oracle.py --out results/milp-reproduction.json
-python validate_milp_oracle.py results/milp-reproduction.json
+python run_milp_oracle.py --out ../replay-milp.json
+python validate_milp_oracle.py ../replay-milp.json
 python compare_milp_oracle.py \
-  results/milp-oracle.json results/milp-reproduction.json
+  results/milp-oracle.json ../replay-milp.json
 ```
 
 All 77 frozen inputs terminate with optimal status, zero reported gap, matching
@@ -218,12 +232,12 @@ not a nested portfolio-size sensitivity experiment.
 
 ```sh
 python run_public_extension.py \
-  --out results/public-portfolio-extension-reproduction
+  --out ../replay-public-extension
 python validate_public_extension.py \
-  results/public-portfolio-extension-reproduction
+  ../replay-public-extension
 python compare_public_extension.py \
   results/public-portfolio-extension \
-  results/public-portfolio-extension-reproduction
+  ../replay-public-extension
 ```
 
 The eight inputs produce 32 policy runs: 26 successful replayed certificates,
@@ -246,12 +260,12 @@ candidate containment before running Leaf and Response under the original limits
 
 ```sh
 python run_public_matched_control.py \
-  --out results/public-portfolio-matched-control-reproduction
+  --out ../replay-public-matched
 python validate_public_matched_control.py \
-  results/public-portfolio-matched-control-reproduction
+  ../replay-public-matched
 python compare_public_matched_control.py \
   results/public-portfolio-matched-control \
-  results/public-portfolio-matched-control-reproduction
+  ../replay-public-matched
 ```
 
 The retained run has eight matched case pairs and sixteen successful subset
@@ -263,23 +277,24 @@ independent preregistration or an industrial benchmark.
 ## Reproduce the inherited equality/normalization controls
 
 ```sh
-python run_experiments.py --out results/reproduction --start 0 --stop 30
-python run_experiments.py --out results/reproduction --start 30 --stop 39
-python run_experiments.py --out results/reproduction --start 39 --stop 48
-python run_experiments.py --out results/reproduction --start 48 --stop 60
-python run_experiments.py --out results/reproduction --start 60 --stop 72
-python run_experiments.py --out results/reproduction --start 72 --stop 78
-python run_experiments.py --out results/reproduction --start 78 --stop 87
-python validate_results.py results/reproduction
-python compare_results.py results/campaign results/reproduction
+python run_experiments.py --out ../replay-equality --start 0 --stop 30
+python run_experiments.py --out ../replay-equality --start 30 --stop 39
+python run_experiments.py --out ../replay-equality --start 39 --stop 48
+python run_experiments.py --out ../replay-equality --start 48 --stop 60
+python run_experiments.py --out ../replay-equality --start 60 --stop 72
+python run_experiments.py --out ../replay-equality --start 72 --stop 78
+python run_experiments.py --out ../replay-equality --start 78 --stop 87
+python validate_results.py ../replay-equality
+python compare_results.py results/campaign ../replay-equality
 
 python run_experiments.py \
-  --out results/null-reproduction --methods constant_raw
+  --out ../replay-null --methods constant_raw
 python validate_results.py \
-  results/null-reproduction --methods constant_raw
+  ../replay-null --methods constant_raw
 python compare_results.py \
-  results/null-baseline results/null-reproduction --expected-jobs 29
-python summarize_results.py
+  results/null-baseline ../replay-null --expected-jobs 29
+python summarize_results.py --primary ../replay-equality --null ../replay-null \
+  --out ../replay-equality-derived
 ```
 
 These retained negative controls contain 116 runs, 86 accepted certificates,
@@ -382,5 +397,7 @@ python -B scripts/plot_figures.py
 
 Times New Roman is used when available. The --font-file option selects a usable Times font explicitly; STIXGeneral is the portable fallback, rather than an exact Times font match.
 
-This optional rendering step is separate from the scientific reproduction
-commands and works without a sibling paper directory.
+This optional rendering step writes `figures/dominance.pdf`. In the complete
+project it also copies that PDF to `../paper/figures/` when that directory exists;
+it works without a sibling paper directory. It is separate from scientific
+reproduction and runs no placement experiment.
