@@ -43,8 +43,8 @@ For the product domain of all live nets and axes, define
 R_v(p;c)-R_v(q;c) over all relaxed contexts c. Therefore p can replace q without
 increasing any relaxed-context response if and only if E_v(p,q)<=0.
 If E_v(p,q)>0, the product of q's canonical intervals is a separating relaxed
-context. Testing dominance and constructing this witness require O(|L_v|)
-exact arithmetic operations (two axes per net); no exterior-portfolio product
+context. Testing dominance and constructing this witness require O(|L_v|+1)
+exact arithmetic operations (two axes per net and a scalar comparison); no exterior-portfolio product
 is enumerated.
 
 Proof. The domain is a product. The self-context lemma bounds each summand, and

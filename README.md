@@ -58,6 +58,11 @@ development authorship.
 
 ## Requirements and resource contract
 
+The paper's normalization geometry is drawn directly by Matplotlib:
+`python figures/draw_extrema.py --check`. Use `--output-dir ../paper/figures`
+to refresh the sibling manuscript copy. This checks the analytic example and
+does not rerun placement experiments.
+
 The producer, replay checker, Cartesian oracle, closed-form guard, and all
 original campaigns use Python 3.12 (the CI version) and the standard library
 only. Use Linux: the campaign launchers and several tests use the Unix
