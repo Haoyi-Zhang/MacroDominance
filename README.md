@@ -1,4 +1,4 @@
-# Surrogate-Free Feasibility
+# Self-Context Dominance Certificates for Hierarchical Macro-Placement Portfolios
 
 This standalone artifact implements and checks the finite-portfolio results in
 *Self-Context Dominance Certificates for Hierarchical Macro-Placement
